@@ -20,6 +20,7 @@ bib_clean <- bib %>%
   # Remove any unncessary columns; keep the metadata to a minimal
   select(author = "AUTHOR", 
          journal = "JOURNAL", 
+         year = "YEAR",
          vol = "VOLUME", 
          num = "NUMBER", 
          pages = "PAGES",
@@ -83,9 +84,6 @@ bib_clean <- bib %>%
          title = str_replace_all(title, pattern = fixed("â€”"),        replacement = "-"),
          title = str_replace_all(title, pattern = fixed("â€“"),        replacement = "-")
          )
-
-# Convert to a csv file
-write.csv(bib_clean, "to_clean.csv")
 
 
 
