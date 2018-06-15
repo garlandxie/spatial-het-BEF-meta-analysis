@@ -7,7 +7,7 @@ library(here)
 # Load files ------------------------------------------------------------------
 
 # Create a file path using here heuristics
-path <- here("data/original/prisma_protocol", "lit_search_mendeley.bib")
+path <- here("data/original/prisma_protocol", "lit_search_WoS.bib")
 
 # Data cleaning ---------------------------------------------------------------
 
@@ -18,7 +18,8 @@ bib <- bib2df(path)
 bib_clean <- bib %>% 
   
   # Remove any unncessary columns; keep the metadata to a minimal
-  select(author = "AUTHOR", 
+  select(bibkey = "BIBTEXKEY",
+         author = "AUTHOR", 
          journal = "JOURNAL", 
          year = "YEAR",
          vol = "VOLUME", 
@@ -39,6 +40,7 @@ bib_clean <- bib %>%
          author = str_replace_all(author, pattern = fixed('{\\"{a}}'),   replacement = "ä"), 
          author = str_replace_all(author, pattern = fixed('{\\`{a}}'),   replacement = "à"),
          author = str_replace_all(author, pattern = fixed('{\\~{a}}'),   replacement = "ã"),
+         author = str_replace_all(author, pattern = fixed("{\\aa}"),     replacement = "å"),
          author = str_replace_all(author, pattern = fixed("{\\'{A}"),    replacement = "Á"),
          author = str_replace_all(author, pattern = fixed("{\\c{c}}"),   replacement = "ç"),
          author = str_replace_all(author, pattern = fixed("{\\'{e}}"),   replacement = "é"),
@@ -73,7 +75,7 @@ bib_clean <- bib %>%
   mutate(journal = str_replace_all(journal, pattern = fixed("{\\^{e}}"),   replacement = "ê"),
          journal = str_replace_all(journal, pattern = fixed("{\\^{o}}"),   replacement = "ô"),
          journal = str_replace_all(journal, pattern = fixed("{\\&}"),      replacement = "&"),
-         journal = str_replace_all(journal, pattern = fixed("â€”"),        replacement = "-")
+         journal = str_replace_all(journal, pattern = fixed("â€“"),        replacement = "-")
          ) %>%
 
   # data cleaning for title column 
@@ -81,9 +83,16 @@ bib_clean <- bib %>%
          title = str_replace_all(title, pattern = fixed("{\\~{a}}"),   replacement = "ã"),
          title = str_replace_all(title, pattern = fixed("{\\'{a}}"),   replacement = "á"),
          title = str_replace_all(title, pattern = fixed("{\\'{o}}"),   replacement = "ó"),
-         title = str_replace_all(title, pattern = fixed("â€”"),        replacement = "-"),
-         title = str_replace_all(title, pattern = fixed("â€“"),        replacement = "-")
-         )
+         title = str_replace_all(title, pattern = fixed("â€“"),        replacement = "-"),
+         title = str_replace_all(title, pattern = fixed("â€”"),        replacement = "-")
+         ) %>%
+  
+  # arrange by bibkey (alphabetical order)
+  arrange(bibkey)
+
+# Save data 
+write.csv(bib_clean, file = here("data/original/prisma_protocol", "lit_search_WoS.csv"))
+
 
 
 
