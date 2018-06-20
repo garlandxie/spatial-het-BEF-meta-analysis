@@ -1,0 +1,1485 @@
+﻿Date,Plot,Depth,Ring,CO2 Treatment,Nitrogen Treatment,CountOfSpecies,CountOfGroup,Experiment,monospecies,Monogroup,Bulk Density (g/cm^3)
+7/7/2003,1,20-40,1,Cenrich,Namb,4,2,M,,,1.479897252
+7/7/2003,1,40-60,1,Cenrich,Namb,4,2,M,,,1.551437543
+7/7/2003,2,40-60,1,Cenrich,Namb,1,1,M,Bouteloua gracilis,C-4,1.653320784
+7/7/2003,2,20-40,1,Cenrich,Namb,1,1,M,Bouteloua gracilis,C-4,1.80552892
+7/7/2003,3,20-40,1,Cenrich,Nenrich,4,1,S,,Legume,1.717953737
+7/7/2003,3,40-60,1,Cenrich,Nenrich,4,1,S,,Legume,1.165860046
+7/7/2003,4,40-60,1,Cenrich,Namb,4,3,M,,,1.612123445
+7/7/2003,4,20-40,1,Cenrich,Namb,4,3,M,,,1.770005465
+7/7/2003,5,20-40,1,Cenrich,Namb,1,1,M,Asclepias tuberosa,Forb,1.740155896
+7/7/2003,5,40-60,1,Cenrich,Namb,1,1,M,Asclepias tuberosa,Forb,1.58794776
+7/7/2003,6,20-40,1,Cenrich,Namb,4,1,S,,C-4,1.547490492
+7/7/2003,6,40-60,1,Cenrich,Namb,4,1,S,,C-4,1.62174438
+7/7/2003,7,20-40,1,Cenrich,Namb,9,4,M,,,1.591894811
+7/7/2003,7,40-60,1,Cenrich,Namb,9,4,M,,,1.675029562
+7/7/2003,8,40-60,1,Cenrich,Nenrich,1,1,M,Schizachyrium scoparium,C-4,1.628651719
+7/7/2003,8,20-40,1,Cenrich,Nenrich,1,1,M,Schizachyrium scoparium,C-4,1.789247336
+7/7/2003,9,20-40,1,Cenrich,Namb,4,1,S,,C-3,1.65924136
+7/7/2003,9,40-60,1,Cenrich,Namb,4,1,S,,C-3,1.6027492
+7/7/2003,10,40-60,1,Cenrich,Nenrich,4,3,M,,,1.701918844
+7/7/2003,10,20-40,1,Cenrich,Nenrich,4,3,M,,,1.787027121
+7/7/2003,11,20-40,1,Cenrich,Nenrich,9,4,M,,,1.751503666
+7/7/2003,11,40-60,1,Cenrich,Nenrich,9,4,M,,,1.671575893
+7/7/2003,12,20-40,1,Cenrich,Nenrich,9,4,M,,,0.891293344
+7/7/2003,12,40-60,1,Cenrich,Nenrich,9,4,M,,,1.603982653
+7/7/2003,13,40-60,1,Cenrich,Nenrich,16,4,M,,,1.596581933
+7/7/2003,13,20-40,1,Cenrich,Nenrich,16,4,M,,,1.356551924
+7/7/2003,14,20-40,1,Cenrich,Namb,4,4,S,,,1.772472372
+7/7/2003,14,40-60,1,Cenrich,Namb,4,4,S,,,1.463122288
+7/7/2003,15,40-60,1,Cenrich,Namb,4,3,M,,,1.717213665
+7/7/2003,15,20-40,1,Cenrich,Namb,4,3,M,,,1.634572294
+7/7/2003,16,20-40,1,Cenrich,Namb,9,4,M,,,1.627664956
+7/7/2003,16,40-60,1,Cenrich,Namb,9,4,M,,,1.487051281
+7/7/2003,17,20-40,1,Cenrich,Namb,9,4,M,,,1.459915309
+7/7/2003,17,40-60,1,Cenrich,Namb,9,4,M,,,1.616317186
+7/7/2003,18,40-60,1,Cenrich,Nenrich,1,1,M,Amorpha canescens,Legume,1.508266678
+7/7/2003,18,20-40,1,Cenrich,Nenrich,1,1,M,Amorpha canescens,Legume,1.410083796
+7/7/2003,19,20-40,1,Cenrich,Namb,4,3,M,,,1.489271497
+7/7/2003,19,40-60,1,Cenrich,Namb,4,3,M,,,1.669355677
+7/7/2003,20,40-60,1,Cenrich,Nenrich,4,1,S,,Forb,1.490011569
+7/7/2003,20,20-40,1,Cenrich,Nenrich,4,1,S,,Forb,1.796154675
+7/7/2003,21,40-60,1,Cenrich,Nenrich,9,4,M,,,1.670835821
+7/7/2003,21,20-40,1,Cenrich,Nenrich,9,4,M,,,1.63309215
+7/7/2003,22,20-40,1,Cenrich,Nenrich,1,1,M,Bromus inermis,C-3,1.763591508
+7/7/2003,22,40-60,1,Cenrich,Nenrich,1,1,M,Bromus inermis,C-3,1.671082512
+7/7/2003,23,40-60,1,Cenrich,Namb,16,4,M,,,1.612370135
+7/7/2003,23,20-40,1,Cenrich,Namb,16,4,M,,,1.640739561
+7/7/2003,24,40-60,1,Cenrich,Namb,1,1,M,Agropyron repens,C-3,1.632105388
+7/7/2003,24,20-40,1,Cenrich,Namb,1,1,M,Agropyron repens,C-3,1.709812945
+7/7/2003,25,40-60,1,Cenrich,Nenrich,0,1,M,,,1.55415114
+7/7/2003,25,20-40,1,Cenrich,Nenrich,0,1,M,,,1.776419422
+7/7/2003,26,40-60,1,Cenrich,Namb,9,4,M,,,1.774445897
+7/7/2003,26,20-40,1,Cenrich,Namb,9,4,M,,,1.792947696
+7/7/2003,27,20-40,1,Cenrich,Namb,4,1,S,,Forb,1.707099348
+7/7/2003,27,40-60,1,Cenrich,Namb,4,1,S,,Forb,1.578080134
+7/7/2003,28,20-40,1,Cenrich,Namb,4,2,M,,,1.706112585
+7/7/2003,28,40-60,1,Cenrich,Namb,4,2,M,,,1.629391791
+7/7/2003,29,20-40,1,Cenrich,Nenrich,4,2,M,,,1.58054704
+7/7/2003,29,40-60,1,Cenrich,Nenrich,4,2,M,,,1.734975392
+7/7/2003,30,20-40,1,Cenrich,Nenrich,16,4,M,,,1.69303798
+7/7/2003,30,40-60,1,Cenrich,Nenrich,16,4,M,,,1.582767256
+7/7/2003,31,40-60,1,Cenrich,Nenrich,1,1,M,Asclepias tuberosa,Forb,1.627418265
+7/7/2003,31,20-40,1,Cenrich,Nenrich,1,1,M,Asclepias tuberosa,Forb,1.679469994
+7/7/2003,32,40-60,1,Cenrich,Nenrich,1,1,M,Bouteloua gracilis,C-4,1.652580712
+7/7/2003,32,20-40,1,Cenrich,Nenrich,1,1,M,Bouteloua gracilis,C-4,1.698711865
+7/7/2003,33,20-40,1,Cenrich,Namb,16,4,M,,,1.600528984
+7/7/2003,33,40-60,1,Cenrich,Namb,16,4,M,,,1.867694965
+7/7/2003,34,40-60,1,Cenrich,Nenrich,9,4,M,,,1.677743159
+7/7/2003,34,20-40,1,Cenrich,Nenrich,9,4,M,,,1.766551796
+7/7/2003,35,20-40,1,Cenrich,Namb,1,1,M,Lespedeza capitata,Legume,1.621250999
+7/7/2003,35,40-60,1,Cenrich,Namb,1,1,M,Lespedeza capitata,Legume,1.673796109
+7/7/2003,36,20-40,1,Cenrich,Nenrich,1,1,M,Agropyron repens,C-3,1.643206467
+7/7/2003,36,40-60,1,Cenrich,Nenrich,1,1,M,Agropyron repens,C-3,1.661214885
+7/7/2003,37,40-60,1,Cenrich,Nenrich,1,1,M,Petalostemum villosum,Legume,1.422911711
+7/7/2003,37,20-40,1,Cenrich,Nenrich,1,1,M,Petalostemum villosum,Legume,1.64024618
+7/7/2003,38,40-60,1,Cenrich,Nenrich,4,2,M,,,1.702905606
+7/7/2003,38,20-40,1,Cenrich,Nenrich,4,2,M,,,1.619277474
+7/7/2003,39,20-40,1,Cenrich,Namb,1,1,M,Bromus inermis,C-3,1.56895258
+7/7/2003,39,40-60,1,Cenrich,Namb,1,1,M,Bromus inermis,C-3,1.553411068
+7/7/2003,40,40-60,1,Cenrich,Namb,1,1,M,Poa pratensis,C-3,1.478417108
+7/7/2003,40,20-40,1,Cenrich,Namb,1,1,M,Poa pratensis,C-3,1.80947597
+7/7/2003,41,40-60,1,Cenrich,Nenrich,4,1,S,,C-3,1.614343661
+7/7/2003,41,20-40,1,Cenrich,Nenrich,4,1,S,,C-3,1.458188475
+7/7/2003,42,40-60,1,Cenrich,Namb,1,1,M,Solidago rigida,Forb,1.820823741
+7/7/2003,42,20-40,1,Cenrich,Namb,1,1,M,Solidago rigida,Forb,1.669602368
+7/7/2003,43,20-40,1,Cenrich,Nenrich,16,4,M,,,1.402929767
+7/7/2003,43,40-60,1,Cenrich,Nenrich,16,4,M,,,1.637779273
+7/7/2003,44,20-40,1,Cenrich,Nenrich,4,3,M,,,1.421678257
+7/7/2003,44,40-60,1,Cenrich,Nenrich,4,3,M,,,1.821563813
+7/7/2003,45,40-60,1,Cenrich,Namb,16,4,M,,,1.593868336
+7/7/2003,45,20-40,1,Cenrich,Namb,16,4,M,,,1.84327259
+7/7/2003,46,40-60,1,Cenrich,Namb,1,1,M,Anemone cylindrica,Forb,1.605216106
+7/7/2003,46,20-40,1,Cenrich,Namb,1,1,M,Anemone cylindrica,Forb,1.802815323
+7/7/2003,47,40-60,1,Cenrich,Nenrich,1,1,M,Koeleria cristata,C-3,1.655047619
+7/7/2003,47,20-40,1,Cenrich,Nenrich,1,1,M,Koeleria cristata,C-3,1.717953737
+7/7/2003,48,40-60,1,Cenrich,Namb,9,4,M,,,1.34767106
+7/7/2003,48,20-40,1,Cenrich,Namb,9,4,M,,,1.440673438
+7/7/2003,49,20-40,1,Cenrich,Nenrich,1,1,M,Achillea millefolium,Forb,1.324482138
+7/7/2003,49,40-60,1,Cenrich,Nenrich,1,1,M,Achillea millefolium,Forb,1.556124665
+7/7/2003,50,40-60,1,Cenrich,Nenrich,9,4,M,,,2.027303821
+7/7/2003,50,20-40,1,Cenrich,Nenrich,9,4,M,,,1.291672281
+7/7/2003,51,40-60,1,Cenrich,Namb,16,4,M,,,1.423651783
+7/7/2003,51,20-40,1,Cenrich,Namb,16,4,M,,,1.775926041
+7/7/2003,52,20-40,1,Cenrich,Nenrich,16,4,M,,,1.504319627
+7/7/2003,52,40-60,1,Cenrich,Nenrich,16,4,M,,,1.637532582
+7/7/2003,53,20-40,1,Cenrich,Nenrich,1,1,M,Solidago rigida,Forb,1.695504887
+7/7/2003,53,40-60,1,Cenrich,Nenrich,1,1,M,Solidago rigida,Forb,1.566238982
+7/7/2003,54,20-40,1,Cenrich,Nenrich,4,1,S,,C-4,1.592881573
+7/7/2003,54,40-60,1,Cenrich,Nenrich,4,1,S,,C-4,1.638025964
+7/7/2003,55,40-60,1,Cenrich,Namb,1,1,M,Lupinus perennis,Legume,1.689584311
+7/7/2003,55,20-40,1,Cenrich,Namb,1,1,M,Lupinus perennis,Legume,1.606202869
+7/7/2003,56,20-40,1,Cenrich,Namb,4,1,S,,Legume,1.211497817
+7/7/2003,56,40-60,1,Cenrich,Namb,4,1,S,,Legume,1.79048079
+7/7/2003,57,20-40,1,Cenrich,Namb,1,1,M,Schizachyrium scoparium,C-4,1.44906092
+7/7/2003,57,40-60,1,Cenrich,Namb,1,1,M,Schizachyrium scoparium,C-4,1.05484925
+7/7/2003,58,40-60,1,Cenrich,Nenrich,4,3,M,,,1.669602368
+7/7/2003,58,20-40,1,Cenrich,Nenrich,4,3,M,,,1.425625308
+7/7/2003,59,20-40,1,Cenrich,Nenrich,4,4,S,,,1.763344817
+7/7/2003,59,40-60,1,Cenrich,Nenrich,4,4,S,,,1.727081291
+7/7/2003,60,20-40,1,Cenrich,Nenrich,1,1,M,Andropogon gerardi,C-4,1.615823804
+7/7/2003,60,40-60,1,Cenrich,Nenrich,1,1,M,Andropogon gerardi,C-4,1.544283514
+7/7/2003,61,40-60,1,Cenrich,Namb,0,1,M,,,1.804788848
+7/7/2003,61,20-40,1,Cenrich,Namb,0,1,M,,,1.631365316
+7/7/2003,62,40-60,2,Camb,Namb,4,4,S,,,1.472003151
+7/7/2003,62,20-40,2,Camb,Namb,4,4,S,,,1.650360496
+7/7/2003,63,40-60,2,Camb,Namb,4,3,M,,,1.586467616
+7/7/2003,63,20-40,2,Camb,Namb,4,3,M,,,1.499879196
+7/7/2003,64,20-40,2,Camb,Nenrich,16,4,M,,,1.658007907
+7/7/2003,64,40-60,2,Camb,Nenrich,16,4,M,,,1.512460419
+7/7/2003,65,40-60,2,Camb,Nenrich,9,4,M,,,1.645673374
+7/7/2003,65,20-40,2,Camb,Nenrich,9,4,M,,,1.639012726
+7/7/2003,66,20-40,2,Camb,Nenrich,9,4,M,,,1.70413906
+7/7/2003,66,40-60,2,Camb,Nenrich,9,4,M,,,1.642466395
+7/7/2003,67,40-60,2,Camb,Namb,16,4,M,,,1.470276317
+7/7/2003,67,20-40,2,Camb,Namb,16,4,M,,,1.63654582
+7/7/2003,68,20-40,2,Camb,Nenrich,1,1,M,Schizachyrium scoparium,C-4,1.536389413
+7/7/2003,68,40-60,2,Camb,Nenrich,1,1,M,Schizachyrium scoparium,C-4,1.684403807
+7/7/2003,69,20-40,2,Camb,Namb,16,4,M,,,1.623964596
+7/7/2003,69,40-60,2,Camb,Namb,16,4,M,,,1.623224524
+7/7/2003,70,20-40,2,Camb,Namb,1,1,M,Andropogon gerardi,C-4,1.566238982
+7/7/2003,70,40-60,2,Camb,Namb,1,1,M,Andropogon gerardi,C-4,1.585974235
+7/7/2003,71,20-40,2,Camb,Nenrich,1,1,M,Sorghastrum nutans,C-4,1.810709424
+7/7/2003,71,40-60,2,Camb,Nenrich,1,1,M,Sorghastrum nutans,C-4,1.47891049
+7/7/2003,72,20-40,2,Camb,Nenrich,1,1,M,Petalostemum villosum,Legume,1.678483231
+7/7/2003,72,40-60,2,Camb,Nenrich,1,1,M,Petalostemum villosum,Legume,1.564018766
+7/7/2003,73,40-60,2,Camb,Nenrich,0,1,M,,,1.709319564
+7/7/2003,73,20-40,2,Camb,Nenrich,0,1,M,,,1.860787627
+7/7/2003,74,20-40,2,Camb,Nenrich,4,1,S,,Legume,1.6027492
+7/7/2003,74,40-60,2,Camb,Nenrich,4,1,S,,Legume,1.86572144
+7/7/2003,75,20-40,2,Camb,Nenrich,4,3,M,,,1.573639702
+7/7/2003,75,40-60,2,Camb,Nenrich,4,3,M,,,1.735962154
+7/7/2003,76,20-40,2,Camb,Nenrich,4,1,S,,C-4,1.562045241
+7/7/2003,76,40-60,2,Camb,Nenrich,4,1,S,,C-4,1.699451937
+7/7/2003,77,20-40,2,Camb,Namb,1,1,M,Anemone cylindrica,Forb,1.680703447
+7/7/2003,77,40-60,2,Camb,Namb,1,1,M,Anemone cylindrica,Forb,1.725354456
+7/7/2003,78,20-40,2,Camb,Namb,4,2,M,,,1.517640923
+7/7/2003,78,40-60,2,Camb,Namb,4,2,M,,,1.735715464
+7/7/2003,79,20-40,2,Camb,Nenrich,4,3,M,,,1.72313424
+7/7/2003,79,40-60,2,Camb,Nenrich,4,3,M,,,1.573393011
+7/7/2003,80,40-60,2,Camb,Namb,4,1,S,,C-3,1.495438764
+7/7/2003,80,20-40,2,Camb,Namb,4,1,S,,C-3,1.573639702
+7/7/2003,81,40-60,2,Camb,Nenrich,1,1,M,Bouteloua gracilis,C-4,1.515174016
+7/7/2003,81,20-40,2,Camb,Nenrich,1,1,M,Bouteloua gracilis,C-4,1.646413446
+7/7/2003,82,40-60,2,Camb,Namb,4,3,M,,,1.555631284
+7/7/2003,82,20-40,2,Camb,Namb,4,3,M,,,1.457941784
+7/7/2003,83,20-40,2,Camb,Namb,9,4,M,,,1.688597548
+7/7/2003,83,40-60,2,Camb,Namb,9,4,M,,,1.484337684
+7/7/2003,84,40-60,2,Camb,Nenrich,9,4,M,,,1.478663799
+7/7/2003,84,20-40,2,Camb,Nenrich,9,4,M,,,1.633832222
+7/7/2003,85,20-40,2,Camb,Nenrich,4,2,S,,,1.629885172
+7/7/2003,85,40-60,2,Camb,Nenrich,4,2,S,,,1.449554302
+7/7/2003,86,20-40,2,Camb,Nenrich,4,3,M,,,1.553657759
+7/7/2003,86,40-60,2,Camb,Nenrich,4,3,M,,,1.434752862
+7/7/2003,87,40-60,2,Camb,Namb,9,4,M,,,1.458188475
+7/7/2003,87,20-40,2,Camb,Namb,9,4,M,,,1.37776732
+7/7/2003,88,40-60,2,Camb,Nenrich,4,4,S,,,1.466082576
+7/7/2003,88,20-40,2,Camb,Nenrich,4,4,S,,,1.59929553
+7/7/2003,89,20-40,2,Camb,Namb,4,1,S,,Forb,1.754957335
+7/7/2003,89,40-60,2,Camb,Namb,4,1,S,,Forb,1.568212508
+7/7/2003,90,20-40,2,Camb,Namb,1,1,M,Sorghastrum nutans,C-4,1.694518124
+7/7/2003,90,40-60,2,Camb,Namb,1,1,M,Sorghastrum nutans,C-4,1.630625244
+7/7/2003,91,20-40,2,Camb,Nenrich,4,3,M,,,1.787767193
+7/7/2003,91,40-60,2,Camb,Nenrich,4,3,M,,,1.650113806
+7/7/2003,92,20-40,2,Camb,Namb,9,4,M,,,1.611630063
+7/7/2003,92,40-60,2,Camb,Namb,9,4,M,,,1.782833379
+7/7/2003,93,20-40,2,Camb,Namb,4,1,S,,Legume,1.436479697
+7/7/2003,93,40-60,2,Camb,Namb,4,1,S,,Legume,1.871888707
+7/7/2003,94,40-60,2,Camb,Nenrich,1,1,M,Asclepias tuberosa,Forb,1.546010348
+7/7/2003,94,20-40,2,Camb,Nenrich,1,1,M,Asclepias tuberosa,Forb,1.650853878
+7/7/2003,95,40-60,2,Camb,Nenrich,4,1,S,,Forb,1.610889991
+7/7/2003,95,20-40,2,Camb,Nenrich,4,1,S,,Forb,1.770992228
+7/7/2003,96,40-60,2,Camb,Nenrich,1,1,M,Lupinus perennis,Legume,1.763591508
+7/7/2003,96,20-40,2,Camb,Nenrich,1,1,M,Lupinus perennis,Legume,1.687364095
+7/7/2003,97,40-60,2,Camb,Nenrich,9,4,M,,,1.607683013
+7/7/2003,97,20-40,2,Camb,Nenrich,9,4,M,,,0.937917879
+7/7/2003,98,40-60,2,Camb,Nenrich,4,1,S,,C-3,1.672809346
+7/7/2003,98,20-40,2,Camb,Nenrich,4,1,S,,C-3,1.337556743
+7/7/2003,99,20-40,2,Camb,Nenrich,1,1,M,Solidago rigida,Forb,1.770005465
+7/7/2003,99,40-60,2,Camb,Nenrich,1,1,M,Solidago rigida,Forb,0.993176586
+7/7/2003,100,40-60,2,Camb,Namb,1,1,M,Lupinus perennis,Legume,0.783982908
+7/7/2003,100,20-40,2,Camb,Namb,1,1,M,Lupinus perennis,Legume,1.766798487
+7/7/2003,101,20-40,2,Camb,Nenrich,1,1,M,Andropogon gerardi,C-4,1.892610722
+7/7/2003,101,40-60,2,Camb,Nenrich,1,1,M,Andropogon gerardi,C-4,1.741142658
+7/7/2003,102,20-40,2,Camb,Namb,1,1,M,Petalostemum villosum,Legume,1.718693808
+7/7/2003,102,40-60,2,Camb,Namb,1,1,M,Petalostemum villosum,Legume,1.389608472
+7/7/2003,103,20-40,2,Camb,Nenrich,1,1,M,Bromus inermis,C-3,1.447827467
+7/7/2003,103,40-60,2,Camb,Nenrich,1,1,M,Bromus inermis,C-3,1.718693808
+7/7/2003,104,20-40,2,Camb,Namb,16,4,M,,,1.360745665
+7/7/2003,104,40-60,2,Camb,Namb,16,4,M,,,1.528742002
+7/7/2003,105,40-60,2,Camb,Namb,4,1,S,,C-4,1.706359276
+7/7/2003,105,20-40,2,Camb,Namb,4,1,S,,C-4,1.173260765
+7/7/2003,106,40-60,2,Camb,Namb,9,4,M,,,1.583754019
+7/7/2003,106,20-40,2,Camb,Namb,9,4,M,,,1.793687768
+7/7/2003,107,40-60,2,Camb,Namb,16,4,M,,,1.767785249
+7/7/2003,107,20-40,2,Camb,Namb,16,4,M,,,1.749776831
+7/7/2003,108,40-60,2,Camb,Nenrich,16,4,M,,,1.309434008
+7/7/2003,108,20-40,2,Camb,Nenrich,16,4,M,,,1.735468773
+7/7/2003,109,40-60,2,Camb,Namb,1,1,M,Bromus inermis,C-3,1.563278694
+7/7/2003,109,20-40,2,Camb,Namb,1,1,M,Bromus inermis,C-3,1.762111364
+7/7/2003,110,40-60,2,Camb,Nenrich,16,4,M,,,1.636299129
+7/7/2003,110,20-40,2,Camb,Nenrich,16,4,M,,,1.705865894
+7/7/2003,111,40-60,2,Camb,Namb,1,1,M,Agropyron repens,C-3,1.591894811
+7/7/2003,111,20-40,2,Camb,Namb,1,1,M,Agropyron repens,C-3,1.697478412
+7/7/2003,112,40-60,2,Camb,Nenrich,1,1,M,Agropyron repens,C-3,1.564758838
+7/7/2003,112,20-40,2,Camb,Nenrich,1,1,M,Agropyron repens,C-3,1.788507264
+7/7/2003,113,20-40,2,Camb,Nenrich,1,1,M,Poa pratensis,C-3,1.636052438
+7/7/2003,113,40-60,2,Camb,Nenrich,1,1,M,Poa pratensis,C-3,1.523314808
+7/7/2003,114,40-60,2,Camb,Nenrich,4,3,M,,,1.41501761
+7/7/2003,114,20-40,2,Camb,Nenrich,4,3,M,,,1.660228123
+7/7/2003,115,40-60,2,Camb,Namb,1,1,M,Poa pratensis,C-3,1.523314808
+7/7/2003,115,20-40,2,Camb,Namb,1,1,M,Poa pratensis,C-3,1.733741939
+7/7/2003,116,40-60,2,Camb,Namb,1,1,M,Lespedeza capitata,Legume,1.534909269
+7/7/2003,116,20-40,2,Camb,Namb,1,1,M,Lespedeza capitata,Legume,1.633585532
+7/7/2003,117,40-60,2,Camb,Nenrich,9,3,M,,,1.750023522
+7/7/2003,117,20-40,2,Camb,Nenrich,9,3,M,,,1.684403807
+7/7/2003,118,40-60,2,Camb,Nenrich,16,4,M,,,1.563032004
+7/7/2003,118,20-40,2,Camb,Nenrich,16,4,M,,,1.498399052
+7/7/2003,119,40-60,2,Camb,Namb,9,4,M,,,1.658254597
+7/7/2003,119,20-40,2,Camb,Namb,9,4,M,,,1.594855099
+7/7/2003,120,40-60,2,Camb,Namb,4,3,M,,,1.612370135
+7/7/2003,120,20-40,2,Camb,Namb,4,3,M,,,1.764084889
+7/7/2003,121,40-60,2,Camb,Namb,4,2,M,,,1.551190852
+7/7/2003,121,20-40,2,Camb,Namb,4,2,M,,,1.66688877
+7/7/2003,122,40-60,2,Camb,Namb,1,1,M,Koeleria cristata,C-3,1.443880416
+7/7/2003,122,20-40,2,Camb,Namb,1,1,M,Koeleria cristata,C-3,1.713266614
+7/7/2003,123,40-60,3,Cenrich,Nenrich,1,1,M,Sorghastrum nutans,C-4,1.330896095
+7/7/2003,123,20-40,3,Cenrich,Nenrich,1,1,M,Sorghastrum nutans,C-4,1.652334022
+7/7/2003,124,20-40,3,Cenrich,Nenrich,4,1,S,,C-4,1.514433944
+7/7/2003,124,40-60,3,Cenrich,Nenrich,4,1,S,,C-4,1.565745601
+7/7/2003,125,20-40,3,Cenrich,Nenrich,4,2,M,,,1.362225809
+7/7/2003,125,40-60,3,Cenrich,Nenrich,4,2,M,,,1.546997111
+7/7/2003,126,20-40,3,Cenrich,Namb,1,1,M,Sorghastrum nutans,C-4,1.509500131
+7/7/2003,126,40-60,3,Cenrich,Namb,1,1,M,Sorghastrum nutans,C-4,1.387141565
+7/7/2003,127,20-40,3,Cenrich,Nenrich,4,2,M,,,1.432532646
+7/7/2003,127,40-60,3,Cenrich,Nenrich,4,2,M,,,1.574873155
+7/7/2003,128,40-60,3,Cenrich,Namb,9,4,M,,,1.443880416
+7/7/2003,128,20-40,3,Cenrich,Namb,9,4,M,,,1.479650562
+7/7/2003,129,40-60,3,Cenrich,Namb,4,3,M,,,1.525535024
+7/7/2003,129,20-40,3,Cenrich,Namb,4,3,M,,,1.402189695
+7/7/2003,130,40-60,3,Cenrich,Nenrich,16,4,M,,,1.377027248
+7/7/2003,130,20-40,3,Cenrich,Nenrich,16,4,M,,,1.481624087
+7/7/2003,131,20-40,3,Cenrich,Namb,9,4,M,,,1.512460419
+7/7/2003,131,40-60,3,Cenrich,Namb,9,4,M,,,1.544283514
+7/7/2003,132,20-40,3,Cenrich,Nenrich,1,1,M,Schizachyrium scoparium,C-4,1.696985031
+7/7/2003,132,40-60,3,Cenrich,Nenrich,1,1,M,Schizachyrium scoparium,C-4,1.161912995
+7/7/2003,133,20-40,3,Cenrich,Namb,9,4,M,,,1.667628842
+7/7/2003,133,40-60,3,Cenrich,Namb,9,4,M,,,1.466329266
+7/7/2003,134,20-40,3,Cenrich,Namb,1,1,M,Koeleria cristata,C-3,1.669355677
+7/7/2003,134,40-60,3,Cenrich,Namb,1,1,M,Koeleria cristata,C-3,1.615083732
+7/7/2003,135,20-40,3,Cenrich,Namb,1,1,M,Lupinus perennis,Legume,1.583507328
+7/7/2003,135,40-60,3,Cenrich,Namb,1,1,M,Lupinus perennis,Legume,1.547490492
+7/7/2003,136,40-60,3,Cenrich,Nenrich,4,1,S,,Forb,1.62149769
+7/7/2003,136,20-40,3,Cenrich,Nenrich,4,1,S,,Forb,1.592141501
+7/7/2003,137,20-40,3,Cenrich,Nenrich,1,1,M,Lespedeza capitata,Legume,1.560811788
+7/7/2003,137,40-60,3,Cenrich,Nenrich,1,1,M,Lespedeza capitata,Legume,1.30992739
+7/7/2003,138,40-60,3,Cenrich,Namb,1,1,M,Poa pratensis,C-3,1.397255882
+7/7/2003,138,20-40,3,Cenrich,Namb,1,1,M,Poa pratensis,C-3,1.553411068
+7/7/2003,139,20-40,3,Cenrich,Namb,1,1,M,Petalostemum villosum,Legume,1.573886393
+7/7/2003,139,40-60,3,Cenrich,Namb,1,1,M,Petalostemum villosum,Legume,1.397502573
+7/7/2003,140,40-60,3,Cenrich,Namb,1,1,M,Andropogon gerardi,C-4,1.294385878
+7/7/2003,140,20-40,3,Cenrich,Namb,1,1,M,Andropogon gerardi,C-4,1.744596327
+7/7/2003,141,40-60,3,Cenrich,Nenrich,1,1,M,Lupinus perennis,Legume,1.615330423
+7/7/2003,141,20-40,3,Cenrich,Nenrich,1,1,M,Lupinus perennis,Legume,1.800595107
+7/7/2003,142,40-60,3,Cenrich,Nenrich,1,1,M,Anemone cylindrica,Forb,1.620264236
+7/7/2003,142,20-40,3,Cenrich,Nenrich,1,1,M,Anemone cylindrica,Forb,1.761371292
+7/7/2003,143,40-60,3,Cenrich,Nenrich,1,1,M,Solidago rigida,Forb,1.688844239
+7/7/2003,143,20-40,3,Cenrich,Nenrich,1,1,M,Solidago rigida,Forb,1.658501288
+7/7/2003,144,20-40,3,Cenrich,Nenrich,1,1,M,Agropyron repens,C-3,1.56155186
+7/7/2003,144,40-60,3,Cenrich,Nenrich,1,1,M,Agropyron repens,C-3,1.591401429
+7/7/2003,145,20-40,3,Cenrich,Namb,1,1,M,Agropyron repens,C-3,1.378754083
+7/7/2003,145,40-60,3,Cenrich,Namb,1,1,M,Agropyron repens,C-3,1.714253377
+7/7/2003,146,40-60,3,Cenrich,Namb,1,1,M,Anemone cylindrica,Forb,1.32892257
+7/7/2003,146,20-40,3,Cenrich,Namb,1,1,M,Anemone cylindrica,Forb,1.614590351
+7/7/2003,147,20-40,3,Cenrich,Namb,16,4,M,,,1.642219705
+7/7/2003,147,40-60,3,Cenrich,Namb,16,4,M,,,1.251461704
+7/7/2003,148,20-40,3,Cenrich,Namb,4,3,M,,,1.424885236
+7/7/2003,148,40-60,3,Cenrich,Namb,4,3,M,,,1.656774454
+7/7/2003,149,40-60,3,Cenrich,Nenrich,9,4,M,,,1.697231721
+7/7/2003,149,20-40,3,Cenrich,Nenrich,9,4,M,,,1.562785313
+7/7/2003,150,20-40,3,Cenrich,Namb,4,1,S,,Legume,1.520601211
+7/7/2003,150,40-60,3,Cenrich,Namb,4,1,S,,Legume,1.482364159
+7/7/2003,151,20-40,3,Cenrich,Nenrich,16,4,M,,,1.598555458
+7/7/2003,151,40-60,3,Cenrich,Nenrich,16,4,M,,,1.724861075
+7/7/2003,152,40-60,3,Cenrich,Namb,4,1,S,,C-4,1.721900787
+7/7/2003,152,20-40,3,Cenrich,Namb,4,1,S,,C-4,1.60669625
+7/7/2003,153,20-40,3,Cenrich,Namb,1,1,M,Solidago rigida,Forb,1.403669839
+7/7/2003,153,40-60,3,Cenrich,Namb,1,1,M,Solidago rigida,Forb,1.717953737
+7/7/2003,154,40-60,3,Cenrich,Nenrich,4,4,S,,,1.645179993
+7/7/2003,154,20-40,3,Cenrich,Nenrich,4,4,S,,,1.6291451
+7/7/2003,155,40-60,3,Cenrich,Namb,4,4,S,,,1.438946603
+7/7/2003,155,20-40,3,Cenrich,Namb,4,4,S,,,1.669849058
+7/7/2003,156,40-60,3,Cenrich,Namb,4,2,M,,,1.474470058
+7/7/2003,156,20-40,3,Cenrich,Namb,4,2,M,,,1.568212508
+7/7/2003,157,20-40,3,Cenrich,Namb,4,1,S,,C-3,1.576106609
+7/7/2003,157,40-60,3,Cenrich,Namb,4,1,S,,C-3,1.595101789
+7/7/2003,158,20-40,3,Cenrich,Nenrich,1,1,M,Amorpha canescens,Legume,1.847713022
+7/7/2003,158,40-60,3,Cenrich,Nenrich,1,1,M,Amorpha canescens,Legume,1.448320848
+7/7/2003,159,20-40,3,Cenrich,Namb,1,1,M,Achillea millefolium,Forb,1.785300286
+7/7/2003,159,40-60,3,Cenrich,Namb,1,1,M,Achillea millefolium,Forb,1.540089773
+7/7/2003,160,40-60,3,Cenrich,Nenrich,1,1,M,Asclepias tuberosa,Forb,1.386894875
+7/7/2003,160,20-40,3,Cenrich,Nenrich,1,1,M,Asclepias tuberosa,Forb,1.684157116
+7/7/2003,161,20-40,3,Cenrich,Nenrich,9,4,M,,,1.610643301
+7/7/2003,161,40-60,3,Cenrich,Nenrich,9,4,M,,,1.412304012
+7/7/2003,162,20-40,3,Cenrich,Nenrich,4,3,M,,,1.692297908
+7/7/2003,162,40-60,3,Cenrich,Nenrich,4,3,M,,,1.393802213
+7/7/2003,163,40-60,3,Cenrich,Namb,16,4,M,,,1.427352142
+7/7/2003,163,20-40,3,Cenrich,Namb,16,4,M,,,1.70783942
+7/7/2003,164,40-60,3,Cenrich,Namb,4,4,M,,,1.410330487
+7/7/2003,164,20-40,3,Cenrich,Namb,4,4,M,,,1.592881573
+7/7/2003,165,40-60,3,Cenrich,Nenrich,9,3,M,,,1.716226902
+7/7/2003,165,20-40,3,Cenrich,Nenrich,9,3,M,,,1.628158337
+7/7/2003,166,40-60,3,Cenrich,Nenrich,9,4,M,,,1.387634947
+7/7/2003,166,20-40,3,Cenrich,Nenrich,9,4,M,,,1.613850279
+7/7/2003,167,40-60,3,Cenrich,Nenrich,4,3,M,,,1.778146257
+7/7/2003,167,20-40,3,Cenrich,Nenrich,4,3,M,,,1.708332801
+7/7/2003,168,40-60,3,Cenrich,Nenrich,4,1,S,,C-3,1.434752862
+7/7/2003,168,20-40,3,Cenrich,Nenrich,4,1,S,,C-3,1.783573451
+7/7/2003,169,20-40,3,Cenrich,Namb,1,1,M,Amorpha canescens,Legume,1.620757618
+7/7/2003,169,40-60,3,Cenrich,Namb,1,1,M,Amorpha canescens,Legume,1.430805812
+7/7/2003,170,40-60,3,Cenrich,Namb,9,4,M,,,1.642959777
+7/7/2003,170,20-40,3,Cenrich,Namb,9,4,M,,,1.821070431
+7/7/2003,171,40-60,3,Cenrich,Nenrich,9,4,M,,,1.750516903
+7/7/2003,171,20-40,3,Cenrich,Nenrich,9,4,M,,,1.557111428
+7/7/2003,172,20-40,3,Cenrich,Namb,4,1,S,,Forb,1.120222274
+7/7/2003,172,40-60,3,Cenrich,Namb,4,1,S,,Forb,1.559825025
+7/7/2003,173,40-60,3,Cenrich,Namb,16,4,M,,,1.666395389
+7/7/2003,173,20-40,3,Cenrich,Namb,16,4,M,,,1.858814102
+7/7/2003,174,40-60,3,Cenrich,Nenrich,1,1,M,Bromus inermis,C-3,1.855113742
+7/7/2003,174,20-40,3,Cenrich,Nenrich,1,1,M,Bromus inermis,C-3,1.649373734
+7/7/2003,175,40-60,3,Cenrich,Nenrich,16,4,M,,,1.586220926
+7/7/2003,175,20-40,3,Cenrich,Nenrich,16,4,M,,,1.361239046
+7/7/2003,176,40-60,3,Cenrich,Nenrich,4,3,M,,,1.43771315
+7/7/2003,176,20-40,3,Cenrich,Nenrich,4,3,M,,,1.32497552
+7/7/2003,177,20-40,3,Cenrich,Namb,9,4,M,,,1.307953864
+7/7/2003,177,40-60,3,Cenrich,Namb,9,4,M,,,1.210511055
+7/7/2003,178,20-40,3,Cenrich,Namb,4,3,M,,,1.629885172
+7/7/2003,178,40-60,3,Cenrich,Namb,4,3,M,,,1.44536056
+7/7/2003,179,40-60,3,Cenrich,Namb,16,4,M,,,1.245047747
+7/7/2003,179,20-40,3,Cenrich,Namb,16,4,M,,,1.617303948
+7/7/2003,180,20-40,3,Cenrich,Nenrich,16,4,M,,,1.605462797
+7/7/2003,180,40-60,3,Cenrich,Nenrich,16,4,M,,,1.018339033
+7/7/2003,181,40-60,3,Cenrich,Nenrich,4,1,S,,Legume,1.285998396
+7/7/2003,181,20-40,3,Cenrich,Nenrich,4,1,S,,Legume,1.375793795
+7/7/2003,182,40-60,3,Cenrich,Namb,0,1,M,,,1.315107893
+7/7/2003,182,20-40,3,Cenrich,Namb,0,1,M,,,1.549957399
+7/7/2003,183,20-40,3,Cenrich,Nenrich,1,1,M,Poa pratensis,C-3,1.553164378
+7/7/2003,183,40-60,3,Cenrich,Nenrich,1,1,M,Poa pratensis,C-3,1.360005593
+7/7/2003,184,20-40,4,Camb,Namb,16,4,M,,,1.578080134
+7/7/2003,184,40-60,4,Camb,Namb,16,4,M,,,1.643453158
+7/7/2003,185,20-40,4,Camb,Nenrich,9,4,M,,,1.67798985
+7/7/2003,185,40-60,4,Camb,Nenrich,9,4,M,,,1.574133083
+7/7/2003,186,20-40,4,Camb,Nenrich,9,4,M,,,1.648140281
+7/7/2003,186,40-60,4,Camb,Nenrich,9,4,M,,,1.564758838
+7/7/2003,187,20-40,4,Camb,Namb,9,4,M,,,1.635805748
+7/7/2003,187,40-60,4,Camb,Namb,9,4,M,,,1.781599926
+7/7/2003,188,20-40,4,Camb,Namb,16,4,M,,,1.617303948
+7/7/2003,188,40-60,4,Camb,Namb,16,4,M,,,1.668122224
+7/7/2003,189,20-40,4,Camb,Namb,4,3,M,,,1.683417045
+7/7/2003,189,40-60,4,Camb,Namb,4,3,M,,,1.707592729
+7/7/2003,190,40-60,4,Camb,Namb,1,1,M,Lupinus perennis,Legume,1.272923791
+7/7/2003,190,20-40,4,Camb,Namb,1,1,M,Lupinus perennis,Legume,1.481870778
+7/7/2003,191,20-40,4,Camb,Namb,4,2,S,,,1.345944226
+7/7/2003,191,40-60,4,Camb,Namb,4,2,S,,,1.595841861
+7/7/2003,192,20-40,4,Camb,Namb,1,1,M,Asclepias tuberosa,Forb,1.764578271
+7/7/2003,192,40-60,4,Camb,Namb,1,1,M,Asclepias tuberosa,Forb,1.577093371
+7/7/2003,193,40-60,4,Camb,Nenrich,4,3,M,,,1.429325668
+7/7/2003,193,20-40,4,Camb,Nenrich,4,3,M,,,1.647646899
+7/7/2003,194,20-40,4,Camb,Nenrich,9,4,M,,,1.628158337
+7/7/2003,194,40-60,4,Camb,Nenrich,9,4,M,,,1.485077756
+7/7/2003,195,20-40,4,Camb,Nenrich,1,1,M,Koeleria cristata,C-3,1.354825089
+7/7/2003,195,40-60,4,Camb,Nenrich,1,1,M,Koeleria cristata,C-3,1.40391653
+7/7/2003,196,40-60,4,Camb,Nenrich,1,1,M,Amorpha canescens,Legume,1.400956242
+7/7/2003,196,20-40,4,Camb,Nenrich,1,1,M,Amorpha canescens,Legume,1.412797394
+7/7/2003,197,20-40,4,Camb,Nenrich,4,2,M,,,1.476443583
+7/7/2003,197,40-60,4,Camb,Nenrich,4,2,M,,,1.393802213
+7/7/2003,198,40-60,4,Camb,Namb,4,3,M,,,1.369873219
+7/7/2003,198,20-40,4,Camb,Namb,4,3,M,,,1.328429189
+7/7/2003,199,20-40,4,Camb,Namb,1,1,M,Solidago rigida,Forb,1.723874312
+7/7/2003,199,40-60,4,Camb,Namb,1,1,M,Solidago rigida,Forb,1.422418329
+7/7/2003,200,20-40,4,Camb,Namb,4,1,S,,Forb,1.53910301
+7/7/2003,200,40-60,4,Camb,Namb,4,1,S,,Forb,0.829373989
+7/7/2003,201,20-40,4,Camb,Namb,16,4,M,,,1.635559057
+7/7/2003,201,40-60,4,Camb,Namb,16,4,M,,,1.299813073
+7/7/2003,202,40-60,4,Camb,Namb,1,1,M,Bromus inermis,C-3,1.6291451
+7/7/2003,202,20-40,4,Camb,Namb,1,1,M,Bromus inermis,C-3,1.602009128
+7/7/2003,203,40-60,4,Camb,Nenrich,4,4,S,,,1.360005593
+7/7/2003,203,20-40,4,Camb,Nenrich,4,4,S,,,1.621991071
+7/7/2003,204,20-40,4,Camb,Nenrich,1,1,M,Bouteloua gracilis,C-4,1.672315965
+7/7/2003,204,40-60,4,Camb,Nenrich,1,1,M,Bouteloua gracilis,C-4,1.716720283
+7/7/2003,205,40-60,4,Camb,Nenrich,16,4,M,,,1.655047619
+7/7/2003,205,20-40,4,Camb,Nenrich,16,4,M,,,1.736948917
+7/7/2003,206,20-40,4,Camb,Nenrich,4,2,M,,,1.648880353
+7/7/2003,206,40-60,4,Camb,Nenrich,4,2,M,,,1.567719126
+7/7/2003,207,20-40,4,Camb,Nenrich,4,1,S,,C-4,1.669602368
+7/7/2003,207,40-60,4,Camb,Nenrich,4,1,S,,C-4,1.654800928
+7/7/2003,208,20-40,4,Camb,Nenrich,1,1,M,Petalostemum villosum,Legume,1.696985031
+7/7/2003,208,40-60,4,Camb,Nenrich,1,1,M,Petalostemum villosum,Legume,1.368886457
+7/7/2003,209,40-60,4,Camb,Namb,1,1,M,Amorpha canescens,Legume,1.486064519
+7/7/2003,209,20-40,4,Camb,Namb,1,1,M,Amorpha canescens,Legume,1.400956242
+7/7/2003,210,20-40,4,Camb,Nenrich,1,1,M,Achillea millefolium,Forb,1.516900851
+7/7/2003,210,40-60,4,Camb,Nenrich,1,1,M,Achillea millefolium,Forb,1.35877214
+7/7/2003,211,40-60,4,Camb,Namb,4,2,M,,,1.453501352
+7/7/2003,211,20-40,4,Camb,Namb,4,2,M,,,1.564512148
+7/7/2003,212,40-60,4,Camb,Nenrich,1,1,M,Lupinus perennis,Legume,1.333363002
+7/7/2003,212,20-40,4,Camb,Nenrich,1,1,M,Lupinus perennis,Legume,1.350384657
+7/7/2003,213,20-40,4,Camb,Nenrich,16,4,M,,,1.252201776
+7/7/2003,213,40-60,4,Camb,Nenrich,16,4,M,,,1.487544663
+7/7/2003,214,40-60,4,Camb,Nenrich,4,1,S,,Forb,1.485817828
+7/7/2003,214,20-40,4,Camb,Nenrich,4,1,S,,Forb,1.570926105
+7/7/2003,215,20-40,4,Camb,Nenrich,4,1,S,,C-3,1.521587973
+7/7/2003,215,40-60,4,Camb,Nenrich,4,1,S,,C-3,1.35531847
+7/7/2003,216,20-40,4,Camb,Namb,4,4,S,,,1.731028341
+7/7/2003,216,40-60,4,Camb,Namb,4,4,S,,,1.41896466
+7/7/2003,217,40-60,4,Camb,Namb,0,1,M,,,1.43031243
+7/7/2003,217,20-40,4,Camb,Namb,0,1,M,,,1.517887614
+7/7/2003,218,20-40,4,Camb,Nenrich,4,4,M,,,1.627418265
+7/7/2003,218,40-60,4,Camb,Nenrich,4,4,M,,,1.15993947
+7/7/2003,219,20-40,4,Camb,Nenrich,1,1,M,Andropogon gerardi,C-4,1.54280337
+7/7/2003,219,40-60,4,Camb,Nenrich,1,1,M,Andropogon gerardi,C-4,1.59929553
+7/7/2003,220,20-40,4,Camb,Namb,4,3,M,,,1.301539907
+7/7/2003,220,40-60,4,Camb,Namb,4,3,M,,,1.347424369
+7/7/2003,221,20-40,4,Camb,Namb,4,1,S,,C-4,1.408356962
+7/7/2003,221,40-60,4,Camb,Namb,4,1,S,,C-4,1.551684234
+7/7/2003,222,20-40,4,Camb,Namb,16,4,M,,,1.387388256
+7/7/2003,222,40-60,4,Camb,Namb,16,4,M,,,1.416004372
+7/7/2003,223,20-40,4,Camb,Namb,1,1,M,Achillea millefolium,Forb,1.650607187
+7/7/2003,223,40-60,4,Camb,Namb,1,1,M,Achillea millefolium,Forb,1.160926233
+7/7/2003,224,20-40,4,Camb,Nenrich,9,4,M,,,1.564265457
+7/7/2003,224,40-60,4,Camb,Nenrich,9,4,M,,,1.676016325
+7/7/2003,225,20-40,4,Camb,Nenrich,1,1,M,Agropyron repens,C-3,1.701918844
+7/7/2003,225,40-60,4,Camb,Nenrich,1,1,M,Agropyron repens,C-3,1.22753271
+7/7/2003,226,40-60,4,Camb,Namb,9,4,M,,,1.442646963
+7/7/2003,226,20-40,4,Camb,Namb,9,4,M,,,1.534662578
+7/7/2003,227,40-60,4,Camb,Namb,1,1,M,Bouteloua gracilis,C-4,1.58054704
+7/7/2003,227,20-40,4,Camb,Namb,1,1,M,Bouteloua gracilis,C-4,1.653814166
+7/7/2003,228,40-60,4,Camb,Namb,1,1,M,Poa pratensis,C-3,1.498892433
+7/7/2003,228,20-40,4,Camb,Namb,1,1,M,Poa pratensis,C-3,1.741142658
+7/7/2003,229,20-40,4,Camb,Namb,1,1,M,Anemone cylindrica,Forb,1.723380931
+7/7/2003,229,40-60,4,Camb,Namb,1,1,M,Anemone cylindrica,Forb,1.577833443
+7/7/2003,230,20-40,4,Camb,Namb,9,4,M,,,1.605956178
+7/7/2003,230,40-60,4,Camb,Namb,9,4,M,,,1.440920129
+7/7/2003,231,40-60,4,Camb,Namb,1,1,M,Schizachyrium scoparium,C-4,1.376040486
+7/7/2003,231,20-40,4,Camb,Namb,1,1,M,Schizachyrium scoparium,C-4,1.784806905
+7/7/2003,232,40-60,4,Camb,Nenrich,9,4,M,,,1.532442362
+7/7/2003,232,20-40,4,Camb,Nenrich,9,4,M,,,1.623224524
+7/7/2003,233,40-60,4,Camb,Namb,9,4,M,,,1.526275096
+7/7/2003,233,20-40,4,Camb,Namb,9,4,M,,,1.554891212
+7/7/2003,234,20-40,4,Camb,Nenrich,16,4,M,,,1.648633662
+7/7/2003,234,40-60,4,Camb,Nenrich,16,4,M,,,1.150565225
+7/7/2003,235,40-60,4,Camb,Namb,1,1,M,Agropyron repens,C-3,1.413784156
+7/7/2003,235,20-40,4,Camb,Namb,1,1,M,Agropyron repens,C-3,1.509253441
+7/7/2003,236,20-40,4,Camb,Nenrich,16,4,M,,,1.39626912
+7/7/2003,236,40-60,4,Camb,Nenrich,16,4,M,,,1.913826118
+7/7/2003,237,20-40,4,Camb,Nenrich,1,1,M,Anemone cylindrica,Forb,1.685143879
+7/7/2003,237,40-60,4,Camb,Nenrich,1,1,M,Anemone cylindrica,Forb,1.641479633
+7/7/2003,238,20-40,4,Camb,Nenrich,4,4,M,,,1.513447182
+7/7/2003,238,40-60,4,Camb,Nenrich,4,4,M,,,1.453501352
+7/7/2003,239,20-40,4,Camb,Namb,4,3,M,,,1.621250999
+7/7/2003,239,40-60,4,Camb,Namb,4,3,M,,,1.404656602
+7/7/2003,240,40-60,4,Camb,Nenrich,4,1,S,,Legume,1.664668555
+7/7/2003,240,20-40,4,Camb,Nenrich,4,1,S,,Legume,1.612123445
+7/7/2003,241,20-40,4,Camb,Nenrich,1,1,M,Lespedeza capitata,Legume,1.482117468
+7/7/2003,241,40-60,4,Camb,Nenrich,1,1,M,Lespedeza capitata,Legume,1.648880353
+7/7/2003,242,20-40,4,Camb,Namb,4,1,S,,Legume,1.91061914
+7/7/2003,242,40-60,4,Camb,Namb,4,1,S,,Legume,1.374313651
+7/7/2003,243,40-60,4,Camb,Namb,9,3,M,,,1.555877975
+7/7/2003,243,20-40,4,Camb,Namb,9,3,M,,,1.265769762
+7/7/2003,244,20-40,4,Camb,Namb,4,1,S,,C-3,1.451281136
+7/7/2003,244,40-60,4,Camb,Namb,4,1,S,,C-3,1.752737119
+7/7/2003,245,20-40,5,Cenrich,Nenrich,9,4,M,,,1.654307547
+7/7/2003,245,40-60,5,Cenrich,Nenrich,9,4,M,,,1.467316029
+7/7/2003,246,20-40,5,Cenrich,Nenrich,1,1,M,Poa pratensis,C-3,1.528495312
+7/7/2003,246,40-60,5,Cenrich,Nenrich,1,1,M,Poa pratensis,C-3,1.498152361
+7/7/2003,247,20-40,5,Cenrich,Nenrich,4,1,S,,C-4,1.517394232
+7/7/2003,247,40-60,5,Cenrich,Nenrich,4,1,S,,C-4,1.517640923
+7/7/2003,248,20-40,5,Cenrich,Namb,1,1,M,Asclepias tuberosa,Forb,1.673796109
+7/7/2003,248,40-60,5,Cenrich,Namb,1,1,M,Asclepias tuberosa,Forb,1.581533803
+7/7/2003,249,20-40,5,Cenrich,Nenrich,4,2,M,,,1.672069274
+7/7/2003,249,40-60,5,Cenrich,Nenrich,4,2,M,,,1.533429125
+7/7/2003,250,40-60,5,Cenrich,Namb,16,4,M,,,1.386401493
+7/7/2003,250,20-40,5,Cenrich,Namb,16,4,M,,,1.656527763
+7/7/2003,251,20-40,5,Cenrich,Nenrich,1,1,M,Andropogon gerardi,C-4,1.495932145
+7/7/2003,251,40-60,5,Cenrich,Nenrich,1,1,M,Andropogon gerardi,C-4,1.486311209
+7/7/2003,252,20-40,5,Cenrich,Namb,1,1,M,Andropogon gerardi,C-4,1.662695029
+7/7/2003,252,40-60,5,Cenrich,Namb,1,1,M,Andropogon gerardi,C-4,1.521587973
+7/7/2003,253,40-60,5,Cenrich,Nenrich,16,4,M,,,1.352111492
+7/7/2003,253,20-40,5,Cenrich,Nenrich,16,4,M,,,1.642959777
+7/7/2003,254,20-40,5,Cenrich,Namb,1,1,M,Schizachyrium scoparium,C-4,1.717953737
+7/7/2003,254,40-60,5,Cenrich,Namb,1,1,M,Schizachyrium scoparium,C-4,1.370366601
+7/7/2003,255,20-40,5,Cenrich,Namb,4,3,M,,,1.742622802
+7/7/2003,255,40-60,5,Cenrich,Namb,4,3,M,,,1.645426683
+7/7/2003,256,20-40,5,Cenrich,Nenrich,1,1,M,Lespedeza capitata,Legume,1.212731271
+7/7/2003,256,40-60,5,Cenrich,Nenrich,1,1,M,Lespedeza capitata,Legume,1.583260638
+7/7/2003,257,40-60,5,Cenrich,Namb,1,1,M,Achillea millefolium,Forb,1.23518012
+7/7/2003,257,20-40,5,Cenrich,Namb,1,1,M,Achillea millefolium,Forb,1.310667462
+7/7/2003,258,40-60,5,Cenrich,Nenrich,4,4,M,,,1.450787755
+7/7/2003,258,20-40,5,Cenrich,Nenrich,4,4,M,,,0.888579747
+7/7/2003,259,20-40,5,Cenrich,Nenrich,4,3,M,,,1.561058479
+7/7/2003,259,40-60,5,Cenrich,Nenrich,4,3,M,,,1.519614448
+7/7/2003,260,20-40,5,Cenrich,Nenrich,1,1,M,Koeleria cristata,C-3,1.580053659
+7/7/2003,260,40-60,5,Cenrich,Nenrich,1,1,M,Koeleria cristata,C-3,1.439933366
+7/7/2003,261,20-40,5,Cenrich,Namb,1,1,M,Koeleria cristata,C-3,1.665408627
+7/7/2003,261,40-60,5,Cenrich,Namb,1,1,M,Koeleria cristata,C-3,1.209277601
+7/7/2003,262,40-60,5,Cenrich,Nenrich,1,1,M,Lupinus perennis,Legume,1.590414667
+7/7/2003,262,20-40,5,Cenrich,Nenrich,1,1,M,Lupinus perennis,Legume,1.345697535
+7/7/2003,263,20-40,5,Cenrich,Namb,1,1,M,Bouteloua gracilis,C-4,1.566979054
+7/7/2003,263,40-60,5,Cenrich,Namb,1,1,M,Bouteloua gracilis,C-4,1.660228123
+7/7/2003,264,40-60,5,Cenrich,Namb,9,4,M,,,1.285505015
+7/7/2003,264,20-40,5,Cenrich,Namb,9,4,M,,,1.619770855
+7/7/2003,265,20-40,5,Cenrich,Nenrich,1,1,M,Bouteloua gracilis,C-4,1.711539779
+7/7/2003,265,40-60,5,Cenrich,Nenrich,1,1,M,Bouteloua gracilis,C-4,1.254915373
+7/7/2003,266,40-60,5,Cenrich,Namb,1,1,M,Bromus inermis,C-3,1.299319691
+7/7/2003,266,20-40,5,Cenrich,Namb,1,1,M,Bromus inermis,C-3,1.577340062
+7/7/2003,267,20-40,5,Cenrich,Nenrich,16,4,M,,,1.576106609
+7/7/2003,267,40-60,5,Cenrich,Nenrich,16,4,M,,,1.52775524
+7/7/2003,268,40-60,5,Cenrich,Namb,4,1,S,,C-3,1.425871998
+7/7/2003,268,20-40,5,Cenrich,Namb,4,1,S,,C-3,0.843188666
+7/7/2003,269,20-40,5,Cenrich,Namb,4,1,S,,Legume,1.407370199
+7/7/2003,269,40-60,5,Cenrich,Namb,4,1,S,,Legume,1.54650373
+7/7/2003,270,40-60,5,Cenrich,Namb,16,4,M,,,1.170547168
+7/7/2003,270,20-40,5,Cenrich,Namb,16,4,M,,,1.631118625
+7/7/2003,271,20-40,5,Cenrich,Nenrich,1,1,M,Anemone cylindrica,Forb,1.575119846
+7/7/2003,271,40-60,5,Cenrich,Nenrich,1,1,M,Anemone cylindrica,Forb,1.30992739
+7/7/2003,272,20-40,5,Cenrich,Namb,16,4,M,,,1.441166819
+7/7/2003,272,40-60,5,Cenrich,Namb,16,4,M,,,1.085192201
+7/7/2003,273,20-40,5,Cenrich,Nenrich,1,1,M,Sorghastrum nutans,C-4,1.100733712
+7/7/2003,273,40-60,5,Cenrich,Nenrich,1,1,M,Sorghastrum nutans,C-4,1.267989978
+7/7/2003,274,20-40,5,Cenrich,Namb,9,3,M,,,1.048928674
+7/7/2003,274,40-60,5,Cenrich,Namb,9,3,M,,,1.528495312
+7/7/2003,275,40-60,5,Cenrich,Nenrich,16,4,M,,,1.437219769
+7/7/2003,275,20-40,5,Cenrich,Nenrich,16,4,M,,,1.624457977
+7/7/2003,276,40-60,5,Cenrich,Nenrich,1,1,M,Achillea millefolium,Forb,1.535896032
+7/7/2003,276,20-40,5,Cenrich,Nenrich,1,1,M,Achillea millefolium,Forb,1.049175365
+7/7/2003,277,40-60,5,Cenrich,Namb,1,1,M,Sorghastrum nutans,C-4,1.606449559
+7/7/2003,277,20-40,5,Cenrich,Namb,1,1,M,Sorghastrum nutans,C-4,1.508760059
+7/7/2003,278,20-40,5,Cenrich,Namb,9,4,M,,,0.903627877
+7/7/2003,278,40-60,5,Cenrich,Namb,9,4,M,,,1.351864801
+7/7/2003,279,20-40,5,Cenrich,Namb,1,1,M,Amorpha canescens,Legume,1.681936901
+7/7/2003,279,40-60,5,Cenrich,Namb,1,1,M,Amorpha canescens,Legume,1.561058479
+7/7/2003,280,20-40,5,Cenrich,Nenrich,9,4,M,,,1.619277474
+7/7/2003,280,40-60,5,Cenrich,Nenrich,9,4,M,,,1.479897252
+7/7/2003,281,20-40,5,Cenrich,Namb,4,4,M,,,1.494945382
+7/7/2003,281,40-60,5,Cenrich,Namb,4,4,M,,,1.638766036
+7/7/2003,282,20-40,5,Cenrich,Nenrich,9,4,M,,,1.585234163
+7/7/2003,282,40-60,5,Cenrich,Nenrich,9,4,M,,,1.503579555
+7/7/2003,283,20-40,5,Cenrich,Namb,16,4,M,,,1.630131863
+7/7/2003,283,40-60,5,Cenrich,Namb,16,4,M,,,1.164379902
+7/7/2003,284,20-40,5,Cenrich,Nenrich,0,1,M,,,1.563278694
+7/7/2003,284,40-60,5,Cenrich,Nenrich,0,1,M,,,1.100487022
+7/7/2003,285,40-60,5,Cenrich,Nenrich,1,1,M,Petalostemum villosum,Legume,1.032893782
+7/7/2003,285,20-40,5,Cenrich,Nenrich,1,1,M,Petalostemum villosum,Legume,1.522081355
+7/7/2003,286,20-40,5,Cenrich,Nenrich,4,4,S,,,1.532195672
+7/7/2003,286,40-60,5,Cenrich,Nenrich,4,4,S,,,1.764578271
+7/7/2003,287,20-40,5,Cenrich,Nenrich,4,1,S,,C-3,1.642219705
+7/7/2003,287,40-60,5,Cenrich,Nenrich,4,1,S,,C-3,1.48285754
+7/7/2003,288,40-60,5,Cenrich,Namb,4,4,M,,,1.789000646
+7/7/2003,288,20-40,5,Cenrich,Namb,4,4,M,,,1.86177439
+7/7/2003,289,40-60,5,Cenrich,Namb,0,1,M,,,1.850426619
+7/7/2003,289,20-40,5,Cenrich,Namb,0,1,M,,,1.713513305
+7/7/2003,290,40-60,5,Cenrich,Nenrich,4,3,M,,,1.872135397
+7/7/2003,290,20-40,5,Cenrich,Nenrich,4,3,M,,,1.748049997
+7/7/2003,291,40-60,5,Cenrich,Namb,4,4,S,,,1.925913961
+7/7/2003,291,20-40,5,Cenrich,Namb,4,4,S,,,1.89557101
+7/7/2003,292,20-40,5,Cenrich,Nenrich,4,4,M,,,1.797881509
+7/7/2003,292,40-60,5,Cenrich,Nenrich,4,4,M,,,1.975498783
+7/7/2003,293,20-40,5,Cenrich,Nenrich,9,4,M,,,1.746569853
+7/7/2003,293,40-60,5,Cenrich,Nenrich,9,4,M,,,1.897791226
+7/7/2003,294,40-60,5,Cenrich,Nenrich,9,4,M,,,1.706112585
+7/7/2003,294,20-40,5,Cenrich,Nenrich,9,4,M,,,1.873615541
+7/7/2003,295,40-60,5,Cenrich,Namb,1,1,M,Petalostemum villosum,Legume,1.616317186
+7/7/2003,295,20-40,5,Cenrich,Namb,1,1,M,Petalostemum villosum,Legume,1.857333958
+7/7/2003,296,40-60,5,Cenrich,Nenrich,4,1,S,,Forb,1.902971729
+7/7/2003,296,20-40,5,Cenrich,Nenrich,4,1,S,,Forb,1.677743159
+7/7/2003,297,40-60,5,Cenrich,Namb,4,2,M,,,1.528988693
+7/7/2003,297,20-40,5,Cenrich,Namb,4,2,M,,,1.745336399
+7/7/2003,298,20-40,5,Cenrich,Nenrich,4,1,S,,Legume,1.839572231
+7/7/2003,298,40-60,5,Cenrich,Nenrich,4,1,S,,Legume,1.454488115
+7/7/2003,299,20-40,5,Cenrich,Namb,9,4,M,,,1.643206467
+7/7/2003,299,40-60,5,Cenrich,Namb,9,4,M,,,1.622977834
+7/7/2003,300,40-60,5,Cenrich,Namb,9,4,M,,,1.680950138
+7/7/2003,300,20-40,5,Cenrich,Namb,9,4,M,,,1.738675752
+7/7/2003,301,20-40,5,Cenrich,Nenrich,16,4,M,,,1.694764815
+7/7/2003,301,40-60,5,Cenrich,Nenrich,16,4,M,,,1.731275032
+7/7/2003,302,20-40,5,Cenrich,Namb,4,1,S,,Forb,1.717460355
+7/7/2003,302,40-60,5,Cenrich,Namb,4,1,S,,Forb,1.209277601
+7/7/2003,303,40-60,5,Cenrich,Namb,4,1,S,,C-4,1.499879196
+7/7/2003,303,20-40,5,Cenrich,Namb,4,1,S,,C-4,1.684157116
+7/7/2003,304,40-60,5,Cenrich,Namb,1,1,M,Lespedeza capitata,Legume,1.870408563
+7/7/2003,304,20-40,5,Cenrich,Namb,1,1,M,Lespedeza capitata,Legume,1.500619268
+7/7/2003,305,20-40,5,Cenrich,Namb,4,2,M,,,1.660968195
+7/7/2003,305,40-60,5,Cenrich,Namb,4,2,M,,,1.721654096
+7/7/2003,306,40-60,6,Camb,Namb,16,4,M,,,1.258369042
+7/7/2003,306,20-40,6,Camb,Namb,16,4,M,,,1.698711865
+7/7/2003,307,20-40,6,Camb,Nenrich,16,4,M,,,1.755204026
+7/7/2003,307,40-60,6,Camb,Nenrich,16,4,M,,,1.21248458
+7/7/2003,308,40-60,6,Camb,Namb,9,4,M,,,1.631858697
+7/7/2003,308,20-40,6,Camb,Namb,9,4,M,,,1.762358055
+7/7/2003,309,40-60,6,Camb,Namb,4,3,M,,,1.617550639
+7/7/2003,309,20-40,6,Camb,Namb,4,3,M,,,0.752159814
+7/7/2003,310,20-40,6,Camb,Nenrich,1,1,M,Koeleria cristata,C-3,1.453748043
+7/7/2003,310,40-60,6,Camb,Nenrich,1,1,M,Koeleria cristata,C-3,1.437219769
+7/7/2003,311,40-60,6,Camb,Nenrich,16,4,M,,,1.384921349
+7/7/2003,311,20-40,6,Camb,Nenrich,16,4,M,,,1.628651719
+7/7/2003,312,20-40,6,Camb,Namb,9,4,M,,,0.895240395
+7/7/2003,312,40-60,6,Camb,Namb,9,4,M,,,1.570186033
+7/7/2003,313,20-40,6,Camb,Namb,4,1,S,,Forb,1.645673374
+7/7/2003,313,40-60,6,Camb,Namb,4,1,S,,Forb,1.542063298
+7/7/2003,314,40-60,6,Camb,Namb,1,1,M,Solidago rigida,Forb,2.0384049
+7/7/2003,314,20-40,6,Camb,Namb,1,1,M,Solidago rigida,Forb,1.781599926
+7/7/2003,315,20-40,6,Camb,Namb,4,1,S,,C-4,1.392075378
+7/7/2003,315,40-60,6,Camb,Namb,4,1,S,,C-4,1.257135589
+7/7/2003,316,20-40,6,Camb,Nenrich,1,1,M,Amorpha canescens,Legume,0.654717004
+7/7/2003,316,40-60,6,Camb,Nenrich,1,1,M,Amorpha canescens,Legume,1.2013835
+7/7/2003,317,40-60,6,Camb,Nenrich,4,2,M,,,1.7532305
+7/7/2003,317,20-40,6,Camb,Nenrich,4,2,M,,,1.722147478
+7/7/2003,318,20-40,6,Camb,Nenrich,1,1,M,Lespedeza capitata,Legume,1.559084953
+7/7/2003,318,40-60,6,Camb,Nenrich,1,1,M,Lespedeza capitata,Legume,1.361485737
+7/7/2003,319,20-40,6,Camb,Nenrich,4,3,M,,,1.259355805
+7/7/2003,319,40-60,6,Camb,Nenrich,4,3,M,,,1.206810695
+7/7/2003,320,40-60,6,Camb,Namb,9,4,M,,,1.091359467
+7/7/2003,320,20-40,6,Camb,Namb,9,4,M,,,1.600775674
+7/7/2003,321,20-40,6,Camb,Nenrich,16,4,M,,,1.646660137
+7/7/2003,321,40-60,6,Camb,Nenrich,16,4,M,,,1.19373609
+7/7/2003,322,20-40,6,Camb,Namb,1,1,M,Lespedeza capitata,Legume,0.730944417
+7/7/2003,322,40-60,6,Camb,Namb,1,1,M,Lespedeza capitata,Legume,1.353838327
+7/7/2003,323,40-60,6,Camb,Namb,1,1,M,Bouteloua gracilis,C-4,1.612616826
+7/7/2003,323,20-40,6,Camb,Namb,1,1,M,Bouteloua gracilis,C-4,1.705372513
+7/7/2003,324,20-40,6,Camb,Nenrich,9,4,M,,,1.664175173
+7/7/2003,324,40-60,6,Camb,Nenrich,9,4,M,,,1.602502509
+7/7/2003,325,40-60,6,Camb,Namb,4,3,M,,,1.74928345
+7/7/2003,325,20-40,6,Camb,Namb,4,3,M,,,1.631118625
+7/7/2003,326,40-60,6,Camb,Nenrich,4,4,S,,,1.702165534
+7/7/2003,326,20-40,6,Camb,Nenrich,4,4,S,,,1.64049287
+7/7/2003,327,40-60,6,Camb,Nenrich,1,1,M,Anemone cylindrica,Forb,1.550944162
+7/7/2003,327,20-40,6,Camb,Nenrich,1,1,M,Anemone cylindrica,Forb,1.772472372
+7/7/2003,328,40-60,6,Camb,Nenrich,4,3,M,,,1.672069274
+7/7/2003,328,20-40,6,Camb,Nenrich,4,3,M,,,1.638272654
+7/7/2003,329,20-40,6,Camb,Namb,1,1,M,Asclepias tuberosa,Forb,1.724367694
+7/7/2003,329,40-60,6,Camb,Namb,1,1,M,Asclepias tuberosa,Forb,1.502839483
+7/7/2003,330,20-40,6,Camb,Namb,1,1,M,Amorpha canescens,Legume,1.655047619
+7/7/2003,330,40-60,6,Camb,Namb,1,1,M,Amorpha canescens,Legume,1.799114963
+7/7/2003,331,40-60,6,Camb,Namb,1,1,M,Sorghastrum nutans,C-4,1.690817764
+7/7/2003,331,20-40,6,Camb,Namb,1,1,M,Sorghastrum nutans,C-4,1.440673438
+7/7/2003,332,20-40,6,Camb,Namb,4,4,M,,,1.448320848
+7/7/2003,332,40-60,6,Camb,Namb,4,4,M,,,1.420691495
+7/7/2003,333,20-40,6,Camb,Nenrich,1,1,M,Poa pratensis,C-3,1.517640923
+7/7/2003,333,40-60,6,Camb,Nenrich,1,1,M,Poa pratensis,C-3,1.512213728
+7/7/2003,334,40-60,6,Camb,Namb,4,3,M,,,1.38146768
+7/7/2003,334,20-40,6,Camb,Namb,4,3,M,,,1.576106609
+7/7/2003,335,40-60,6,Camb,Nenrich,9,4,M,,,1.559578335
+7/7/2003,335,20-40,6,Camb,Nenrich,9,4,M,,,1.432532646
+7/7/2003,336,20-40,6,Camb,Namb,1,1,M,Koeleria cristata,C-3,1.551190852
+7/7/2003,336,40-60,6,Camb,Namb,1,1,M,Koeleria cristata,C-3,1.7268346
+7/7/2003,337,20-40,6,Camb,Namb,4,2,S,,,1.647153518
+7/7/2003,337,40-60,6,Camb,Namb,4,2,S,,,1.872382088
+7/7/2003,338,20-40,6,Camb,Nenrich,1,1,M,Solidago rigida,Forb,1.706605966
+7/7/2003,338,40-60,6,Camb,Nenrich,1,1,M,Solidago rigida,Forb,1.821317122
+7/7/2003,339,40-60,6,Camb,Namb,1,1,M,Achillea millefolium,Forb,1.657761216
+7/7/2003,339,20-40,6,Camb,Namb,1,1,M,Achillea millefolium,Forb,1.676509706
+7/7/2003,340,40-60,6,Camb,Nenrich,4,1,S,,C-3,1.942195544
+7/7/2003,340,20-40,6,Camb,Nenrich,4,1,S,,C-3,1.500125886
+7/7/2003,341,40-60,6,Camb,Nenrich,9,4,M,,,1.696985031
+7/7/2003,341,20-40,6,Camb,Nenrich,9,4,M,,,1.591894811
+7/7/2003,342,20-40,6,Camb,Nenrich,1,1,M,Asclepias tuberosa,Forb,1.635805748
+7/7/2003,342,40-60,6,Camb,Nenrich,1,1,M,Asclepias tuberosa,Forb,1.866214821
+7/7/2003,343,20-40,6,Camb,Namb,1,1,M,Andropogon gerardi,C-4,1.573639702
+7/7/2003,343,40-60,6,Camb,Namb,1,1,M,Andropogon gerardi,C-4,1.654554238
+7/7/2003,344,40-60,6,Camb,Namb,16,4,M,,,1.7004387
+7/7/2003,344,20-40,6,Camb,Namb,16,4,M,,,1.759151076
+7/7/2003,345,20-40,6,Camb,Namb,1,1,M,Schizachyrium scoparium,C-4,1.752737119
+7/7/2003,345,40-60,6,Camb,Namb,1,1,M,Schizachyrium scoparium,C-4,1.771238918
+7/7/2003,346,20-40,6,Camb,Namb,4,4,M,,,1.435986315
+7/7/2003,346,40-60,6,Camb,Namb,4,4,M,,,1.670835821
+7/7/2003,347,20-40,6,Camb,Namb,1,1,M,Petalostemum villosum,Legume,1.833651655
+7/7/2003,347,40-60,6,Camb,Namb,1,1,M,Petalostemum villosum,Legume,1.460655381
+7/7/2003,348,40-60,6,Camb,Nenrich,4,1,S,,C-4,1.614590351
+7/7/2003,348,20-40,6,Camb,Nenrich,4,1,S,,C-4,1.849193166
+7/7/2003,349,20-40,6,Camb,Nenrich,1,1,M,Schizachyrium scoparium,C-4,1.68563726
+7/7/2003,349,40-60,6,Camb,Nenrich,1,1,M,Schizachyrium scoparium,C-4,1.420198113
+7/7/2003,350,20-40,6,Camb,Nenrich,4,1,S,,Legume,1.595101789
+7/7/2003,350,40-60,6,Camb,Nenrich,4,1,S,,Legume,1.671082512
+7/7/2003,351,40-60,6,Camb,Nenrich,4,1,S,,Forb,1.438699913
+7/7/2003,351,20-40,6,Camb,Nenrich,4,1,S,,Forb,1.578820206
+7/7/2003,352,20-40,6,Camb,Nenrich,1,1,M,Bromus inermis,C-3,1.656774454
+7/7/2003,352,40-60,6,Camb,Nenrich,1,1,M,Bromus inermis,C-3,1.599542221
+7/7/2003,353,40-60,6,Camb,Nenrich,4,3,M,,,1.589921285
+7/7/2003,353,20-40,6,Camb,Nenrich,4,3,M,,,1.715733521
+7/7/2003,354,40-60,6,Camb,Nenrich,16,4,M,,,1.71178647
+7/7/2003,354,20-40,6,Camb,Nenrich,16,4,M,,,1.316341347
+7/7/2003,355,20-40,6,Camb,Namb,16,4,M,,,1.405643365
+7/7/2003,355,40-60,6,Camb,Namb,16,4,M,,,1.66294172
+7/7/2003,356,20-40,6,Camb,Namb,9,4,M,,,1.602255818
+7/7/2003,356,40-60,6,Camb,Namb,9,4,M,,,1.591154739
+7/7/2003,357,20-40,6,Camb,Nenrich,9,4,M,,,1.811696186
+7/7/2003,357,40-60,6,Camb,Nenrich,9,4,M,,,1.418717969
+7/7/2003,358,20-40,6,Camb,Namb,16,4,M,,,1.522821427
+7/7/2003,358,40-60,6,Camb,Namb,16,4,M,,,1.399476098
+7/7/2003,359,40-60,6,Camb,Namb,4,4,S,,,1.164379902
+7/7/2003,359,20-40,6,Camb,Namb,4,4,S,,,1.696985031
+7/7/2003,360,20-40,6,Camb,Nenrich,9,4,M,,,1.815149855
+7/7/2003,360,40-60,6,Camb,Nenrich,9,4,M,,,1.400956242
+7/7/2003,361,20-40,6,Camb,Namb,9,4,M,,,1.559825025
+7/7/2003,361,40-60,6,Camb,Namb,9,4,M,,,1.134777023
+7/7/2003,362,40-60,6,Camb,Nenrich,1,1,M,Sorghastrum nutans,C-4,1.534169197
+7/7/2003,362,20-40,6,Camb,Nenrich,1,1,M,Sorghastrum nutans,C-4,1.668615605
+7/7/2003,363,20-40,6,Camb,Namb,4,1,S,,Legume,1.588194451
+7/7/2003,363,40-60,6,Camb,Namb,4,1,S,,Legume,1.062990042
+7/7/2003,364,20-40,6,Camb,Namb,4,1,S,,C-3,1.574626465
+7/7/2003,364,40-60,6,Camb,Namb,4,1,S,,C-3,1.724614384
+7/7/2003,365,40-60,6,Camb,Nenrich,4,2,M,,,1.476936964
+7/7/2003,365,20-40,6,Camb,Nenrich,4,2,M,,,1.530962218
+7/7/2003,366,40-60,6,Camb,Nenrich,1,1,M,Achillea millefolium,Forb,1.372340126
+7/7/2003,366,20-40,6,Camb,Nenrich,1,1,M,Achillea millefolium,Forb,1.593128264
+7/7/2003,367,40-60,2,Camb,Namb,0,1,M,,,1.752490429
+7/7/2003,367,20-40,2,Camb,Namb,0,1,M,,,1.46780941
+7/7/2003,368,20-40,3,Cenrich,Nenrich,0,1,M,,,1.609409847
+7/7/2003,368,40-60,3,Cenrich,Nenrich,0,1,M,,,1.198916594
+7/7/2003,369,40-60,4,Camb,Nenrich,0,1,M,,,1.618290711
+7/7/2003,369,20-40,4,Camb,Nenrich,0,1,M,,,1.40021617
+7/7/2003,370,20-40,6,Camb,Namb,0,1,M,,,1.658747979
+7/7/2003,370,40-60,6,Camb,Namb,0,1,M,,,1.209277601
+7/7/2003,371,20-40,6,Camb,Nenrich,0,1,M,,,1.590414667
+7/7/2003,371,40-60,6,Camb,Nenrich,0,1,M,,,1.337063362
+6/11/2004,1,20-Oct,1,Cenrich,Namb,4,2,M,,,1.438551898
+6/11/2004,1,0-10,1,Cenrich,Namb,4,2,M,,,1.287034497
+6/11/2004,2,20-Oct,1,Cenrich,Namb,1,1,M,Bouteloua gracilis,C-4,1.465885223
+6/11/2004,2,0-10,1,Cenrich,Namb,1,1,M,Bouteloua gracilis,C-4,1.207501429
+6/11/2004,3,20-Oct,1,Cenrich,Nenrich,4,1,S,,Legume,1.405199321
+6/11/2004,3,0-10,1,Cenrich,Nenrich,4,1,S,,Legume,1.26794064
+6/11/2004,4,20-Oct,1,Cenrich,Namb,4,3,M,,,1.41156394
+6/11/2004,4,0-10,1,Cenrich,Namb,4,3,M,,,1.39942676
+6/11/2004,5,20-Oct,1,Cenrich,Namb,1,1,M,Asclepias tuberosa,Forb,1.407567552
+6/11/2004,5,0-10,1,Cenrich,Namb,1,1,M,Asclepias tuberosa,Forb,1.321373836
+6/11/2004,6,0-10,1,Cenrich,Namb,4,1,S,,C-4,1.262316093
+6/11/2004,6,20-Oct,1,Cenrich,Namb,4,1,S,,C-4,1.335484542
+6/11/2004,7,0-10,1,Cenrich,Namb,9,4,M,,,1.303957476
+6/11/2004,7,20-Oct,1,Cenrich,Namb,9,4,M,,,1.171385916
+6/11/2004,8,20-Oct,1,Cenrich,Nenrich,1,1,M,Schizachyrium scoparium,C-4,1.555581946
+6/11/2004,8,0-10,1,Cenrich,Nenrich,1,1,M,Schizachyrium scoparium,C-4,1.442498949
+6/11/2004,9,20-Oct,1,Cenrich,Namb,4,1,S,,C-3,1.51798629
+6/11/2004,9,0-10,1,Cenrich,Namb,4,1,S,,C-3,1.300059763
+6/11/2004,10,20-Oct,1,Cenrich,Nenrich,4,3,M,,,1.391581997
+6/11/2004,10,0-10,1,Cenrich,Nenrich,4,3,M,,,1.299714396
+6/11/2004,11,0-10,1,Cenrich,Nenrich,9,4,M,,,1.254619344
+6/11/2004,11,20-Oct,1,Cenrich,Nenrich,9,4,M,,,1.465885223
+6/11/2004,12,0-10,1,Cenrich,Nenrich,9,4,M,,,1.257184927
+6/11/2004,12,20-Oct,1,Cenrich,Nenrich,9,4,M,,,1.437565136
+6/11/2004,13,20-Oct,1,Cenrich,Nenrich,16,4,M,,,1.424885236
+6/11/2004,13,0-10,1,Cenrich,Nenrich,16,4,M,,,1.289698756
+6/11/2004,14,0-10,1,Cenrich,Namb,4,4,S,,,1.362669852
+6/11/2004,14,20-Oct,1,Cenrich,Namb,4,4,S,,,1.459668618
+6/11/2004,15,0-10,1,Cenrich,Namb,4,3,M,,,1.392470083
+6/11/2004,15,20-Oct,1,Cenrich,Namb,4,3,M,,,1.460655381
+6/11/2004,16,20-Oct,1,Cenrich,Namb,9,4,M,,,1.425131926
+6/11/2004,16,0-10,1,Cenrich,Namb,9,4,M,,,1.37855673
+6/11/2004,17,20-Oct,1,Cenrich,Namb,9,4,M,,,1.392075378
+6/11/2004,17,0-10,1,Cenrich,Namb,9,4,M,,,1.220329343
+6/11/2004,18,20-Oct,1,Cenrich,Nenrich,1,1,M,Amorpha canescens,Legume,1.491442375
+6/11/2004,18,0-10,1,Cenrich,Nenrich,1,1,M,Amorpha canescens,Legume,1.429720373
+6/11/2004,19,20-Oct,1,Cenrich,Namb,4,3,M,,,1.360498974
+6/11/2004,19,0-10,1,Cenrich,Namb,4,3,M,,,1.212040537
+6/11/2004,20,20-Oct,1,Cenrich,Nenrich,4,1,S,,Forb,1.575119846
+6/11/2004,20,0-10,1,Cenrich,Nenrich,4,1,S,,Forb,1.388671047
+6/11/2004,21,20-Oct,1,Cenrich,Nenrich,9,4,M,,,1.316637375
+6/11/2004,21,0-10,1,Cenrich,Nenrich,9,4,M,,,1.377569968
+6/11/2004,22,20-Oct,1,Cenrich,Nenrich,1,1,M,Bromus inermis,C-3,1.481476073
+6/11/2004,22,0-10,1,Cenrich,Nenrich,1,1,M,Bromus inermis,C-3,1.427500157
+6/11/2004,23,20-Oct,1,Cenrich,Namb,16,4,M,,,1.382207752
+6/11/2004,23,0-10,1,Cenrich,Namb,16,4,M,,,1.266065791
+6/11/2004,24,0-10,1,Cenrich,Namb,1,1,M,Agropyron repens,C-3,1.451281136
+6/11/2004,24,20-Oct,1,Cenrich,Namb,1,1,M,Agropyron repens,C-3,1.403768516
+6/11/2004,25,20-Oct,1,Cenrich,Nenrich,0,1,M,,,1.445508575
+6/11/2004,25,0-10,1,Cenrich,Nenrich,0,1,M,,,1.527705902
+6/11/2004,26,0-10,1,Cenrich,Namb,9,4,M,,,1.255606107
+6/11/2004,26,20-Oct,1,Cenrich,Namb,9,4,M,,,1.353838327
+6/11/2004,27,0-10,1,Cenrich,Namb,4,1,S,,Forb,1.512756448
+6/11/2004,27,20-Oct,1,Cenrich,Namb,4,1,S,,Forb,1.458731194
+6/11/2004,28,0-10,1,Cenrich,Namb,4,2,M,,,1.430411107
+6/11/2004,28,20-Oct,1,Cenrich,Namb,4,2,M,,,1.414129523
+6/11/2004,29,20-Oct,1,Cenrich,Nenrich,4,2,M,,,1.437861164
+6/11/2004,29,0-10,1,Cenrich,Nenrich,4,2,M,,,1.420938185
+6/11/2004,30,0-10,1,Cenrich,Nenrich,16,4,M,,,1.364988744
+6/11/2004,30,20-Oct,1,Cenrich,Nenrich,16,4,M,,,1.522081355
+6/11/2004,31,0-10,1,Cenrich,Nenrich,1,1,M,Asclepias tuberosa,Forb,1.426858761
+6/11/2004,31,20-Oct,1,Cenrich,Nenrich,1,1,M,Asclepias tuberosa,Forb,1.499879196
+6/11/2004,32,20-Oct,1,Cenrich,Nenrich,1,1,M,Bouteloua gracilis,C-4,1.589427904
+6/11/2004,32,0-10,1,Cenrich,Nenrich,1,1,M,Bouteloua gracilis,C-4,1.48340026
+6/11/2004,33,0-10,1,Cenrich,Namb,16,4,M,,,1.277512237
+6/11/2004,33,20-Oct,1,Cenrich,Namb,16,4,M,,,1.469240216
+6/11/2004,34,0-10,1,Cenrich,Nenrich,9,4,M,,,1.349299218
+6/11/2004,34,20-Oct,1,Cenrich,Nenrich,9,4,M,,,1.405544688
+6/11/2004,35,20-Oct,1,Cenrich,Namb,1,1,M,Lespedeza capitata,Legume,1.422714358
+6/11/2004,35,0-10,1,Cenrich,Namb,1,1,M,Lespedeza capitata,Legume,1.43031243
+6/11/2004,36,20-Oct,1,Cenrich,Nenrich,1,1,M,Agropyron repens,C-3,1.570038018
+6/11/2004,36,0-10,1,Cenrich,Nenrich,1,1,M,Agropyron repens,C-3,1.478219756
+6/11/2004,37,20-Oct,1,Cenrich,Nenrich,1,1,M,Petalostemum villosum,Legume,1.535451988
+6/11/2004,37,0-10,1,Cenrich,Nenrich,1,1,M,Petalostemum villosum,Legume,1.282100683
+6/11/2004,38,0-10,1,Cenrich,Nenrich,4,2,M,,,1.317328109
+6/11/2004,38,20-Oct,1,Cenrich,Nenrich,4,2,M,,,1.473137928
+6/11/2004,39,20-Oct,1,Cenrich,Namb,1,1,M,Bromus inermis,C-3,1.50214875
+6/11/2004,39,0-10,1,Cenrich,Namb,1,1,M,Bromus inermis,C-3,1.479009166
+6/11/2004,40,0-10,1,Cenrich,Namb,1,1,M,Poa pratensis,C-3,1.44220292
+6/11/2004,40,20-Oct,1,Cenrich,Namb,1,1,M,Poa pratensis,C-3,1.524400247
+6/11/2004,41,0-10,1,Cenrich,Nenrich,4,1,S,,C-3,1.009408831
+6/11/2004,41,20-Oct,1,Cenrich,Nenrich,4,1,S,,C-3,1.479798576
+6/11/2004,42,20-Oct,1,Cenrich,Namb,1,1,M,Solidago rigida,Forb,1.428042876
+6/11/2004,42,0-10,1,Cenrich,Namb,1,1,M,Solidago rigida,Forb,1.460655381
+6/11/2004,43,20-Oct,1,Cenrich,Nenrich,16,4,M,,,1.535797355
+6/11/2004,43,0-10,1,Cenrich,Nenrich,16,4,M,,,1.51137498
+6/11/2004,44,20-Oct,1,Cenrich,Nenrich,4,3,M,,,1.500273901
+6/11/2004,44,0-10,1,Cenrich,Nenrich,4,3,M,,,1.471805799
+6/11/2004,45,20-Oct,1,Cenrich,Namb,16,4,M,,,1.438157193
+6/11/2004,45,0-10,1,Cenrich,Namb,16,4,M,,,1.275884079
+6/11/2004,46,20-Oct,1,Cenrich,Namb,1,1,M,Anemone cylindrica,Forb,1.481328058
+6/11/2004,46,0-10,1,Cenrich,Namb,1,1,M,Anemone cylindrica,Forb,1.393555522
+6/11/2004,47,0-10,1,Cenrich,Nenrich,1,1,M,Koeleria cristata,C-3,1.459816633
+6/11/2004,47,20-Oct,1,Cenrich,Nenrich,1,1,M,Koeleria cristata,C-3,1.590266652
+6/11/2004,48,0-10,1,Cenrich,Namb,9,4,M,,,0.6173187
+6/11/2004,48,20-Oct,1,Cenrich,Namb,9,4,M,,,1.411119897
+6/11/2004,49,0-10,1,Cenrich,Nenrich,1,1,M,Achillea millefolium,Forb,1.348805837
+6/11/2004,49,20-Oct,1,Cenrich,Nenrich,1,1,M,Achillea millefolium,Forb,1.494402663
+6/11/2004,50,0-10,1,Cenrich,Nenrich,9,4,M,,,1.369281162
+6/11/2004,50,20-Oct,1,Cenrich,Nenrich,9,4,M,,,1.430559121
+6/11/2004,51,20-Oct,1,Cenrich,Namb,16,4,M,,,1.551684234
+6/11/2004,51,0-10,1,Cenrich,Namb,16,4,M,,,1.03294312
+6/11/2004,52,0-10,1,Cenrich,Nenrich,16,4,M,,,1.275538712
+6/11/2004,52,20-Oct,1,Cenrich,Nenrich,16,4,M,,,1.397601249
+6/11/2004,53,0-10,1,Cenrich,Nenrich,1,1,M,Solidago rigida,Forb,1.37327755
+6/11/2004,53,20-Oct,1,Cenrich,Nenrich,1,1,M,Solidago rigida,Forb,1.296507418
+6/11/2004,54,0-10,1,Cenrich,Nenrich,4,1,S,,C-4,1.482956217
+6/11/2004,54,20-Oct,1,Cenrich,Nenrich,4,1,S,,C-4,1.477825051
+6/11/2004,55,20-Oct,1,Cenrich,Namb,1,1,M,Lupinus perennis,Legume,1.482216145
+6/11/2004,55,0-10,1,Cenrich,Namb,1,1,M,Lupinus perennis,Legume,1.480143943
+6/11/2004,56,0-10,1,Cenrich,Namb,4,1,S,,Legume,1.513348505
+6/11/2004,56,20-Oct,1,Cenrich,Namb,4,1,S,,Legume,1.590414667
+6/11/2004,57,0-10,1,Cenrich,Namb,1,1,M,Schizachyrium scoparium,C-4,1.400709551
+6/11/2004,57,20-Oct,1,Cenrich,Namb,1,1,M,Schizachyrium scoparium,C-4,1.507575944
+6/11/2004,58,20-Oct,1,Cenrich,Nenrich,4,3,M,,,1.409097034
+6/11/2004,58,0-10,1,Cenrich,Nenrich,4,3,M,,,1.371304025
+6/11/2004,59,20-Oct,1,Cenrich,Nenrich,4,4,S,,,1.40761689
+6/11/2004,59,0-10,1,Cenrich,Nenrich,4,4,S,,,1.435443596
+6/11/2004,60,0-10,1,Cenrich,Nenrich,1,1,M,Andropogon gerardi,C-4,1.142325757
+6/11/2004,60,20-Oct,1,Cenrich,Nenrich,1,1,M,Andropogon gerardi,C-4,1.264585647
+6/11/2004,61,0-10,1,Cenrich,Namb,0,1,M,,,1.440969467
+6/11/2004,61,20-Oct,1,Cenrich,Namb,0,1,M,,,1.413882832
+6/11/2004,62,0-10,2,Camb,Namb,4,4,S,,,1.412994746
+6/11/2004,62,20-Oct,2,Camb,Namb,4,4,S,,,1.448468863
+6/11/2004,63,20-Oct,2,Camb,Namb,4,3,M,,,1.393999566
+6/11/2004,63,0-10,2,Camb,Namb,4,3,M,,,1.424342516
+6/11/2004,64,20-Oct,2,Camb,Nenrich,16,4,M,,,1.637137877
+6/11/2004,64,0-10,2,Camb,Nenrich,16,4,M,,,1.326702354
+6/11/2004,65,20-Oct,2,Camb,Nenrich,9,4,M,,,1.373228212
+6/11/2004,65,0-10,2,Camb,Nenrich,9,4,M,,,1.280423187
+6/11/2004,66,0-10,2,Camb,Nenrich,9,4,M,,,1.181401557
+6/11/2004,66,20-Oct,2,Camb,Nenrich,9,4,M,,,1.492182447
+6/11/2004,67,20-Oct,2,Camb,Namb,16,4,M,,,1.467957425
+6/11/2004,67,0-10,2,Camb,Namb,16,4,M,,,1.352900902
+6/11/2004,68,0-10,2,Camb,Nenrich,1,1,M,Schizachyrium scoparium,C-4,1.404261897
+6/11/2004,68,20-Oct,2,Camb,Nenrich,1,1,M,Schizachyrium scoparium,C-4,1.441166819
+6/11/2004,69,20-Oct,2,Camb,Namb,16,4,M,,,1.601515746
+6/11/2004,69,0-10,2,Camb,Namb,16,4,M,,,1.255063387
+6/11/2004,70,20-Oct,2,Camb,Namb,1,1,M,Andropogon gerardi,C-4,1.423553106
+6/11/2004,70,0-10,2,Camb,Namb,1,1,M,Andropogon gerardi,C-4,1.34767106
+6/11/2004,71,0-10,2,Camb,Nenrich,1,1,M,Sorghastrum nutans,C-4,1.396121105
+6/11/2004,71,20-Oct,2,Camb,Nenrich,1,1,M,Sorghastrum nutans,C-4,1.442005567
+6/11/2004,72,0-10,2,Camb,Nenrich,1,1,M,Petalostemum villosum,Legume,1.523068117
+6/11/2004,72,20-Oct,2,Camb,Nenrich,1,1,M,Petalostemum villosum,Legume,1.533133096
+6/11/2004,73,20-Oct,2,Camb,Nenrich,0,1,M,,,1.423799797
+6/11/2004,73,0-10,2,Camb,Nenrich,0,1,M,,,1.41817525
+6/11/2004,74,0-10,2,Camb,Nenrich,4,1,S,,Legume,1.476492921
+6/11/2004,74,20-Oct,2,Camb,Nenrich,4,1,S,,Legume,1.385809436
+6/11/2004,75,0-10,2,Camb,Nenrich,4,3,M,,,1.48048931
+6/11/2004,75,20-Oct,2,Camb,Nenrich,4,3,M,,,1.429967063
+6/11/2004,76,20-Oct,2,Camb,Nenrich,4,1,S,,C-4,1.560269068
+6/11/2004,76,0-10,2,Camb,Nenrich,4,1,S,,C-4,1.351864801
+6/11/2004,77,0-10,2,Camb,Namb,1,1,M,Anemone cylindrica,Forb,1.497856332
+6/11/2004,77,20-Oct,2,Camb,Namb,1,1,M,Anemone cylindrica,Forb,1.476048878
+6/11/2004,78,0-10,2,Camb,Namb,4,2,M,,,1.290093461
+6/11/2004,78,20-Oct,2,Camb,Namb,4,2,M,,,1.446445999
+6/11/2004,79,0-10,2,Camb,Nenrich,4,3,M,,,1.291622943
+6/11/2004,79,20-Oct,2,Camb,Nenrich,4,3,M,,,1.494402663
+6/11/2004,80,0-10,2,Camb,Namb,4,1,S,,C-3,1.362867205
+6/11/2004,80,20-Oct,2,Camb,Namb,4,1,S,,C-3,1.340072988
+6/11/2004,81,20-Oct,2,Camb,Nenrich,1,1,M,Bouteloua gracilis,C-4,1.345598859
+6/11/2004,81,0-10,2,Camb,Nenrich,1,1,M,Bouteloua gracilis,C-4,1.3888684
+6/11/2004,82,20-Oct,2,Camb,Namb,4,3,M,,,1.427746847
+6/11/2004,82,0-10,2,Camb,Namb,4,3,M,,,1.348904513
+6/11/2004,83,20-Oct,2,Camb,Namb,9,4,M,,,1.752145062
+6/11/2004,83,0-10,2,Camb,Namb,9,4,M,,,1.267792625
+6/11/2004,84,20-Oct,2,Camb,Nenrich,9,4,M,,,1.3624725
+6/11/2004,84,0-10,2,Camb,Nenrich,9,4,M,,,1.337162038
+6/11/2004,85,0-10,2,Camb,Nenrich,4,2,S,,,1.326208973
+6/11/2004,85,20-Oct,2,Camb,Nenrich,4,2,S,,,1.403028444
+6/11/2004,86,0-10,2,Camb,Nenrich,4,3,M,,,1.141487009
+6/11/2004,86,20-Oct,2,Camb,Nenrich,4,3,M,,,1.3439707
+6/11/2004,87,0-10,2,Camb,Namb,9,4,M,,,1.102707238
+6/11/2004,87,20-Oct,2,Camb,Namb,9,4,M,,,1.404261897
+6/11/2004,88,0-10,2,Camb,Nenrich,4,4,S,,,1.409590415
+6/11/2004,88,20-Oct,2,Camb,Nenrich,4,4,S,,,1.501704706
+6/11/2004,89,0-10,2,Camb,Namb,4,1,S,,Forb,1.436825064
+6/11/2004,89,20-Oct,2,Camb,Namb,4,1,S,,Forb,1.50451698
+6/11/2004,90,20-Oct,2,Camb,Namb,1,1,M,Sorghastrum nutans,C-4,1.494649354
+6/11/2004,90,0-10,2,Camb,Namb,1,1,M,Sorghastrum nutans,C-4,1.356107881
+6/11/2004,91,20-Oct,2,Camb,Nenrich,4,3,M,,,1.262266755
+6/11/2004,91,0-10,2,Camb,Nenrich,4,3,M,,,1.355910528
+6/11/2004,92,20-Oct,2,Camb,Namb,9,4,M,,,1.315107893
+6/11/2004,92,0-10,2,Camb,Namb,9,4,M,,,1.324087433
+6/11/2004,93,0-10,2,Camb,Namb,4,1,S,,Legume,1.442646963
+6/11/2004,93,20-Oct,2,Camb,Namb,4,1,S,,Legume,1.458731194
+6/11/2004,94,20-Oct,2,Camb,Nenrich,1,1,M,Asclepias tuberosa,Forb,1.451083784
+6/11/2004,94,0-10,2,Camb,Nenrich,1,1,M,Asclepias tuberosa,Forb,1.46835213
+6/11/2004,95,20-Oct,2,Camb,Nenrich,4,1,S,,Forb,1.489172821
+6/11/2004,95,0-10,2,Camb,Nenrich,4,1,S,,Forb,1.529975456
+6/11/2004,96,0-10,2,Camb,Nenrich,1,1,M,Lupinus perennis,Legume,1.498103023
+6/11/2004,96,20-Oct,2,Camb,Nenrich,1,1,M,Lupinus perennis,Legume,1.604772063
+6/11/2004,97,0-10,2,Camb,Nenrich,9,4,M,,,1.247761344
+6/11/2004,97,20-Oct,2,Camb,Nenrich,9,4,M,,,1.403423149
+6/11/2004,98,20-Oct,2,Camb,Nenrich,4,1,S,,C-3,1.496425526
+6/11/2004,98,0-10,2,Camb,Nenrich,4,1,S,,C-3,1.509154764
+6/11/2004,99,20-Oct,2,Camb,Nenrich,1,1,M,Solidago rigida,Forb,1.446445999
+6/11/2004,99,0-10,2,Camb,Nenrich,1,1,M,Solidago rigida,Forb,1.412550703
+6/11/2004,100,20-Oct,2,Camb,Namb,1,1,M,Lupinus perennis,Legume,1.523610837
+6/11/2004,100,0-10,2,Camb,Namb,1,1,M,Lupinus perennis,Legume,1.649275058
+6/11/2004,101,0-10,2,Camb,Nenrich,1,1,M,Andropogon gerardi,C-4,1.439193294
+6/11/2004,101,20-Oct,2,Camb,Nenrich,1,1,M,Andropogon gerardi,C-4,1.376435191
+6/11/2004,102,20-Oct,2,Camb,Namb,1,1,M,Petalostemum villosum,Legume,1.292856396
+6/11/2004,102,0-10,2,Camb,Namb,1,1,M,Petalostemum villosum,Legume,1.459224575
+6/11/2004,103,0-10,2,Camb,Nenrich,1,1,M,Bromus inermis,C-3,1.346338931
+6/11/2004,103,20-Oct,2,Camb,Nenrich,1,1,M,Bromus inermis,C-3,1.315255908
+6/11/2004,104,0-10,2,Camb,Namb,16,4,M,,,1.292017648
+6/11/2004,104,20-Oct,2,Camb,Namb,16,4,M,,,1.472743223
+6/11/2004,105,20-Oct,2,Camb,Namb,4,1,S,,C-4,1.43929197
+6/11/2004,105,0-10,2,Camb,Namb,4,1,S,,C-4,1.409590415
+6/11/2004,106,20-Oct,2,Camb,Namb,9,4,M,,,1.405692703
+6/11/2004,106,0-10,2,Camb,Namb,9,4,M,,,1.492478476
+6/11/2004,107,20-Oct,2,Camb,Namb,16,4,M,,,1.418323264
+6/11/2004,107,0-10,2,Camb,Namb,16,4,M,,,1.282298036
+6/11/2004,108,0-10,2,Camb,Nenrich,16,4,M,,,1.430361768
+6/11/2004,108,20-Oct,2,Camb,Nenrich,16,4,M,,,1.381319666
+6/11/2004,109,0-10,2,Camb,Namb,1,1,M,Bromus inermis,C-3,1.440328071
+6/11/2004,109,20-Oct,2,Camb,Namb,1,1,M,Bromus inermis,C-3,1.506835872
+6/11/2004,110,0-10,2,Camb,Nenrich,16,4,M,,,1.35531847
+6/11/2004,110,20-Oct,2,Camb,Nenrich,16,4,M,,,1.397946616
+6/11/2004,111,0-10,2,Camb,Namb,1,1,M,Agropyron repens,C-3,1.387388256
+6/11/2004,111,20-Oct,2,Camb,Namb,1,1,M,Agropyron repens,C-3,1.394838314
+6/11/2004,112,20-Oct,2,Camb,Nenrich,1,1,M,Agropyron repens,C-3,1.469042863
+6/11/2004,112,0-10,2,Camb,Nenrich,1,1,M,Agropyron repens,C-3,1.373080198
+6/11/2004,113,20-Oct,2,Camb,Nenrich,1,1,M,Poa pratensis,C-3,1.430657797
+6/11/2004,113,0-10,2,Camb,Nenrich,1,1,M,Poa pratensis,C-3,1.444768503
+6/11/2004,114,20-Oct,2,Camb,Nenrich,4,3,M,,,1.488778116
+6/11/2004,114,0-10,2,Camb,Nenrich,4,3,M,,,1.51270711
+6/11/2004,115,20-Oct,2,Camb,Namb,1,1,M,Poa pratensis,C-3,1.526127082
+6/11/2004,115,0-10,2,Camb,Namb,1,1,M,Poa pratensis,C-3,1.060424459
+6/11/2004,116,0-10,2,Camb,Namb,1,1,M,Lespedeza capitata,Legume,1.404853954
+6/11/2004,116,20-Oct,2,Camb,Namb,1,1,M,Lespedeza capitata,Legume,1.511572333
+6/11/2004,117,20-Oct,2,Camb,Nenrich,9,3,M,,,1.465490518
+6/11/2004,117,0-10,2,Camb,Nenrich,9,3,M,,,1.43031243
+6/11/2004,118,20-Oct,2,Camb,Nenrich,16,4,M,,,1.422566344
+6/11/2004,118,0-10,2,Camb,Nenrich,16,4,M,,,1.420444804
+6/11/2004,119,0-10,2,Camb,Namb,9,4,M,,,1.126882922
+6/11/2004,119,20-Oct,2,Camb,Namb,9,4,M,,,1.301934612
+6/11/2004,120,0-10,2,Camb,Namb,4,3,M,,,1.376040486
+6/11/2004,120,20-Oct,2,Camb,Namb,4,3,M,,,1.417829883
+6/11/2004,121,0-10,2,Camb,Namb,4,2,M,,,1.450195697
+6/11/2004,121,20-Oct,2,Camb,Namb,4,2,M,,,1.396811839
+6/11/2004,122,20-Oct,2,Camb,Namb,1,1,M,Koeleria cristata,C-3,1.515470045
+6/11/2004,122,0-10,2,Camb,Namb,1,1,M,Koeleria cristata,C-3,1.440130718
+6/11/2004,123,20-Oct,3,Cenrich,Nenrich,1,1,M,Sorghastrum nutans,C-4,1.502494117
+6/11/2004,123,0-10,3,Cenrich,Nenrich,1,1,M,Sorghastrum nutans,C-4,1.336964686
+6/11/2004,124,0-10,3,Cenrich,Nenrich,4,1,S,,C-4,1.342046513
+6/11/2004,124,20-Oct,3,Cenrich,Nenrich,4,1,S,,C-4,1.417928559
+6/11/2004,125,20-Oct,3,Cenrich,Nenrich,4,2,M,,,1.440969467
+6/11/2004,125,0-10,3,Cenrich,Nenrich,4,2,M,,,1.338543506
+6/11/2004,126,0-10,3,Cenrich,Namb,1,1,M,Sorghastrum nutans,C-4,1.380283565
+6/11/2004,126,20-Oct,3,Cenrich,Namb,1,1,M,Sorghastrum nutans,C-4,1.523561499
+6/11/2004,127,20-Oct,3,Cenrich,Nenrich,4,2,M,,,1.428832286
+6/11/2004,127,0-10,3,Cenrich,Nenrich,4,2,M,,,1.25762897
+6/11/2004,128,20-Oct,3,Cenrich,Namb,9,4,M,,,1.28244605
+6/11/2004,128,0-10,3,Cenrich,Namb,9,4,M,,,1.421924948
+6/11/2004,129,0-10,3,Cenrich,Namb,4,3,M,,,1.345894887
+6/11/2004,129,20-Oct,3,Cenrich,Namb,4,3,M,,,1.509993513
+6/11/2004,130,20-Oct,3,Cenrich,Nenrich,16,4,M,,,1.386154803
+6/11/2004,130,0-10,3,Cenrich,Nenrich,16,4,M,,,1.172274003
+6/11/2004,131,0-10,3,Cenrich,Namb,9,4,M,,,1.353542298
+6/11/2004,131,20-Oct,3,Cenrich,Namb,9,4,M,,,1.408504976
+6/11/2004,132,0-10,3,Cenrich,Nenrich,1,1,M,Schizachyrium scoparium,C-4,1.287182511
+6/11/2004,132,20-Oct,3,Cenrich,Nenrich,1,1,M,Schizachyrium scoparium,C-4,1.422911711
+6/11/2004,133,0-10,3,Cenrich,Namb,9,4,M,,,1.303612109
+6/11/2004,133,20-Oct,3,Cenrich,Namb,9,4,M,,,1.315847965
+6/11/2004,134,20-Oct,3,Cenrich,Namb,1,1,M,Koeleria cristata,C-3,1.453846719
+6/11/2004,134,0-10,3,Cenrich,Namb,1,1,M,Koeleria cristata,C-3,1.367949032
+6/11/2004,135,0-10,3,Cenrich,Namb,1,1,M,Lupinus perennis,Legume,1.229999617
+6/11/2004,135,20-Oct,3,Cenrich,Namb,1,1,M,Lupinus perennis,Legume,1.505158376
+6/11/2004,136,20-Oct,3,Cenrich,Nenrich,4,1,S,,Forb,1.45937259
+6/11/2004,136,0-10,3,Cenrich,Nenrich,4,1,S,,Forb,1.377372615
+6/11/2004,137,20-Oct,3,Cenrich,Nenrich,1,1,M,Lespedeza capitata,Legume,1.46489846
+6/11/2004,137,0-10,3,Cenrich,Nenrich,1,1,M,Lespedeza capitata,Legume,1.380431579
+6/11/2004,138,20-Oct,3,Cenrich,Namb,1,1,M,Poa pratensis,C-3,1.569051256
+6/11/2004,138,0-10,3,Cenrich,Namb,1,1,M,Poa pratensis,C-3,1.415856358
+6/11/2004,139,20-Oct,3,Cenrich,Namb,1,1,M,Petalostemum villosum,Legume,1.447531438
+6/11/2004,139,0-10,3,Cenrich,Namb,1,1,M,Petalostemum villosum,Legume,1.444817841
+6/11/2004,140,0-10,3,Cenrich,Namb,1,1,M,Andropogon gerardi,C-4,1.410429163
+6/11/2004,140,20-Oct,3,Cenrich,Namb,1,1,M,Andropogon gerardi,C-4,1.516802175
+6/11/2004,141,0-10,3,Cenrich,Nenrich,1,1,M,Lupinus perennis,Legume,1.263944251
+6/11/2004,141,20-Oct,3,Cenrich,Nenrich,1,1,M,Lupinus perennis,Legume,1.490751641
+6/11/2004,142,0-10,3,Cenrich,Nenrich,1,1,M,Anemone cylindrica,Forb,1.536093384
+6/11/2004,142,20-Oct,3,Cenrich,Nenrich,1,1,M,Anemone cylindrica,Forb,1.523660175
+6/11/2004,143,0-10,3,Cenrich,Nenrich,1,1,M,Solidago rigida,Forb,1.383441205
+6/11/2004,143,20-Oct,3,Cenrich,Nenrich,1,1,M,Solidago rigida,Forb,1.526275096
+6/11/2004,144,0-10,3,Cenrich,Nenrich,1,1,M,Agropyron repens,C-3,1.402288372
+6/11/2004,144,20-Oct,3,Cenrich,Nenrich,1,1,M,Agropyron repens,C-3,1.587059674
+6/11/2004,145,20-Oct,3,Cenrich,Namb,1,1,M,Agropyron repens,C-3,1.407518214
+6/11/2004,145,0-10,3,Cenrich,Namb,1,1,M,Agropyron repens,C-3,1.483893641
+6/11/2004,146,20-Oct,3,Cenrich,Namb,1,1,M,Anemone cylindrica,Forb,1.488482087
+6/11/2004,146,0-10,3,Cenrich,Namb,1,1,M,Anemone cylindrica,Forb,1.305782987
+6/11/2004,147,20-Oct,3,Cenrich,Namb,16,4,M,,,1.39626912
+6/11/2004,147,0-10,3,Cenrich,Namb,16,4,M,,,1.368837118
+6/11/2004,148,20-Oct,3,Cenrich,Namb,4,3,M,,,1.421826272
+6/11/2004,148,0-10,3,Cenrich,Namb,4,3,M,,,1.295421979
+6/11/2004,149,0-10,3,Cenrich,Nenrich,9,4,M,,,1.133099527
+6/11/2004,149,20-Oct,3,Cenrich,Nenrich,9,4,M,,,1.335829909
+6/11/2004,150,0-10,3,Cenrich,Namb,4,1,S,,Legume,1.237943056
+6/11/2004,150,20-Oct,3,Cenrich,Namb,4,1,S,,Legume,1.45937259
+6/11/2004,151,20-Oct,3,Cenrich,Nenrich,16,4,M,,,1.563525385
+6/11/2004,151,0-10,3,Cenrich,Nenrich,16,4,M,,,1.23784438
+6/11/2004,152,20-Oct,3,Cenrich,Namb,4,1,S,,C-4,1.429621696
+6/11/2004,152,0-10,3,Cenrich,Namb,4,1,S,,C-4,1.357341334
+6/11/2004,153,20-Oct,3,Cenrich,Namb,1,1,M,Solidago rigida,Forb,1.467710734
+6/11/2004,153,0-10,3,Cenrich,Namb,1,1,M,Solidago rigida,Forb,1.371106673
+6/11/2004,154,0-10,3,Cenrich,Nenrich,4,4,S,,,0.970481045
+6/11/2004,154,20-Oct,3,Cenrich,Nenrich,4,4,S,,,1.446988719
+6/11/2004,155,0-10,3,Cenrich,Namb,4,4,S,,,1.192255946
+6/11/2004,155,20-Oct,3,Cenrich,Namb,4,4,S,,,1.442794978
+6/11/2004,156,20-Oct,3,Cenrich,Namb,4,2,M,,,1.481772101
+6/11/2004,156,0-10,3,Cenrich,Namb,4,2,M,,,1.346684297
+6/11/2004,157,0-10,3,Cenrich,Namb,4,1,S,,C-3,1.236857617
+6/11/2004,157,20-Oct,3,Cenrich,Namb,4,1,S,,C-3,1.261576021
+6/11/2004,158,0-10,3,Cenrich,Nenrich,1,1,M,Amorpha canescens,Legume,1.382454443
+6/11/2004,158,20-Oct,3,Cenrich,Nenrich,1,1,M,Amorpha canescens,Legume,1.418027236
+6/11/2004,159,0-10,3,Cenrich,Namb,1,1,M,Achillea millefolium,Forb,1.289008022
+6/11/2004,159,20-Oct,3,Cenrich,Namb,1,1,M,Achillea millefolium,Forb,1.453501352
+6/11/2004,160,0-10,3,Cenrich,Nenrich,1,1,M,Asclepias tuberosa,Forb,1.381763709
+6/11/2004,160,20-Oct,3,Cenrich,Nenrich,1,1,M,Asclepias tuberosa,Forb,1.372340126
+6/11/2004,161,20-Oct,3,Cenrich,Nenrich,9,4,M,,,1.372537478
+6/11/2004,161,0-10,3,Cenrich,Nenrich,9,4,M,,,1.084057424
+6/11/2004,162,0-10,3,Cenrich,Nenrich,4,3,M,,,1.027219896
+6/11/2004,162,20-Oct,3,Cenrich,Nenrich,4,3,M,,,1.343378643
+6/11/2004,163,0-10,3,Cenrich,Namb,16,4,M,,,1.224079041
+6/11/2004,163,20-Oct,3,Cenrich,Namb,16,4,M,,,1.414622904
+6/11/2004,164,0-10,3,Cenrich,Namb,4,4,M,,,1.299566382
+6/11/2004,164,20-Oct,3,Cenrich,Namb,4,4,M,,,0.871262063
+6/11/2004,165,20-Oct,3,Cenrich,Nenrich,9,3,M,,,1.440328071
+6/11/2004,165,0-10,3,Cenrich,Nenrich,9,3,M,,,1.390249868
+6/11/2004,166,20-Oct,3,Cenrich,Nenrich,9,4,M,,,1.352062154
+6/11/2004,166,0-10,3,Cenrich,Nenrich,9,4,M,,,1.287774569
+6/11/2004,167,20-Oct,3,Cenrich,Nenrich,4,3,M,,,1.519022391
+6/11/2004,167,0-10,3,Cenrich,Nenrich,4,3,M,,,1.402683077
+6/11/2004,168,20-Oct,3,Cenrich,Nenrich,4,1,S,,C-3,1.409245048
+6/11/2004,168,0-10,3,Cenrich,Nenrich,4,1,S,,C-3,1.367653003
+6/11/2004,169,0-10,3,Cenrich,Namb,1,1,M,Amorpha canescens,Legume,1.13379026
+6/11/2004,169,20-Oct,3,Cenrich,Namb,1,1,M,Amorpha canescens,Legume,1.398982717
+6/11/2004,170,20-Oct,3,Cenrich,Namb,9,4,M,,,1.440772114
+6/11/2004,170,0-10,3,Cenrich,Namb,9,4,M,,,1.351716787
+6/11/2004,171,0-10,3,Cenrich,Nenrich,9,4,M,,,1.284271561
+6/11/2004,171,20-Oct,3,Cenrich,Nenrich,9,4,M,,,1.296162051
+6/11/2004,172,20-Oct,3,Cenrich,Namb,4,1,S,,Forb,1.480143943
+6/11/2004,172,0-10,3,Cenrich,Namb,4,1,S,,Forb,1.351864801
+6/11/2004,173,20-Oct,3,Cenrich,Namb,16,4,M,,,1.420938185
+6/11/2004,173,0-10,3,Cenrich,Namb,16,4,M,,,1.323988757
+6/11/2004,174,0-10,3,Cenrich,Nenrich,1,1,M,Bromus inermis,C-3,1.3439707
+6/11/2004,174,20-Oct,3,Cenrich,Nenrich,1,1,M,Bromus inermis,C-3,1.431052502
+6/11/2004,175,20-Oct,3,Cenrich,Nenrich,16,4,M,,,1.538609629
+6/11/2004,175,0-10,3,Cenrich,Nenrich,16,4,M,,,1.27692018
+6/11/2004,176,20-Oct,3,Cenrich,Nenrich,4,3,M,,,1.313578411
+6/11/2004,176,0-10,3,Cenrich,Nenrich,4,3,M,,,1.055984027
+6/11/2004,177,20-Oct,3,Cenrich,Namb,9,4,M,,,1.39202604
+6/11/2004,177,0-10,3,Cenrich,Namb,9,4,M,,,1.235081444
+6/11/2004,178,20-Oct,3,Cenrich,Namb,4,3,M,,,1.557555471
+6/11/2004,178,0-10,3,Cenrich,Namb,4,3,M,,,1.338198139
+6/11/2004,179,0-10,3,Cenrich,Namb,16,4,M,,,1.359117507
+6/11/2004,179,20-Oct,3,Cenrich,Namb,16,4,M,,,1.52617642
+6/11/2004,180,20-Oct,3,Cenrich,Nenrich,16,4,M,,,1.438551898
+6/11/2004,180,0-10,3,Cenrich,Nenrich,16,4,M,,,1.342786585
+6/11/2004,181,20-Oct,3,Cenrich,Nenrich,4,1,S,,Legume,1.492182447
+6/11/2004,181,0-10,3,Cenrich,Nenrich,4,1,S,,Legume,1.213767371
+6/11/2004,182,20-Oct,3,Cenrich,Namb,0,1,M,,,1.479798576
+6/11/2004,182,0-10,3,Cenrich,Namb,0,1,M,,,1.392322069
+6/11/2004,183,0-10,3,Cenrich,Nenrich,1,1,M,Poa pratensis,C-3,1.421776934
+6/11/2004,183,20-Oct,3,Cenrich,Nenrich,1,1,M,Poa pratensis,C-3,1.45646164
+6/11/2004,184,0-10,4,Camb,Namb,16,4,M,,,1.352555535
+6/11/2004,184,20-Oct,4,Camb,Namb,16,4,M,,,0.550120165
+6/11/2004,185,0-10,4,Camb,Nenrich,9,4,M,,,1.315847965
+6/11/2004,185,20-Oct,4,Camb,Nenrich,9,4,M,,,1.365876831
+6/11/2004,186,0-10,4,Camb,Nenrich,9,4,M,,,0.793011787
+6/11/2004,186,20-Oct,4,Camb,Nenrich,9,4,M,,,1.377372615
+6/11/2004,187,20-Oct,4,Camb,Namb,9,4,M,,,1.4543401
+6/11/2004,187,0-10,4,Camb,Namb,9,4,M,,,1.328083822
+6/11/2004,188,0-10,4,Camb,Namb,16,4,M,,,1.504072937
+6/11/2004,188,20-Oct,4,Camb,Namb,16,4,M,,,1.408603652
+6/11/2004,189,20-Oct,4,Camb,Namb,4,3,M,,,1.435048891
+6/11/2004,189,0-10,4,Camb,Namb,4,3,M,,,1.332770944
+6/11/2004,190,20-Oct,4,Camb,Namb,1,1,M,Lupinus perennis,Legume,1.420000761
+6/11/2004,190,0-10,4,Camb,Namb,1,1,M,Lupinus perennis,Legume,1.409689091
+6/11/2004,191,20-Oct,4,Camb,Namb,4,2,S,,,1.455474877
+6/11/2004,191,0-10,4,Camb,Namb,4,2,S,,,1.491541051
+6/11/2004,192,20-Oct,4,Camb,Namb,1,1,M,Asclepias tuberosa,Forb,1.379642169
+6/11/2004,192,0-10,4,Camb,Namb,1,1,M,Asclepias tuberosa,Forb,1.494896044
+6/11/2004,193,20-Oct,4,Camb,Nenrich,4,3,M,,,1.537129485
+6/11/2004,193,0-10,4,Camb,Nenrich,4,3,M,,,1.200791443
+6/11/2004,194,0-10,4,Camb,Nenrich,9,4,M,,,1.294040511
+6/11/2004,194,20-Oct,4,Camb,Nenrich,9,4,M,,,1.363656615
+6/11/2004,195,0-10,4,Camb,Nenrich,1,1,M,Koeleria cristata,C-3,1.518380995
+6/11/2004,195,20-Oct,4,Camb,Nenrich,1,1,M,Koeleria cristata,C-3,1.449307611
+6/11/2004,196,20-Oct,4,Camb,Nenrich,1,1,M,Amorpha canescens,Legume,1.356206557
+6/11/2004,196,0-10,4,Camb,Nenrich,1,1,M,Amorpha canescens,Legume,1.457941784
+6/11/2004,197,0-10,4,Camb,Nenrich,4,2,M,,,1.226693962
+6/11/2004,197,20-Oct,4,Camb,Nenrich,4,2,M,,,1.478219756
+6/11/2004,198,0-10,4,Camb,Namb,4,3,M,,,1.119827569
+6/11/2004,198,20-Oct,4,Camb,Namb,4,3,M,,,1.571616839
+6/11/2004,199,20-Oct,4,Camb,Namb,1,1,M,Solidago rigida,Forb,1.413537466
+6/11/2004,199,0-10,4,Camb,Namb,1,1,M,Solidago rigida,Forb,1.38358922
+6/11/2004,200,20-Oct,4,Camb,Namb,4,1,S,,Forb,1.460211338
+6/11/2004,200,0-10,4,Camb,Namb,4,1,S,,Forb,1.311358195
+6/11/2004,201,20-Oct,4,Camb,Namb,16,4,M,,,1.355959866
+6/11/2004,201,0-10,4,Camb,Namb,16,4,M,,,1.352358183
+6/11/2004,202,0-10,4,Camb,Namb,1,1,M,Bromus inermis,C-3,1.40786358
+6/11/2004,202,20-Oct,4,Camb,Namb,1,1,M,Bromus inermis,C-3,1.601663761
+6/11/2004,203,20-Oct,4,Camb,Nenrich,4,4,S,,,1.516900851
+6/11/2004,203,0-10,4,Camb,Nenrich,4,4,S,,,1.155351024
+6/11/2004,204,0-10,4,Camb,Nenrich,1,1,M,Bouteloua gracilis,C-4,0.980101981
+6/11/2004,204,20-Oct,4,Camb,Nenrich,1,1,M,Bouteloua gracilis,C-4,1.530764866
+6/11/2004,205,20-Oct,4,Camb,Nenrich,16,4,M,,,1.305832325
+6/11/2004,205,0-10,4,Camb,Nenrich,16,4,M,,,1.390003177
+6/11/2004,206,0-10,4,Camb,Nenrich,4,2,M,,,1.229062192
+6/11/2004,206,20-Oct,4,Camb,Nenrich,4,2,M,,,1.394048904
+6/11/2004,207,0-10,4,Camb,Nenrich,4,1,S,,C-4,1.269223431
+6/11/2004,207,20-Oct,4,Camb,Nenrich,4,1,S,,C-4,1.556322018
+6/11/2004,208,0-10,4,Camb,Nenrich,1,1,M,Petalostemum villosum,Legume,1.434358157
+6/11/2004,208,20-Oct,4,Camb,Nenrich,1,1,M,Petalostemum villosum,Legume,1.471805799
+6/11/2004,209,0-10,4,Camb,Namb,1,1,M,Amorpha canescens,Legume,1.319992368
+6/11/2004,209,20-Oct,4,Camb,Namb,1,1,M,Amorpha canescens,Legume,1.486311209
+6/11/2004,210,20-Oct,4,Camb,Nenrich,1,1,M,Achillea millefolium,Forb,1.419063336
+6/11/2004,210,0-10,4,Camb,Nenrich,1,1,M,Achillea millefolium,Forb,1.374313651
+6/11/2004,211,20-Oct,4,Camb,Namb,4,2,M,,,1.431792574
+6/11/2004,211,0-10,4,Camb,Namb,4,2,M,,,1.390545896
+6/11/2004,212,20-Oct,4,Camb,Nenrich,1,1,M,Lupinus perennis,Legume,1.407912919
+6/11/2004,212,0-10,4,Camb,Nenrich,1,1,M,Lupinus perennis,Legume,1.402929767
+6/11/2004,213,20-Oct,4,Camb,Nenrich,16,4,M,,,1.43401279
+6/11/2004,213,0-10,4,Camb,Nenrich,16,4,M,,,1.12772167
+6/11/2004,214,20-Oct,4,Camb,Nenrich,4,1,S,,Forb,1.50979616
+6/11/2004,214,0-10,4,Camb,Nenrich,4,1,S,,Forb,1.382849148
+6/11/2004,215,0-10,4,Camb,Nenrich,4,1,S,,C-3,1.360005593
+6/11/2004,215,20-Oct,4,Camb,Nenrich,4,1,S,,C-3,1.442893654
+6/11/2004,216,0-10,4,Camb,Namb,4,4,S,,,1.230986379
+6/11/2004,216,20-Oct,4,Camb,Namb,4,4,S,,,1.526077743
+6/11/2004,217,20-Oct,4,Camb,Namb,0,1,M,,,1.49025826
+6/11/2004,217,0-10,4,Camb,Namb,0,1,M,,,1.356058542
+6/11/2004,218,20-Oct,4,Camb,Nenrich,4,4,M,,,1.456116273
+6/11/2004,218,0-10,4,Camb,Nenrich,4,4,M,,,1.262562783
+6/11/2004,219,20-Oct,4,Camb,Nenrich,1,1,M,Andropogon gerardi,C-4,1.415412315
+6/11/2004,219,0-10,4,Camb,Nenrich,1,1,M,Andropogon gerardi,C-4,1.323742066
+6/11/2004,220,0-10,4,Camb,Namb,4,3,M,,,0.906242798
+6/11/2004,220,20-Oct,4,Camb,Namb,4,3,M,,,1.502494117
+6/11/2004,221,20-Oct,4,Camb,Namb,4,1,S,,C-4,1.505257052
+6/11/2004,221,0-10,4,Camb,Namb,4,1,S,,C-4,1.566386997
+6/11/2004,222,20-Oct,4,Camb,Namb,16,4,M,,,1.375695119
+6/11/2004,222,0-10,4,Camb,Namb,16,4,M,,,1.300059763
+6/11/2004,223,0-10,4,Camb,Namb,1,1,M,Achillea millefolium,Forb,1.338987549
+6/11/2004,223,20-Oct,4,Camb,Namb,1,1,M,Achillea millefolium,Forb,1.321719203
+6/11/2004,224,20-Oct,4,Camb,Nenrich,9,4,M,,,1.413044084
+6/11/2004,224,0-10,4,Camb,Nenrich,9,4,M,,,1.379987536
+6/11/2004,225,0-10,4,Camb,Nenrich,1,1,M,Agropyron repens,C-3,1.027219896
+6/11/2004,225,20-Oct,4,Camb,Nenrich,1,1,M,Agropyron repens,C-3,1.534415888
+6/11/2004,226,0-10,4,Camb,Namb,9,4,M,,,1.284271561
+6/11/2004,226,20-Oct,4,Camb,Namb,9,4,M,,,1.467316029
+6/11/2004,227,20-Oct,4,Camb,Namb,1,1,M,Bouteloua gracilis,C-4,1.444867179
+6/11/2004,227,0-10,4,Camb,Namb,1,1,M,Bouteloua gracilis,C-4,1.337063362
+6/11/2004,228,0-10,4,Camb,Namb,1,1,M,Poa pratensis,C-3,1.393308832
+6/11/2004,228,20-Oct,4,Camb,Namb,1,1,M,Poa pratensis,C-3,1.379691507
+6/11/2004,229,0-10,4,Camb,Namb,1,1,M,Anemone cylindrica,Forb,1.412057322
+6/11/2004,229,20-Oct,4,Camb,Namb,1,1,M,Anemone cylindrica,Forb,1.401202933
+6/11/2004,230,20-Oct,4,Camb,Namb,9,4,M,,,1.386204141
+6/11/2004,230,0-10,4,Camb,Namb,9,4,M,,,1.278844367
+6/11/2004,231,0-10,4,Camb,Namb,1,1,M,Schizachyrium scoparium,C-4,1.355811852
+6/11/2004,231,20-Oct,4,Camb,Namb,1,1,M,Schizachyrium scoparium,C-4,1.343033276
+6/11/2004,232,0-10,4,Camb,Nenrich,9,4,M,,,1.068170546
+6/11/2004,232,20-Oct,4,Camb,Nenrich,9,4,M,,,1.360301622
+6/11/2004,233,0-10,4,Camb,Namb,9,4,M,,,1.272923791
+6/11/2004,233,20-Oct,4,Camb,Namb,9,4,M,,,1.333659031
+6/11/2004,234,0-10,4,Camb,Nenrich,16,4,M,,,1.299221015
+6/11/2004,234,20-Oct,4,Camb,Nenrich,16,4,M,,,1.349891276
+6/11/2004,235,0-10,4,Camb,Namb,1,1,M,Agropyron repens,C-3,1.251708394
+6/11/2004,235,20-Oct,4,Camb,Namb,1,1,M,Agropyron repens,C-3,1.498399052
+6/11/2004,236,0-10,4,Camb,Nenrich,16,4,M,,,1.284271561
+6/11/2004,236,20-Oct,4,Camb,Nenrich,16,4,M,,,1.435936977
+6/11/2004,237,0-10,4,Camb,Nenrich,1,1,M,Anemone cylindrica,Forb,1.449554302
+6/11/2004,237,20-Oct,4,Camb,Nenrich,1,1,M,Anemone cylindrica,Forb,1.484880404
+6/11/2004,238,20-Oct,4,Camb,Nenrich,4,4,M,,,1.401252271
+6/11/2004,238,0-10,4,Camb,Nenrich,4,4,M,,,1.511720347
+6/11/2004,239,20-Oct,4,Camb,Namb,4,3,M,,,1.415362976
+6/11/2004,239,0-10,4,Camb,Namb,4,3,M,,,1.357785377
+6/11/2004,240,20-Oct,4,Camb,Nenrich,4,1,S,,Legume,1.359216183
+6/11/2004,240,0-10,4,Camb,Nenrich,4,1,S,,Legume,1.344464082
+6/11/2004,241,20-Oct,4,Camb,Nenrich,1,1,M,Lespedeza capitata,Legume,1.460704719
+6/11/2004,241,0-10,4,Camb,Nenrich,1,1,M,Lespedeza capitata,Legume,1.353344945
+6/11/2004,242,20-Oct,4,Camb,Namb,4,1,S,,Legume,1.328971908
+6/11/2004,242,0-10,4,Camb,Namb,4,1,S,,Legume,0.991696442
+6/11/2004,243,20-Oct,4,Camb,Namb,9,3,M,,,1.464947799
+6/11/2004,243,0-10,4,Camb,Namb,9,3,M,,,1.310420771
+6/11/2004,244,0-10,4,Camb,Namb,4,1,S,,C-3,1.339530268
+6/11/2004,244,20-Oct,4,Camb,Namb,4,1,S,,C-3,1.379938198
+6/11/2004,245,0-10,5,Cenrich,Nenrich,9,4,M,,,1.332178887
+6/11/2004,245,20-Oct,5,Cenrich,Nenrich,9,4,M,,,1.348312456
+6/11/2004,246,0-10,5,Cenrich,Nenrich,1,1,M,Poa pratensis,C-3,1.26369756
+6/11/2004,246,20-Oct,5,Cenrich,Nenrich,1,1,M,Poa pratensis,C-3,1.450146359
+6/11/2004,247,0-10,5,Cenrich,Nenrich,4,1,S,,C-4,1.281804655
+6/11/2004,247,20-Oct,5,Cenrich,Nenrich,4,1,S,,C-4,1.358624125
+6/11/2004,248,20-Oct,5,Cenrich,Namb,1,1,M,Asclepias tuberosa,Forb,1.265523071
+6/11/2004,248,0-10,5,Cenrich,Namb,1,1,M,Asclepias tuberosa,Forb,1.325567577
+6/11/2004,249,0-10,5,Cenrich,Nenrich,4,2,M,,,1.311012828
+6/11/2004,249,20-Oct,5,Cenrich,Nenrich,4,2,M,,,1.43455551
+6/11/2004,250,20-Oct,5,Cenrich,Namb,16,4,M,,,1.391285968
+6/11/2004,250,0-10,5,Cenrich,Namb,16,4,M,,,1.381714371
+6/11/2004,251,0-10,5,Cenrich,Nenrich,1,1,M,Andropogon gerardi,C-4,1.206958709
+6/11/2004,251,20-Oct,5,Cenrich,Nenrich,1,1,M,Andropogon gerardi,C-4,1.516111441
+6/11/2004,252,0-10,5,Cenrich,Namb,1,1,M,Andropogon gerardi,C-4,1.246922596
+6/11/2004,252,20-Oct,5,Cenrich,Namb,1,1,M,Andropogon gerardi,C-4,1.435542272
+6/11/2004,253,0-10,5,Cenrich,Nenrich,16,4,M,,,1.336619319
+6/11/2004,253,20-Oct,5,Cenrich,Nenrich,16,4,M,,,1.634325604
+6/11/2004,254,20-Oct,5,Cenrich,Namb,1,1,M,Schizachyrium scoparium,C-4,1.526373772
+6/11/2004,254,0-10,5,Cenrich,Namb,1,1,M,Schizachyrium scoparium,C-4,1.422862372
+6/11/2004,255,0-10,5,Cenrich,Namb,4,3,M,,,1.28772523
+6/11/2004,255,20-Oct,5,Cenrich,Namb,4,3,M,,,1.376385853
+6/11/2004,256,0-10,5,Cenrich,Nenrich,1,1,M,Lespedeza capitata,Legume,1.26053992
+6/11/2004,256,20-Oct,5,Cenrich,Nenrich,1,1,M,Lespedeza capitata,Legume,1.373080198
+6/11/2004,257,20-Oct,5,Cenrich,Namb,1,1,M,Achillea millefolium,Forb,1.439439985
+6/11/2004,257,0-10,5,Cenrich,Namb,1,1,M,Achillea millefolium,Forb,1.372833507
+6/11/2004,258,0-10,5,Cenrich,Nenrich,4,4,M,,,1.31836421
+6/11/2004,258,20-Oct,5,Cenrich,Nenrich,4,4,M,,,1.392914127
+6/11/2004,259,0-10,5,Cenrich,Nenrich,4,3,M,,,1.303069389
+6/11/2004,259,20-Oct,5,Cenrich,Nenrich,4,3,M,,,1.434900876
+6/11/2004,260,20-Oct,5,Cenrich,Nenrich,1,1,M,Koeleria cristata,C-3,1.518035628
+6/11/2004,260,0-10,5,Cenrich,Nenrich,1,1,M,Koeleria cristata,C-3,1.499681843
+6/11/2004,261,20-Oct,5,Cenrich,Namb,1,1,M,Koeleria cristata,C-3,1.462086187
+6/11/2004,261,0-10,5,Cenrich,Namb,1,1,M,Koeleria cristata,C-3,1.602157142
+6/11/2004,262,0-10,5,Cenrich,Nenrich,1,1,M,Lupinus perennis,Legume,1.31624267
+6/11/2004,262,20-Oct,5,Cenrich,Nenrich,1,1,M,Lupinus perennis,Legume,1.608077718
+6/11/2004,263,0-10,5,Cenrich,Namb,1,1,M,Bouteloua gracilis,C-4,1.464503755
+6/11/2004,263,20-Oct,5,Cenrich,Namb,1,1,M,Bouteloua gracilis,C-4,1.569840666
+6/11/2004,264,20-Oct,5,Cenrich,Namb,9,4,M,,,1.597173991
+6/11/2004,264,0-10,5,Cenrich,Namb,9,4,M,,,1.417681869
+6/11/2004,265,20-Oct,5,Cenrich,Nenrich,1,1,M,Bouteloua gracilis,C-4,1.456116273
+6/11/2004,265,0-10,5,Cenrich,Nenrich,1,1,M,Bouteloua gracilis,C-4,1.511720347
+6/11/2004,266,20-Oct,5,Cenrich,Namb,1,1,M,Bromus inermis,C-3,1.513841887
+6/11/2004,266,0-10,5,Cenrich,Namb,1,1,M,Bromus inermis,C-3,1.375744457
+6/11/2004,267,0-10,5,Cenrich,Nenrich,16,4,M,,,1.383983925
+6/11/2004,267,20-Oct,5,Cenrich,Nenrich,16,4,M,,,1.507033225
+6/11/2004,268,0-10,5,Cenrich,Namb,4,1,S,,C-3,1.347621722
+6/11/2004,268,20-Oct,5,Cenrich,Namb,4,1,S,,C-3,1.426908099
+6/11/2004,269,0-10,5,Cenrich,Namb,4,1,S,,Legume,1.437219769
+6/11/2004,269,20-Oct,5,Cenrich,Namb,4,1,S,,Legume,1.41447489
+6/11/2004,270,20-Oct,5,Cenrich,Namb,16,4,M,,,1.545072924
+6/11/2004,270,0-10,5,Cenrich,Namb,16,4,M,,,1.309137979
+6/11/2004,271,20-Oct,5,Cenrich,Nenrich,1,1,M,Anemone cylindrica,Forb,1.300503806
+6/11/2004,271,0-10,5,Cenrich,Nenrich,1,1,M,Anemone cylindrica,Forb,1.386401493
+6/11/2004,272,0-10,5,Cenrich,Namb,16,4,M,,,1.356847953
+6/11/2004,272,20-Oct,5,Cenrich,Namb,16,4,M,,,1.688252181
+6/11/2004,273,20-Oct,5,Cenrich,Nenrich,1,1,M,Sorghastrum nutans,C-4,1.506983887
+6/11/2004,273,0-10,5,Cenrich,Nenrich,1,1,M,Sorghastrum nutans,C-4,1.433174042
+6/11/2004,274,0-10,5,Cenrich,Namb,9,3,M,,,1.150515887
+6/11/2004,274,20-Oct,5,Cenrich,Namb,9,3,M,,,1.453994733
+6/11/2004,275,20-Oct,5,Cenrich,Nenrich,16,4,M,,,1.55494055
+6/11/2004,275,0-10,5,Cenrich,Nenrich,16,4,M,,,1.034916645
+6/11/2004,276,20-Oct,5,Cenrich,Nenrich,1,1,M,Achillea millefolium,Forb,1.409639753
+6/11/2004,276,0-10,5,Cenrich,Nenrich,1,1,M,Achillea millefolium,Forb,1.37909945
+6/11/2004,277,20-Oct,5,Cenrich,Namb,1,1,M,Sorghastrum nutans,C-4,1.547194464
+6/11/2004,277,0-10,5,Cenrich,Namb,1,1,M,Sorghastrum nutans,C-4,1.452070546
+6/11/2004,278,20-Oct,5,Cenrich,Namb,9,4,M,,,1.524597599
+6/11/2004,278,0-10,5,Cenrich,Namb,9,4,M,,,1.330896095
+6/11/2004,279,20-Oct,5,Cenrich,Namb,1,1,M,Amorpha canescens,Legume,1.449406287
+6/11/2004,279,0-10,5,Cenrich,Namb,1,1,M,Amorpha canescens,Legume,1.339875635
+6/11/2004,280,20-Oct,5,Cenrich,Nenrich,9,4,M,,,1.158459326
+6/11/2004,280,0-10,5,Cenrich,Nenrich,9,4,M,,,1.264931014
+6/11/2004,281,20-Oct,5,Cenrich,Namb,4,4,M,,,1.451330474
+6/11/2004,281,0-10,5,Cenrich,Namb,4,4,M,,,1.399574774
+6/11/2004,282,20-Oct,5,Cenrich,Nenrich,9,4,M,,,1.455376201
+6/11/2004,282,0-10,5,Cenrich,Nenrich,9,4,M,,,1.371156011
+6/11/2004,283,20-Oct,5,Cenrich,Namb,16,4,M,,,1.427352142
+6/11/2004,283,0-10,5,Cenrich,Namb,16,4,M,,,1.265671086
+6/11/2004,284,0-10,5,Cenrich,Nenrich,0,1,M,,,1.45858318
+6/11/2004,284,20-Oct,5,Cenrich,Nenrich,0,1,M,,,1.41763253
+6/11/2004,285,20-Oct,5,Cenrich,Nenrich,1,1,M,Petalostemum villosum,Legume,1.463665007
+6/11/2004,285,0-10,5,Cenrich,Nenrich,1,1,M,Petalostemum villosum,Legume,1.447432762
+6/11/2004,286,20-Oct,5,Cenrich,Nenrich,4,4,S,,,1.448567539
+6/11/2004,286,0-10,5,Cenrich,Nenrich,4,4,S,,,1.162455715
+6/11/2004,287,0-10,5,Cenrich,Nenrich,4,1,S,,C-3,1.342934599
+6/11/2004,287,20-Oct,5,Cenrich,Nenrich,4,1,S,,C-3,1.324136771
+6/11/2004,288,0-10,5,Cenrich,Namb,4,4,M,,,1.127228289
+6/11/2004,288,20-Oct,5,Cenrich,Namb,4,4,M,,,1.394246256
+6/11/2004,289,20-Oct,5,Cenrich,Namb,0,1,M,,,1.578326825
+6/11/2004,289,0-10,5,Cenrich,Namb,0,1,M,,,1.514483282
+6/11/2004,290,20-Oct,5,Cenrich,Nenrich,4,3,M,,,1.296063375
+6/11/2004,290,0-10,5,Cenrich,Nenrich,4,3,M,,,0.877922711
+6/11/2004,291,20-Oct,5,Cenrich,Namb,4,4,S,,,1.38383591
+6/11/2004,291,0-10,5,Cenrich,Namb,4,4,S,,,1.321472512
+6/11/2004,292,20-Oct,5,Cenrich,Nenrich,4,4,M,,,1.679766023
+6/11/2004,292,0-10,5,Cenrich,Nenrich,4,4,M,,,1.235821516
+6/11/2004,293,0-10,5,Cenrich,Nenrich,9,4,M,,,1.23572284
+6/11/2004,293,20-Oct,5,Cenrich,Nenrich,9,4,M,,,1.370415939
+6/11/2004,294,0-10,5,Cenrich,Nenrich,9,4,M,,,1.209178925
+6/11/2004,294,20-Oct,5,Cenrich,Nenrich,9,4,M,,,1.397650587
+6/11/2004,295,0-10,5,Cenrich,Namb,1,1,M,Petalostemum villosum,Legume,1.468253453
+6/11/2004,295,20-Oct,5,Cenrich,Namb,1,1,M,Petalostemum villosum,Legume,1.578918882
+6/11/2004,296,20-Oct,5,Cenrich,Nenrich,4,1,S,,Forb,1.429769711
+6/11/2004,296,0-10,5,Cenrich,Nenrich,4,1,S,,Forb,1.371402701
+6/11/2004,297,20-Oct,5,Cenrich,Namb,4,2,M,,,1.026529163
+6/11/2004,297,0-10,5,Cenrich,Namb,4,2,M,,,1.311012828
+6/11/2004,298,20-Oct,5,Cenrich,Nenrich,4,1,S,,Legume,1.415757681
+6/11/2004,298,0-10,5,Cenrich,Nenrich,4,1,S,,Legume,1.351272744
+6/11/2004,299,0-10,5,Cenrich,Namb,9,4,M,,,1.411909307
+6/11/2004,299,20-Oct,5,Cenrich,Namb,9,4,M,,,1.194328148
+6/11/2004,300,20-Oct,5,Cenrich,Namb,9,4,M,,,1.470424331
+6/11/2004,300,0-10,5,Cenrich,Namb,9,4,M,,,1.193637414
+6/11/2004,301,20-Oct,5,Cenrich,Nenrich,16,4,M,,,1.393654199
+6/11/2004,301,0-10,5,Cenrich,Nenrich,16,4,M,,,1.058697624
+6/11/2004,302,20-Oct,5,Cenrich,Namb,4,1,S,,Forb,1.478565123
+6/11/2004,302,0-10,5,Cenrich,Namb,4,1,S,,Forb,1.270012841
+6/11/2004,303,20-Oct,5,Cenrich,Namb,4,1,S,,C-4,1.506490505
+6/11/2004,303,0-10,5,Cenrich,Namb,4,1,S,,C-4,1.206119961
+6/11/2004,304,20-Oct,5,Cenrich,Namb,1,1,M,Lespedeza capitata,Legume,1.457744431
+6/11/2004,304,0-10,5,Cenrich,Namb,1,1,M,Lespedeza capitata,Legume,1.400709551
+6/11/2004,305,20-Oct,5,Cenrich,Namb,4,2,M,,,1.550154752
+6/11/2004,305,0-10,5,Cenrich,Namb,4,2,M,,,1.375152399
+6/11/2004,306,20-Oct,6,Camb,Namb,16,4,M,,,1.387338918
+6/11/2004,306,0-10,6,Camb,Namb,16,4,M,,,1.288810669
+6/11/2004,307,20-Oct,6,Camb,Nenrich,16,4,M,,,1.503135512
+6/11/2004,307,0-10,6,Camb,Nenrich,16,4,M,,,1.143115167
+6/11/2004,308,20-Oct,6,Camb,Namb,9,4,M,,,1.326998383
+6/11/2004,308,0-10,6,Camb,Namb,9,4,M,,,1.566584349
+6/11/2004,309,20-Oct,6,Camb,Namb,4,3,M,,,1.452415913
+6/11/2004,309,0-10,6,Camb,Namb,4,3,M,,,1.342095851
+6/11/2004,310,0-10,6,Camb,Nenrich,1,1,M,Koeleria cristata,C-3,1.351766125
+6/11/2004,310,20-Oct,6,Camb,Nenrich,1,1,M,Koeleria cristata,C-3,1.463665007
+6/11/2004,311,20-Oct,6,Camb,Nenrich,16,4,M,,,1.434604848
+6/11/2004,311,0-10,6,Camb,Nenrich,16,4,M,,,1.059585711
+6/11/2004,312,0-10,6,Camb,Namb,9,4,M,,,1.201284824
+6/11/2004,312,20-Oct,6,Camb,Namb,9,4,M,,,1.428930963
+6/11/2004,313,0-10,6,Camb,Namb,4,1,S,,Forb,1.237449674
+6/11/2004,313,20-Oct,6,Camb,Namb,4,1,S,,Forb,1.204787831
+6/11/2004,314,0-10,6,Camb,Namb,1,1,M,Solidago rigida,Forb,1.192996018
+6/11/2004,314,20-Oct,6,Camb,Namb,1,1,M,Solidago rigida,Forb,1.579214911
+6/11/2004,315,20-Oct,6,Camb,Namb,4,1,S,,C-4,1.680407419
+6/11/2004,315,0-10,6,Camb,Namb,4,1,S,,C-4,1.055885351
+6/11/2004,316,0-10,6,Camb,Nenrich,1,1,M,Amorpha canescens,Legume,1.425477293
+6/11/2004,316,20-Oct,6,Camb,Nenrich,1,1,M,Amorpha canescens,Legume,1.580892407
+6/11/2004,317,0-10,6,Camb,Nenrich,4,2,M,,,1.300898512
+6/11/2004,317,20-Oct,6,Camb,Nenrich,4,2,M,,,1.470473669
+6/11/2004,318,0-10,6,Camb,Nenrich,1,1,M,Lespedeza capitata,Legume,1.42873361
+6/11/2004,318,20-Oct,6,Camb,Nenrich,1,1,M,Lespedeza capitata,Legume,1.468549482
+6/11/2004,319,0-10,6,Camb,Nenrich,4,3,M,,,1.335731232
+6/11/2004,319,20-Oct,6,Camb,Nenrich,4,3,M,,,1.436677049
+6/11/2004,320,0-10,6,Camb,Namb,9,4,M,,,1.163491815
+6/11/2004,320,20-Oct,6,Camb,Namb,9,4,M,,,1.402091019
+6/11/2004,321,20-Oct,6,Camb,Nenrich,16,4,M,,,1.662250986
+6/11/2004,321,0-10,6,Camb,Nenrich,16,4,M,,,1.364939406
+6/11/2004,322,20-Oct,6,Camb,Namb,1,1,M,Lespedeza capitata,Legume,1.504911685
+6/11/2004,322,0-10,6,Camb,Namb,1,1,M,Lespedeza capitata,Legume,1.375152399
+6/11/2004,323,20-Oct,6,Camb,Namb,1,1,M,Bouteloua gracilis,C-4,1.427845524
+6/11/2004,323,0-10,6,Camb,Namb,1,1,M,Bouteloua gracilis,C-4,1.290981547
+6/11/2004,324,0-10,6,Camb,Nenrich,9,4,M,,,1.279781791
+6/11/2004,324,20-Oct,6,Camb,Nenrich,9,4,M,,,1.424934574
+6/11/2004,325,0-10,6,Camb,Namb,4,3,M,,,1.252497805
+6/11/2004,325,20-Oct,6,Camb,Namb,4,3,M,,,1.689682987
+6/11/2004,326,20-Oct,6,Camb,Nenrich,4,4,S,,,1.539152348
+6/11/2004,326,0-10,6,Camb,Nenrich,4,4,S,,,0.98355565
+6/11/2004,327,20-Oct,6,Camb,Nenrich,1,1,M,Anemone cylindrica,Forb,1.455326863
+6/11/2004,327,0-10,6,Camb,Nenrich,1,1,M,Anemone cylindrica,Forb,1.317130757
+6/11/2004,328,0-10,6,Camb,Nenrich,4,3,M,,,1.164231887
+6/11/2004,328,20-Oct,6,Camb,Nenrich,4,3,M,,,1.46095141
+6/11/2004,329,0-10,6,Camb,Namb,1,1,M,Asclepias tuberosa,Forb,1.531060895
+6/11/2004,329,20-Oct,6,Camb,Namb,1,1,M,Asclepias tuberosa,Forb,1.628750395
+6/11/2004,330,20-Oct,6,Camb,Namb,1,1,M,Amorpha canescens,Legume,1.686031965
+6/11/2004,330,0-10,6,Camb,Namb,1,1,M,Amorpha canescens,Legume,1.412994746
+6/11/2004,331,0-10,6,Camb,Namb,1,1,M,Sorghastrum nutans,C-4,1.326899707
+6/11/2004,331,20-Oct,6,Camb,Namb,1,1,M,Sorghastrum nutans,C-4,1.521982678
+6/11/2004,332,0-10,6,Camb,Namb,4,4,M,,,1.406630127
+6/11/2004,332,20-Oct,6,Camb,Namb,4,4,M,,,1.274255921
+6/11/2004,333,20-Oct,6,Camb,Nenrich,1,1,M,Poa pratensis,C-3,0.822269298
+6/11/2004,333,0-10,6,Camb,Nenrich,1,1,M,Poa pratensis,C-3,1.302082627
+6/11/2004,334,0-10,6,Camb,Namb,4,3,M,,,1.246182524
+6/11/2004,334,20-Oct,6,Camb,Namb,4,3,M,,,1.368886457
+6/11/2004,335,20-Oct,6,Camb,Nenrich,9,4,M,,,1.600331631
+6/11/2004,335,0-10,6,Camb,Nenrich,9,4,M,,,1.189542349
+6/11/2004,336,20-Oct,6,Camb,Namb,1,1,M,Koeleria cristata,C-3,1.468993525
+6/11/2004,336,0-10,6,Camb,Namb,1,1,M,Koeleria cristata,C-3,1.410133135
+6/11/2004,337,20-Oct,6,Camb,Namb,4,2,S,,,1.305536296
+6/11/2004,337,0-10,6,Camb,Namb,4,2,S,,,1.379938198
+6/11/2004,338,20-Oct,6,Camb,Nenrich,1,1,M,Solidago rigida,Forb,1.396959853
+6/11/2004,338,0-10,6,Camb,Nenrich,1,1,M,Solidago rigida,Forb,1.321571189
+6/11/2004,339,0-10,6,Camb,Namb,1,1,M,Achillea millefolium,Forb,1.363853967
+6/11/2004,339,20-Oct,6,Camb,Namb,1,1,M,Achillea millefolium,Forb,1.497560303
+6/11/2004,340,0-10,6,Camb,Nenrich,4,1,S,,C-3,1.205971947
+6/11/2004,340,20-Oct,6,Camb,Nenrich,4,1,S,,C-3,1.627960985
+6/11/2004,341,20-Oct,6,Camb,Nenrich,9,4,M,,,1.431693898
+6/11/2004,341,0-10,6,Camb,Nenrich,9,4,M,,,1.342490556
+6/11/2004,342,0-10,6,Camb,Nenrich,1,1,M,Asclepias tuberosa,Forb,1.343526657
+6/11/2004,342,20-Oct,6,Camb,Nenrich,1,1,M,Asclepias tuberosa,Forb,1.915552953
+6/11/2004,343,0-10,6,Camb,Namb,1,1,M,Andropogon gerardi,C-4,1.343674671
+6/11/2004,343,20-Oct,6,Camb,Namb,1,1,M,Andropogon gerardi,C-4,1.431496545
+6/11/2004,344,20-Oct,6,Camb,Namb,16,4,M,,,1.296951461
+6/11/2004,344,0-10,6,Camb,Namb,16,4,M,,,1.377125925
+6/11/2004,345,20-Oct,6,Camb,Namb,1,1,M,Schizachyrium scoparium,C-4,1.58503681
+6/11/2004,345,0-10,6,Camb,Namb,1,1,M,Schizachyrium scoparium,C-4,1.452613266
+6/11/2004,346,20-Oct,6,Camb,Namb,4,4,M,,,1.453600028
+6/11/2004,346,0-10,6,Camb,Namb,4,4,M,,,1.355367809
+6/11/2004,347,0-10,6,Camb,Namb,1,1,M,Petalostemum villosum,Legume,1.383687896
+6/11/2004,347,20-Oct,6,Camb,Namb,1,1,M,Petalostemum villosum,Legume,1.5842474
+6/11/2004,348,0-10,6,Camb,Nenrich,4,1,S,,C-4,1.278350985
+6/11/2004,348,20-Oct,6,Camb,Nenrich,4,1,S,,C-4,1.377224601
+6/11/2004,349,20-Oct,6,Camb,Nenrich,1,1,M,Schizachyrium scoparium,C-4,1.635460381
+6/11/2004,349,0-10,6,Camb,Nenrich,1,1,M,Schizachyrium scoparium,C-4,1.144447297
+6/11/2004,350,20-Oct,6,Camb,Nenrich,4,1,S,,Legume,1.410182473
+6/11/2004,350,0-10,6,Camb,Nenrich,4,1,S,,Legume,1.322952656
+6/11/2004,351,20-Oct,6,Camb,Nenrich,4,1,S,,Forb,1.621102985
+6/11/2004,351,0-10,6,Camb,Nenrich,4,1,S,,Forb,1.361683089
+6/11/2004,352,0-10,6,Camb,Nenrich,1,1,M,Bromus inermis,C-3,1.333856383
+6/11/2004,352,20-Oct,6,Camb,Nenrich,1,1,M,Bromus inermis,C-3,1.498152361
+6/11/2004,353,20-Oct,6,Camb,Nenrich,4,3,M,,,1.192354622
+6/11/2004,353,0-10,6,Camb,Nenrich,4,3,M,,,1.294879259
+6/11/2004,354,20-Oct,6,Camb,Nenrich,16,4,M,,,1.525238995
+6/11/2004,354,0-10,6,Camb,Nenrich,16,4,M,,,1.162110348
+6/11/2004,355,0-10,6,Camb,Namb,16,4,M,,,1.122886533
+6/11/2004,355,20-Oct,6,Camb,Namb,16,4,M,,,0.950203073
+6/11/2004,356,0-10,6,Camb,Namb,9,4,M,,,1.268236669
+6/11/2004,356,20-Oct,6,Camb,Namb,9,4,M,,,1.436677049
+6/11/2004,357,0-10,6,Camb,Nenrich,9,4,M,,,1.224029703
+6/11/2004,357,20-Oct,6,Camb,Nenrich,9,4,M,,,1.430115078
+6/11/2004,358,0-10,6,Camb,Namb,16,4,M,,,1.03531135
+6/11/2004,358,20-Oct,6,Camb,Namb,16,4,M,,,1.225263156
+6/11/2004,359,20-Oct,6,Camb,Namb,4,4,S,,,1.506835872
+6/11/2004,359,0-10,6,Camb,Namb,4,4,S,,,1.263105503
+6/11/2004,360,0-10,6,Camb,Nenrich,9,4,M,,,1.292560367
+6/11/2004,360,20-Oct,6,Camb,Nenrich,9,4,M,,,1.396565148
+6/11/2004,361,20-Oct,6,Camb,Namb,9,4,M,,,1.552078939
+6/11/2004,361,0-10,6,Camb,Namb,9,4,M,,,1.359265521
+6/11/2004,362,20-Oct,6,Camb,Nenrich,1,1,M,Sorghastrum nutans,C-4,1.472989914
+6/11/2004,362,0-10,6,Camb,Nenrich,1,1,M,Sorghastrum nutans,C-4,1.290734856
+6/11/2004,363,20-Oct,6,Camb,Namb,4,1,S,,Legume,1.604130667
+6/11/2004,363,0-10,6,Camb,Namb,4,1,S,,Legume,1.117607353
+6/11/2004,364,20-Oct,6,Camb,Namb,4,1,S,,C-3,1.434999553
+6/11/2004,364,0-10,6,Camb,Namb,4,1,S,,C-3,1.225016465
+6/11/2004,365,20-Oct,6,Camb,Nenrich,4,2,M,,,1.430657797
+6/11/2004,365,0-10,6,Camb,Nenrich,4,2,M,,,1.303217404
+6/11/2004,366,20-Oct,6,Camb,Nenrich,1,1,M,Achillea millefolium,Forb,1.234341372
+6/11/2004,366,0-10,6,Camb,Nenrich,1,1,M,Achillea millefolium,Forb,1.43401279
+6/11/2004,367,0-10,2,Camb,Namb,0,1,M,,,1.473236605
+6/11/2004,367,20-Oct,2,Camb,Namb,0,1,M,,,1.497806994
+6/11/2004,368,20-Oct,3,Cenrich,Nenrich,0,1,M,,,1.546799759
+6/11/2004,368,0-10,3,Cenrich,Nenrich,0,1,M,,,1.191269183
+6/11/2004,369,0-10,4,Camb,Nenrich,0,1,M,,,1.409097034
+6/11/2004,369,20-Oct,4,Camb,Nenrich,0,1,M,,,1.417681869
+6/11/2004,370,0-10,6,Camb,Namb,0,1,M,,,1.379839522
+6/11/2004,370,20-Oct,6,Camb,Namb,0,1,M,,,1.444916517
+6/11/2004,371,20-Oct,6,Camb,Nenrich,0,1,M,,,1.504368966
+6/11/2004,371,0-10,6,Camb,Nenrich,0,1,M,,,1.354627737

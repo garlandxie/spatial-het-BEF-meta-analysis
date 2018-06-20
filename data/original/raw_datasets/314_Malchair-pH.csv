@@ -1,0 +1,19 @@
+﻿Time of Sampling,Temperature,Depth,SR,n,mean.pH,sem.pH,sd.pH
+2004,Unheated,Upper,1,9,8,0.1,0.3
+2004,Unheated,Upper,3,9,8,0.1,0.3
+2004,Unheated,Upper,9,6,7.4,0.1,0.244948974
+2004,Unheated,Lower,1,9,7.5,0.1,0.3
+2004,Unheated,Lower,3,9,7.5,0.1,0.3
+2004,Unheated,Lower,9,6,7.3,0.1,0.244948974
+2004,Heated,Upper,1,9,7.9,0.1,0.3
+2004,Heated,Upper,3,9,8.1,0.1,0.3
+2004,Heated,Upper,9,6,8.2,0.1,0.244948974
+2004,Heated,Lower,1,9,7.5,0.1,0.3
+2004,Heated,Lower,3,9,7.6,0.1,0.3
+2004,Heated,Lower,9,6,7.3,0.1,0.244948974
+2005,Unheated,Lower,1,9,7.2,0.1,0.3
+2005,Unheated,Lower,3,9,7.4,0.1,0.3
+2005,Unheated,Lower,9,6,7.5,0.1,0.244948974
+2005,Heated,Lower,1,9,7.3,0.1,0.3
+2005,Heated,Lower,3,9,7.4,0.1,0.3
+2005,Heated,Lower,9,6,7.5,0.1,0.244948974

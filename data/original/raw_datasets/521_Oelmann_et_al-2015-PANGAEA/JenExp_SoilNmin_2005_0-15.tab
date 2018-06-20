@@ -1,0 +1,206 @@
+/* DATA DESCRIPTION:
+Citation:	Oelmann, Yvonne; Rosenkranz, Stephan; Wilcke, Wolfgang (2015): Mineral nitrogen from KCl extractions of soil from the Jena Experiment (Main Experiment up to 15cm depth, year 2005). PANGAEA, https://doi.org/10.1594/PANGAEA.854368, 
+	In: Oelmann, Yvonne; Wilcke, Wolfgang; Rosenkranz, Stephan; Lange, Markus; Steinbeiss, Sibylle; Habekost, Maike; Gleixner, Gerd; Luo, Guangjuan; Guderle, Marcus; Meyer, Sebastian Tobias (2015): Collection of data on particulate and dissolved soil nitrogen in the Jena Experiment (Main Experiment, time series since 2002). PANGAEA, https://doi.org/10.1594/PANGAEA.854372
+Abstract:	As an estimate of plant-available N, this data set contains measurements of inorganic nitrogen (NO3-N and NH4-N, the sum of which is termed mineral N or Nmin) determined by extraction with 1 M KCl solution of soil samples from the main experiment plots of a large grassland biodiversity experiment (the Jena Experiment; see further details below). In the main experiment, 82 grassland plots of 20 x 20 m were established from a pool of 60 species belonging to four functional groups (grasses, legumes, tall and small herbs). In May 2002, varying numbers of plant species from this species pool were sown into the plots to create a gradient of plant species richness (1, 2, 4, 8, 16 and 60 species) and functional richness (1, 2, 3, 4 functional groups). Plots were maintained by bi-annual weeding and mowing. 
+	Soil sampling and analysis: Five soil cores (diameter 0.01 m) were taken at a depth of 0 to 0.15 m of the mineral soil from each of the experimental plots in April and September 2005. Samples of the soil cores per plot were pooled during each sampling campaign. NO3-N and NH4-N concentrations were determined by extraction of soil samples with 1 M KCl solution and were measured in the soil extract with a Continuous Flow Analyzer (CFA, Skalar, Breda, Netherlands).
+Related to:	Oelmann, Yvonne; Buchmann, Nina; Gleixner, Gerd; Habekost, Maike; Roscher, Christiane; Rosenkranz, Stephan; Schulze, Ernst-Detlef; Steinbeiss, Sibylle; Temperton, Vicky; Weigelt, Alexandra; Weisser, Wolfgang; Wilcke, Wolfgang (2011): Plant diversity effects on aboveground and belowground N pools in temperate grassland ecosystems: Development in the first 5 years after establishment. Global Biogeochemical Cycles, 25(2), n/a-n/a, https://doi.org/10.1029/2010GB003869
+	Oelmann, Yvonne; Wilcke, Wolfgang; Temperton, Vicky; Buchmann, Nina; Roscher, Christiane; Schumacher, Jens; Schulze, Ernst-Detlef; Weisser, Wolfgang (2007): Soil and Plant Nitrogen Pools as Related to Plant Diversity in an Experimental Grassland. Soil Science Society of America Journal, 71(3), 720, https://doi.org/10.2136/sssaj2006.0205
+Further details:	Plot information of the Jena Main Experiment (URI: http://store.pangaea.de/Publications/Jena_Experiment/PlotInformationMainExperiment.txt)
+	Treatment description (URI: http://store.pangaea.de/Publications/Jena_Experiment/TreatmentDefinitionsJuly2012.pdf)
+	Roscher, Christiane; Schumacher, Jens; Baade, Jussi; Wilcken, Sara; Gleixner, Gerd; Weisser, Wolfgang; Schmid, Bernhard; Schulze, Ernst-Detlef (2004): The role of biodiversity for element cycling and trophic interactions: an experimental approach in a grassland community. Basic and Applied Ecology, 5(2), 107-121, https://doi.org/10.1078/1439-1791-00216
+Project(s):	The Jena Experiment (JenExp) (URI: http://www.the-jena-experiment.de/)
+Coverage:	LATITUDE: 50.946100 * LONGITUDE: 11.611300
+	DATE/TIME START: 2005-01-01T00:00:00 * DATE/TIME END: 2005-12-31T00:00:00
+	MINIMUM DEPTH, soil: 0.075 m * MAXIMUM DEPTH, soil: 0.075 m
+Event(s):	JenExp_2005 (Jena Experiment 2005) * LATITUDE: 50.946100 * LONGITUDE: 11.611300 * DATE/TIME START: 2005-01-01T00:00:00 * DATE/TIME END: 2005-12-31T00:00:00 * LOCATION: Thuringia, Germany * DEVICE: Experiment (EXP)
+Comment:	In addition to measurements of mineral nitrogen from KCl-extractions of soil samples, measurements of total nitrogen determined from dried soil samples and measurements of dissolved nitrogen in soil solution are available.
+	This datasets is part of a time series of soil nitrogen measurements in the Main Experiment since 2002 (doi:10.1594/PANGAEA.854372).
+Parameter(s):	Experimental plot (Experimental plot) * COMMENT: Detailed explanations of plots and the plant diversity gradient are provided in the section "further details".
+	Depth, soil, minimum [m] (Depth soil min)
+	Depth, soil, maximum [m] (Depth soil max)
+	DEPTH, soil [m] (Depth soil) * GEOCODE
+	Date/time start (Date/time start) * COMMENT: of sampling campaign
+	Date/time end (Date/time end) * COMMENT: of sampling campaign
+	Treatment: mowing (Treat mow) * COMMENT: Detailed explanations of treatments are provided in the section "further details".
+	Treatment: weeding (Treat weed) * COMMENT: Detailed explanations of treatments are provided in the section "further details".
+	Treatment: weeding history (Treat weed hist) * COMMENT: Detailed explanations of treatments are provided in the section "further details".
+	Treatment: seed addition (Treat seed add) * COMMENT: Detailed explanations of treatments are provided in the section "further details".
+	Treatment: fertilizing (Treat fert) * COMMENT: Detailed explanations of treatments are provided in the section "further details".
+	Treatment: drought (Treat drought) * COMMENT: Detailed explanations of treatments are provided in the section "further details".
+	Treatment: above ground: pesticide (Treat above ground pest) * COMMENT: Detailed explanations of treatments are provided in the section "further details".
+	Treatment: below pesticide (Treat below pest) * COMMENT: Detailed explanations of treatments are provided in the section "further details".
+	Treatment: molluscide (Treat mollus) * COMMENT: Detailed explanations of treatments are provided in the section "further details".
+	Treatment: nematicide (Treat nema) * COMMENT: Detailed explanations of treatments are provided in the section "further details".
+	Treatment: eartworm exclosure (Treat eartworm excl) * COMMENT: Detailed explanations of treatments are provided in the section "further details".
+	Treatment: phytometers (Treat phyto) * COMMENT: Detailed explanations of treatments are provided in the section "further details".
+	Treatment: special (Treat special) * COMMENT: Detailed explanations of treatments are provided in the section "further details".
+	Ammonium per unit sediment mass [µg/g] (NH4/sed) * METHOD: KCl-extraction
+	Nitrate per unit sediment mass [µg/g] (NO3/sed) * METHOD: KCl-extraction
+License:	Creative Commons Attribution 3.0 Unported (CC-BY)
+Size:	3280 data points
+*/
+Experimental plot	Depth soil min [m]	Depth soil max [m]	Depth soil [m]	Date/time start	Date/time end	Treat mow	Treat weed	Treat weed hist	Treat seed add	Treat fert	Treat drought	Treat above ground pest	Treat below pest	Treat mollus	Treat nema	Treat eartworm excl	Treat phyto	Treat special	NH4/sed [µg/g]	NO3/sed [µg/g]
+B1A01	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	2.53
+B1A01	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	12.96	3.85
+B1A02	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	1.14
+B1A02	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.83	1.95
+B1A03	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	1.22
+B1A03	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	14.03	3.04
+B1A04	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	2.26
+B1A04	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	10.52	3.86
+B1A05	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	2.69
+B1A05	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	5.88	4.36
+B1A06	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	0.97
+B1A06	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	2.76	3.05
+B1A07	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	1.68
+B1A07	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.00	0.00
+B1A08	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	3.84
+B1A08	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	59.13	11.13
+B1A09	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	1.39
+B1A09	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.00	2.21
+B1A11	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	1.60
+B1A11	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	10.22	2.83
+B1A12	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	3.38
+B1A12	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.09	10.21
+B1A13	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	3.11
+B1A13	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.00	11.46
+B1A14	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	1.24
+B1A14	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.27	1.09
+B1A15	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	1.41
+B1A15	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	2.17	2.19
+B1A16	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	1.74
+B1A16	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	10.81	1.62
+B1A17	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	0.90
+B1A17	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	4.20	2.20
+B1A18	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	2.04
+B1A18	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	7.41	3.59
+B1A19	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	2.13
+B1A19	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	30.90	4.11
+B1A20	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	1.88
+B1A20	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	12.68	3.03
+B1A21	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	1.24
+B1A21	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.00	1.12
+B1A22	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	1.93
+B1A22	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	1.03	3.37
+B2A01	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	2.47
+B2A01	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	10.61	3.14
+B2A02	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	2.27
+B2A02	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	3.85	3.77
+B2A03	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	5.27
+B2A03	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.00	4.92
+B2A04	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	2.43
+B2A04	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	10.99	3.37
+B2A05	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	2.37
+B2A05	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	2.52	3.38
+B2A06	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	2.63
+B2A06	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	2.32	2.52
+B2A08	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	2.52
+B2A08	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	4.12	2.89
+B2A09	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	1.00
+B2A09	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	13.00	7.73
+B2A10	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	1.87
+B2A10	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.96	6.38
+B2A12	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	1.68
+B2A12	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	4.60	1.66
+B2A13	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	2.02
+B2A13	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	9.13	2.50
+B2A14	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	1.41
+B2A14	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	4.56	2.29
+B2A15	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	1.66
+B2A15	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	1.79	4.55
+B2A16	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	1.83
+B2A16	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.58	3.49
+B2A17	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	1.31
+B2A17	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.00	2.25
+B2A18	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	1.33
+B2A18	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	1.14	2.29
+B2A19	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	0.87
+B2A19	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	3.04	3.43
+B2A20	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	1.68
+B2A20	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.00	3.70
+B2A21	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	2.17
+B2A21	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.00	3.04
+B2A22	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	1.25
+B2A22	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.89	5.05
+B3A01	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	1.70
+B3A01	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.59	1.79
+B3A02	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	2.19
+B3A02	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	34.21	3.72
+B3A03	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	2.11
+B3A03	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.00	2.27
+B3A04	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	1.54
+B3A04	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.00	1.68
+B3A05	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	2.64
+B3A05	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.00	2.94
+B3A06	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	3.00
+B3A06	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.95	5.44
+B3A07	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	2.61
+B3A07	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	1.44	6.08
+B3A08	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	1.48
+B3A08	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.86	3.45
+B3A09	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	1.19
+B3A09	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.00	2.66
+B3A11	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	0.94
+B3A11	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	2.47	3.72
+B3A12	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	3.26
+B3A12	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	16.82	7.67
+B3A13	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	1.89
+B3A13	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.30	5.37
+B3A14	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	1.11
+B3A14	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	15.04	5.56
+B3A16	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	-9999.00
+B3A16	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	14.93	3.99
+B3A17	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	2.11
+B3A17	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.57	3.75
+B3A19	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	-9999.00
+B3A19	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	11.56	4.32
+B3A20	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	0.33
+B3A20	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	2.53	2.64
+B3A21	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	2.40
+B3A21	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.00	3.14
+B3A22	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	3.23
+B3A22	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	14.62	3.77
+B3A23	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	1.22
+B3A23	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.68	2.64
+B3A24	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	1.05
+B3A24	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	6.17	5.73
+B4A01	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	1.48
+B4A01	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.40	2.69
+B4A02	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	3.32
+B4A02	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.00	2.62
+B4A03	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	1.90
+B4A03	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.00	5.32
+B4A04	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	6.99
+B4A04	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	1.14	2.29
+B4A06	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	-9999.00
+B4A06	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	2.53	2.34
+B4A07	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	2.64
+B4A07	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.00	5.39
+B4A08	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	7.29
+B4A08	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	4.99	1.99
+B4A09	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	0.64
+B4A09	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	1.33	21.47
+B4A10	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	14.75
+B4A10	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	5.76	1.12
+B4A11	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	5.16
+B4A11	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.00	9.01
+B4A12	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	2.96
+B4A12	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	2.66	1.38
+B4A13	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	2.01
+B4A13	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	8.23	2.85
+B4A14	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	4.48
+B4A14	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	2.73	2.55
+B4A15	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	2.08
+B4A15	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	3.11	3.70
+B4A16	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	3.90
+B4A16	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.00	2.54
+B4A17	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	1.31
+B4A17	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.00	2.00
+B4A18	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	2.31
+B4A18	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.00	3.09
+B4A20	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	4.22
+B4A20	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.00	3.44
+B4A21	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	7.23
+B4A21	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.00	13.01
+B4A22	0	0.15	0.075	2005-04-05	2005-04-05	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00	1.74
+B4A22	0	0.15	0.075	2005-09-29	2005-09-29	mown2	weededALL	AAAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.00	2.63

@@ -1,0 +1,118 @@
+/* DATA DESCRIPTION:
+Citation:	Fischer, Christine; Hildebrandt, Anke (2016): Soil porosity along a plant diversity gradient in the Jena Experiment (Main Experiment, 2013). PANGAEA, https://doi.org/10.1594/PANGAEA.865254, 
+	In: Fischer, Christine; Hildebrandt, Anke; Luo, Guangjuan; Meyer, Sebastian Tobias (2016): Collection of measurements on physical soil properties in plots of the Jena Experiment (time series since 2002). PANGAEA, https://doi.org/10.1594/PANGAEA.865255
+Abstract:	Soil porosity is the fraction of total volume occupied by pores or voids measured at matric potential 0. To measure soil porosity, soil samples were taken from each plot using sample rings with an internal diameter of 57 mm and height of 40.5 mm (inner volume of Vs=100 cm3). The samples were placed on a sand bed box with water level set to allow saturation of the samples with water. After 48 h the samples were weighed (ms), oven dried at 105 °C and weighed again to determine the dry weight (md). We calculated soil porosity (n [%]) using the density of water (?w=1 g cm?3), n=100 ? (mw-md) / (?w?Vs). To account for the spatial variation of soil properties, three replicates were taken per plot, approximately 2, 3 and 4 weeks after the flood that occurred at the field site during June 2013. Data are the average soil porosity values per plot.
+	All data where measured in the main experiment plots of a large grassland biodiversity experiment (the Jena Experiment; see further details below). In the main experiment, 82 grassland plots of 20 x 20 m were established from a pool of 60 species belonging to four functional groups (grasses, legumes, tall and small herbs). In May 2002, varying numbers of plant species from this species pool were sown in the plots to create a gradient of plant species richness (1, 2, 4, 8, 16 and 60 species) and functional richness (1, 2, 3, or 4 functional groups). Plots were maintained by bi-annual weeding and mowing.
+Related to:	Fischer, Christine; Tischer, Jana; Roscher, Christiane; Eisenhauer, Nico; Ravenek, Janneke; Gleixner, Gerd; Attinger, Sabine; Jensen, Britta; de Kroon, Hans; Mommer, Liesje; Scheu, Stefan; Hildebrandt, Anke (2014): Plant species diversity affects infiltration capacity in an experimental grassland through changes in soil properties. Plant and Soil, 397(1-2), 1-16, https://doi.org/10.1007/s11104-014-2373-5
+	Hertzog, Lionel R; Ebeling, Anne; Meyer, Sebastian Tobias; Eisenhauer, Nico; Fischer, Christine; Hildebrandt, Anke; Wagg, Cameron; Weisser, Wolfgang (2016): High Survival of Lasius niger during Summer Flooding in a European Grassland. PLoS ONE, 11(11), e0152777, https://doi.org/10.1371/journal.pone.0152777
+Further details:	Plot information of the Jena Main Experiment (URI: http://store.pangaea.de/Publications/Jena_Experiment/PlotInformationMainExperiment.txt)
+Project(s):	The Jena Experiment (JenExp) (URI: http://www.the-jena-experiment.de/)
+Coverage:	LATITUDE: 50.946100 * LONGITUDE: 11.611300
+	DATE/TIME START: 2013-01-01T00:00:00 * DATE/TIME END: 2013-12-31T00:00:00
+	MINIMUM DEPTH, soil: 0.025 m * MAXIMUM DEPTH, soil: 0.025 m
+Event(s):	JenExp_2013 (Jena Experiment 2013) * LATITUDE: 50.946100 * LONGITUDE: 11.611300 * DATE/TIME START: 2013-01-01T00:00:00 * DATE/TIME END: 2013-12-31T00:00:00 * LOCATION: Thuringia, Germany * DEVICE: Experiment (EXP)
+Comment:	This dataset is part of a collection of measurements on physical soil properties at the field site of the Jena Experiment. Data for other soil properties, from other experiments (e.g. Main Experiment, Dominance Experiment; see details above), other years, or other methods quantifying related data might be available (doi:10.1594/PANGAEA.865255).
+Parameter(s):	Experimental plot (Experimental plot) * COMMENT: Detailed explanations of plots and the plant diversity gradient are provided in the section "further details".
+	Porosity [% vol] (Poros)
+	Depth, soil, minimum [m] (Depth soil min)
+	Depth, soil, maximum [m] (Depth soil max)
+	DEPTH, soil [m] (Depth soil) * GEOCODE
+	Date/time start (Date/time start) * COMMENT: of sampling campaign
+	Date/time end (Date/time end) * COMMENT: of sampling campaign
+	Treatment: mowing (Treat mow) * COMMENT: Detailed explanations of treatments are provided in the section "further details".
+	Treatment: weeding (Treat weed) * COMMENT: Detailed explanations of treatments are provided in the section "further details".
+	Treatment: weeding history (Treat weed hist) * COMMENT: Detailed explanations of treatments are provided in the section "further details".
+	Treatment: seed addition (Treat seed add) * COMMENT: Detailed explanations of treatments are provided in the section "further details".
+	Treatment: fertilizing (Treat fert) * COMMENT: Detailed explanations of treatments are provided in the section "further details".
+	Treatment: drought (Treat drought) * COMMENT: Detailed explanations of treatments are provided in the section "further details".
+	Treatment: above ground: pesticide (Treat above ground pest) * COMMENT: Detailed explanations of treatments are provided in the section "further details".
+	Treatment: below pesticide (Treat below pest) * COMMENT: Detailed explanations of treatments are provided in the section "further details".
+	Treatment: molluscide (Treat mollus) * COMMENT: Detailed explanations of treatments are provided in the section "further details".
+	Treatment: nematicide (Treat nema) * COMMENT: Detailed explanations of treatments are provided in the section "further details".
+	Treatment: eartworm exclosure (Treat eartworm excl) * COMMENT: Detailed explanations of treatments are provided in the section "further details".
+	Treatment: phytometers (Treat phyto) * COMMENT: Detailed explanations of treatments are provided in the section "further details".
+	Treatment: special (Treat special) * COMMENT: Detailed explanations of treatments are provided in the section "further details".
+License:	Creative Commons Attribution 3.0 Unported (CC-BY)
+Size:	1520 data points
+*/
+Experimental plot	Poros [% vol]	Depth soil min [m]	Depth soil max [m]	Depth soil [m]	Date/time start	Date/time end	Treat mow	Treat weed	Treat weed hist	Treat seed add	Treat fert	Treat drought	Treat above ground pest	Treat below pest	Treat mollus	Treat nema	Treat eartworm excl	Treat phyto	Treat special
+B1A01	52.790	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B1A02	49.237	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B1A03	50.490	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B1A04	49.577	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B1A05	45.537	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B1A06	51.037	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B1A07	45.493	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B1A08	45.647	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B1A11	52.430	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B1A12	47.610	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B1A13	46.683	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B1A14	54.863	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B1A15	46.993	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B1A16	50.187	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B1A17	47.550	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B1A18	47.587	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B1A19	55.247	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B1A20	51.507	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B1A21	48.990	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B1A22	57.453	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B2A01	46.653	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B2A02	48.683	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B2A03	55.977	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B2A04	47.740	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B2A05	45.647	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B2A06	50.733	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B2A08	50.883	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B2A09	52.190	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B2A10	53.743	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B2A12	49.693	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B2A13	46.263	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B2A14	49.725	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B2A15	47.815	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B2A16	51.473	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B2A17	51.143	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B2A18	51.550	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B2A19	48.907	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B2A20	48.963	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B2A21	53.080	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B2A22	53.147	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B3A01	48.120	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B3A02	47.517	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B3A03	47.465	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B3A04	48.925	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B3A05	48.465	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B3A06	52.057	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B3A07	52.520	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B3A08	45.230	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B3A09	53.140	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B3A11	54.423	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B3A12	53.053	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B3A13	51.917	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B3A14	52.780	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B3A16	50.460	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B3A17	47.350	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B3A19	47.337	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B3A20	52.080	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B3A21	49.083	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B3A22	52.913	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B3A23	55.113	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B3A24	54.560	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B4A01	55.340	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B4A02	51.577	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B4A04	47.077	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B4A06	48.970	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B4A07	50.910	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B4A08	47.103	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B4A09	47.853	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B4A10	49.210	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B4A11	48.710	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B4A12	46.450	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B4A13	46.773	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B4A14	46.463	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B4A15	48.030	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B4A16	47.903	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B4A17	47.783	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B4A18	51.217	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B4A20	47.520	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B4A21	45.353	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0
+B4A22	46.227	0	0.05	0.025	2013-06-18	2013-06-28	mown2	weededALL	AAAAA.AAAAA.AA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0

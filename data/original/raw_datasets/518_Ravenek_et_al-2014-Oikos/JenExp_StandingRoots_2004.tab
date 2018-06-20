@@ -1,0 +1,121 @@
+/* DATA DESCRIPTION:
+Citation:	Bessler, Holger; Engels, Christof (2017): Morphological root parameters of standing roots from the Jena Experiment (Main Experiment, year 2004). PANGAEA, https://doi.org/10.1594/PANGAEA.880327, 
+	In: Bessler, Holger; Engels, Christof; Ravenek, Janneke; Mommer, Liesje; de Kroon, Hans; Oram, Natalie; Chen, Hongmei; Weigelt, Alexandra; Luo, Guangjuan; Meyer, Sebastian Tobias (2017): Collection of data on belowground plant biomass and morphological root parameters in the Jena Experiment. PANGAEA, https://doi.org/10.1594/PANGAEA.880330
+Abstract:	This data set contains measurements of diameter of standing roots. Data presented here is from the Main Experiment plots of a large grassland biodiversity experiment (the Jena Experiment; see further details below). In the Main experiment, 82 grassland plots of 20 x 20 m were established from a pool of 60 species belonging to four functional groups (grasses, legumes, tall and small herbs). In May 2002, varying numbers of plant species from this species pool were sown into the plots to create a gradient of plant species richness (1, 2, 4, 8, 16 and 60 species) and functional richness (1, 2, 3, 4 functional groups). Plots were maintained in general by bi-annual weeding and mowing. Since 2010, plots were weeded three times per year.
+	In September 2004, three soil cores with a 4.8 cm diameter per plot were taken to 30 cm depth. The bulk material of the pooled cores was cut with scissors to < 1 cm pieces. A subsample of 50 g was suspended in water and rinsed over a 0.5 mm screen. Roots collected in the screen were transferred into a water-filled clear acrylic tray and scanned. Mean diameter of the roots was determined by using WinRhizo (Regent Instruments, Quebec, Canada).
+Further details:	Plot information of the Jena Main Experiment (URI: http://store.pangaea.de/Publications/Jena_Experiment/PlotInformationMainExperiment.txt)
+	Treatment description (URI: http://store.pangaea.de/Publications/Jena_Experiment/TreatmentDefinitionsJuly2012.pdf)
+Project(s):	The Jena Experiment (JenExp) (URI: http://www.the-jena-experiment.de/)
+Coverage:	LATITUDE: 50.946100 * LONGITUDE: 11.611300
+	DATE/TIME START: 2004-01-01T00:00:00 * DATE/TIME END: 2004-12-31T00:00:00
+	MINIMUM DEPTH, soil: 0.15 m * MAXIMUM DEPTH, soil: 0.15 m
+Event(s):	JenExp_2004 (Jena Experiment 2004) * LATITUDE: 50.946100 * LONGITUDE: 11.611300 * DATE/TIME START: 2004-01-01T00:00:00 * DATE/TIME END: 2004-12-31T00:00:00 * LOCATION: Thuringia, Germany * DEVICE: Experiment (EXP)
+Comment:	The Main experiment on the field site of the Jena Experiment comprises a split-plot design in which additional treatments (e.g. no weeding allowing for invasion of other species, or application of fertilizer) have been applied to subplots along the outer margin of the plots (see Treatment description in the section "further details"). While in this dataset only data from the core area (mown and weeding of all none-sown species twice a year, no additional treatments) is reported, all potential treatments are listed as the first parameters in the data file to guarantee compatibility with other datasets that include different treatments. 
+	There are two types of missing values contained in the dataset. Empty cells represent missing values that result from the design of the experiment when the respective value does not occur and could thus not be measured. For example, in the columns of species-specific biomass cells are left blank, when the species was not sown into the respective plot. Missing values that resulted from methodological problems, sampling errors, or lost samples/data are marked with "-9999".
+	This dataset is part of a collection of measurements of belowground plant biomass and morphological root parameters in the Jena Experiment. Similar data from other experiments (e.g. Main Experiment, Dominance Experiment; see details above), other years, or other methods quantifying related data might be available (https://doi.pangaea.de/10.1594/PANGAEA.880330).
+Parameter(s):	Experimental plot (Experimental plot) * COMMENT: Detailed explanations of plots and the plant diversity gradient are provided in the section further details.
+	Depth, soil, minimum [m] (Depth soil min)
+	Depth, soil, maximum [m] (Depth soil max)
+	DEPTH, soil [m] (Depth soil) * GEOCODE
+	Date/time start (Date/time start) * COMMENT: of sampling campaign
+	Date/time end (Date/time end) * COMMENT: of sampling campaign
+	Treatment: mowing (Treat mow) * COMMENT: Detailed explanations of treatments are provided in the section further details.
+	Treatment: weeding (Treat weed) * COMMENT: Detailed explanations of treatments are provided in the section further details.
+	Treatment: weeding history (Treat weed hist) * COMMENT: Detailed explanations of treatments are provided in the section further details.
+	Treatment: seed addition (Treat seed add) * COMMENT: Detailed explanations of treatments are provided in the section further details.
+	Treatment: fertilizing (Treat fert) * COMMENT: Detailed explanations of treatments are provided in the section further details.
+	Treatment: drought (Treat drought) * COMMENT: Detailed explanations of treatments are provided in the section further details.
+	Treatment: above ground: pesticide (Treat above ground pest) * COMMENT: Detailed explanations of treatments are provided in the section further details.
+	Treatment: below pesticide (Treat below pest) * COMMENT: Detailed explanations of treatments are provided in the section further details.
+	Treatment: molluscide (Treat mollus) * COMMENT: Detailed explanations of treatments are provided in the section further details.
+	Treatment: nematicide (Treat nema) * COMMENT: Detailed explanations of treatments are provided in the section further details.
+	Treatment: eartworm exclosure (Treat eartworm excl) * COMMENT: Detailed explanations of treatments are provided in the section further details.
+	Treatment: phytometers (Treat phyto) * COMMENT: Detailed explanations of treatments are provided in the section further details.
+	Treatment: special (Treat special) * COMMENT: Detailed explanations of treatments are provided in the section further details.
+	Root diameter, total [mm] (Root diam tot)
+License:	Creative Commons Attribution 3.0 Unported (CC-BY)
+Size:	1558 data points
+*/
+Experimental plot	Depth soil min [m]	Depth soil max [m]	Depth soil [m]	Date/time start	Date/time end	Treat mow	Treat weed	Treat weed hist	Treat seed add	Treat fert	Treat drought	Treat above ground pest	Treat below pest	Treat mollus	Treat nema	Treat eartworm excl	Treat phyto	Treat special	Root diam tot [mm]
+B1A01	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.21
+B1A02	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.21
+B1A03	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.19
+B1A04	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.22
+B1A05	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.24
+B1A06	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.25
+B1A07	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.23
+B1A08	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.34
+B1A09	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.24
+B1A11	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.23
+B1A12	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.21
+B1A13	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.25
+B1A14	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.22
+B1A15	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.22
+B1A16	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.18
+B1A17	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.21
+B1A18	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.24
+B1A19	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.23
+B1A20	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.25
+B1A21	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.24
+B1A22	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.19
+B2A01	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.23
+B2A02	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.20
+B2A03	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.22
+B2A04	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.24
+B2A05	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.19
+B2A06	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.27
+B2A08	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.40
+B2A09	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.32
+B2A10	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.21
+B2A12	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.25
+B2A13	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.25
+B2A14	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.21
+B2A15	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.34
+B2A16	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.26
+B2A17	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.22
+B2A18	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.19
+B2A19	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.23
+B2A20	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.23
+B2A21	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.20
+B2A22	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.20
+B3A01	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.20
+B3A02	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.26
+B3A03	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.19
+B3A04	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.19
+B3A05	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.20
+B3A06	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.20
+B3A07	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.23
+B3A08	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.18
+B3A09	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.20
+B3A11	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.19
+B3A12	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.34
+B3A13	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.20
+B3A14	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.21
+B3A16	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.25
+B3A17	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.20
+B3A19	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.23
+B3A20	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.31
+B3A21	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.23
+B3A22	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.20
+B3A23	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.25
+B3A24	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.23
+B4A01	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.21
+B4A02	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.22
+B4A03	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	-9999.00
+B4A04	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.26
+B4A06	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.24
+B4A07	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.22
+B4A08	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.22
+B4A09	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.21
+B4A10	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.29
+B4A11	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.18
+B4A12	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.18
+B4A13	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.36
+B4A14	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.29
+B4A15	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.25
+B4A16	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.18
+B4A17	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.22
+B4A18	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.22
+B4A20	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.22
+B4A21	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.24
+B4A22	0	0.3	0.15	2000-09-21	2000-09-21	mown2	weededALL	AAA	seed0	fert0	roof0	agspray0	bgspray0	molgrain0	nemgrain0	ewex0	phyto0	special0	0.29
