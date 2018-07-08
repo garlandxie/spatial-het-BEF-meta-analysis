@@ -1,0 +1,99 @@
+---
+title: "Exploring BEF-experiment datasets "
+author: "Garland Xie"
+date: "July 8, 2018"
+output: html_document
+---
+
+## Load libraries 
+```{r libraries}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(here)
+library(readxl)
+library(magrittr)
+```
+
+Many of the BEF experiments can be loaded via html links. So let's do that.
+We'll separate sections by studies then. 
+
+## Cadotte experiment 
+
+Grab the link via DRYAD. (Cadotte et al. 2017. Ecol Lett)
+
+```{r cadotte setup }
+cadotte_url <-"https://www.datadryad.org/bitstream/handle/10255/dryad.146059/raw_biomass.csv?sequence=1"
+```
+
+Load in the Cadotte dataset and let's see the tibble structure. 
+Reminder: R recogizes the species richness treatments as integers. Convert into a factor (for now).
+
+```{r cadotte import, echo=TRUE}
+cadotte_df <- read_csv(cadotte_url, 
+                          col_types = list(col_character(), 
+                                           col_factor(levels = c(1, 2, 3, 4), ordered = TRUE), 
+                                           col_double(), 
+                                           col_double()
+                                           )
+                       )
+
+str(cadotte_df)
+```
+
+Based on the summary, the necessary data is shown: species richness and biomass.
+Note: biomass was sampled using a 0.1 m quadrat in every 2m-square plot 
+
+Next, let's clean up the data a bit and pool monocultures and mixtures appropriately. 
+
+```{r cadotte import, echo = TRUE}
+cadotte_clean <- cadotte_df %>% 
+  select(SR = Real.rich, biomass = biomass) %>%
+  mutate(mixture_type = ifelse(SR > 1, "fine-scale", "coarse-scale")) 
+
+str(cadotte_df)
+```
+
+Cool. Let's make a plot per species richness 
+## Including Plots
+
+```{r plot-cadotte-SR, echo = TRUE}
+cadotte_clean %>% 
+ ggplot(aes(x = SR, y = biomass, group = SR, col = mixture_type)) +
+    geom_jitter(height = 0, width = 0.1, alpha = 0.5) + 
+    stat_summary(fun.y = mean,
+                 fun.ymin = function(x) mean(x) - sd(x), 
+                 fun.ymax = function(x) mean(x) + sd(x), 
+                 geom = "pointrange", 
+                 colour = "black")  + 
+    scale_x_discrete(name = "Species Richness") + 
+    scale_colour_discrete(name = "Mixture Type",
+                          breaks = c("C", "F"),
+                          labels = c("coarse-scale", "fine-scale")) + 
+    scale_y_continuous(name = "Biomass (grams per metre-squared)") + 
+    theme(panel.background = element_blank())
+```
+
+Productivity increases with species richness. Typical result. 
+Next, plot by coarse-scale and fine-scale mixture 
+
+```{r plot-cadotte-cofi, echo = TRUE}
+cadotte_clean %>% 
+ ggplot(aes(x = mixture_type, y = biomass, col = mixture_type)) +
+  geom_jitter(height = 0, width = 0.1) + 
+  stat_summary(fun.y = mean,
+               fun.ymin = function(x) mean(x) - sd(x), 
+               fun.ymax = function(x) mean(x) + sd(x), 
+               geom = "pointrange", 
+               colour = "black")  + 
+  scale_x_discrete(name = "Group-Type") + 
+  scale_colour_discrete(name = "Mixture Type",
+                          breaks = c("C", "F"),
+                          labels = c("coarse-scale", "fine-scale")) + 
+  scale_y_continuous(name = "Biomass (grams per metre-squared)") + 
+  theme(panel.background = element_blank())
+```
+
+
+```{r sessioninfo, echo = TRUE}
+sessionInfo()
+```
