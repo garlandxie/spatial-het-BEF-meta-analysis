@@ -7,11 +7,12 @@ output: html_document
 
 ## Load libraries 
 ```{r libraries}
-knitr::opts_chunk$set(echo = TRUE)
-library(tidyverse)
+
 library(here)
 library(readxl)
 library(magrittr)
+library(tidyverse)
+
 ```
 
 Many of the BEF experiments can be loaded via html links. So let's do that.
@@ -21,14 +22,14 @@ We'll separate sections by studies then.
 
 Grab the link via DRYAD. (Cadotte et al. 2017. Ecol Lett)
 
-```{r cadotte setup }
+```{r html link 1 }
 cadotte_url <-"https://www.datadryad.org/bitstream/handle/10255/dryad.146059/raw_biomass.csv?sequence=1"
 ```
 
 Load in the Cadotte dataset and let's see the tibble structure. 
 Reminder: R recogizes the species richness treatments as integers. Convert into a factor (for now).
 
-```{r cadotte import, echo=TRUE}
+```{r importing data, echo=TRUE}
 cadotte_df <- read_csv(cadotte_url, 
                           col_types = list(col_character(), 
                                            col_factor(levels = c(1, 2, 3, 4), ordered = TRUE), 
@@ -37,7 +38,7 @@ cadotte_df <- read_csv(cadotte_url,
                                            )
                        )
 
-str(cadotte_df)
+glimpse(cadotte_df)
 ```
 
 Based on the summary, the necessary data is shown: species richness and biomass.
@@ -45,18 +46,17 @@ Note: biomass was sampled using a 0.1 m quadrat in every 2m-square plot
 
 Next, let's clean up the data a bit and pool monocultures and mixtures appropriately. 
 
-```{r cadotte import, echo = TRUE}
+```{r data cleaning, echo = TRUE}
 cadotte_clean <- cadotte_df %>% 
   select(SR = Real.rich, biomass = biomass) %>%
   mutate(mixture_type = ifelse(SR > 1, "fine-scale", "coarse-scale")) 
 
-str(cadotte_df)
+glimpse(cadotte_df)
 ```
 
 Cool. Let's make a plot per species richness 
-## Including Plots
 
-```{r plot-cadotte-SR, echo = TRUE}
+```{r plot-cadotte-SR, echo=TRUE}
 cadotte_clean %>% 
  ggplot(aes(x = SR, y = biomass, group = SR, col = mixture_type)) +
     geom_jitter(height = 0, width = 0.1, alpha = 0.5) + 
@@ -76,7 +76,7 @@ cadotte_clean %>%
 Productivity increases with species richness. Typical result. 
 Next, plot by coarse-scale and fine-scale mixture 
 
-```{r plot-cadotte-cofi, echo = TRUE}
+```{r plot-cadotte-cofi, echo=TRUE}
 cadotte_clean %>% 
  ggplot(aes(x = mixture_type, y = biomass, col = mixture_type)) +
   geom_jitter(height = 0, width = 0.1) + 
@@ -87,13 +87,77 @@ cadotte_clean %>%
                colour = "black")  + 
   scale_x_discrete(name = "Group-Type") + 
   scale_colour_discrete(name = "Mixture Type",
-                          breaks = c("C", "F"),
-                          labels = c("coarse-scale", "fine-scale")) + 
+                        breaks = c("C", "F"),
+                        labels = c("coarse-scale", "fine-scale")) + 
   scale_y_continuous(name = "Biomass (grams per metre-squared)") + 
   theme(panel.background = element_blank())
 ```
 
+## BIODEPTH experiment 
 
+Grab datasets through the ESA archives page. (Spehn et al. 2005. Ecological Monographs)
+
+```{r html links 2}
+bd_veg_link <- "http://www.esapubs.org/archive/mono/M075/001/N.vegetation.txt"
+bd_design_link <- "http://www.esapubs.org/archive/mono/M075/001/Design.txt" 
+```
+
+Let's check out the BIODEPTH biomass dataset 
+
+```{r import BIODEPTH dataset - vegetation}
+
+sr_levels <- c(1, 2, 3, 4, 8, 11, 12, 14, 16, 18, 32)
+
+bd_veg_df <- read_delim(bd_veg_link,
+                        delim = "\t", 
+                        col_types = list(species.richness = col_factor(levels = sr_levels, 
+                                                                       ordered = TRUE)))
+
+
+glimpse(bd_veg_df)
+```
+
+```{r import BIODEPTH dataset - experiment design}
+bd_design_df <- read_delim(bd_design_link, delim = "\t")
+
+glimpse(bd_design_df)
+```
+
+Might be a good idea to grab the country names for plotting purposes too. 
+Note: Maybe I should change the type of join function later on... 
+
+```{r data cleaning}
+bd_final_df <- bd_veg_df %>%
+  left_join(bd_design_df, by = "plot") %>%
+  select(SR = species.richness.x, 
+         biomass = mass.g.m2, 
+         site = location.y) %>%
+  filter(!is.na(biomass)) %>% 
+  mutate(mixture_type = ifelse(SR > 1, "F", "C"))
+
+glimpse(bd_final_df)
+```
+
+```{r plot-biodepth-cofi-site, fig.height = 10, fig.width = 12}
+bd_final_df %>% 
+    ggplot(aes(x = mixture_type, y = biomass, col = mixture_type)) +
+    geom_jitter(height = 0, width = 0.1, alpha = 0.25) + 
+    stat_summary(fun.y = mean,
+                 fun.ymin = function(x) mean(x) - sd(x), 
+                 fun.ymax = function(x) mean(x) + sd(x), 
+                 geom = "pointrange", 
+                 colour = "black")  + 
+    facet_wrap(.~ site, ncol = 2) + 
+    scale_x_discrete(name = "Group-Type") + 
+    scale_colour_discrete(name = "Mixture Type",
+                        breaks = c("C", "F"),
+                        labels = c("coarse-scale", "fine-scale")) + 
+    scale_y_continuous(name = "Biomass (grams per metre-squared)") + 
+    theme(panel.background = element_blank())
+```
+
+
+## Session info 
 ```{r sessioninfo, echo = TRUE}
 sessionInfo()
 ```
