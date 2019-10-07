@@ -1,0 +1,212 @@
+---
+title: "blesh-eda"
+author: "Garland Xie"
+date: "04/10/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r libraries}
+library(readr)   # for reading comma-delimited text files
+library(here)    # for creating relative file paths
+library(visdat)  # for visualizing missing data
+library(dplyr)   # for manipulating data
+library(ggplot2) # for visualizing data
+library(forcats) # for manipulating factor variables
+```
+
+```{r import}
+
+# raw data
+rd_link <- here("data/original", "Blesh_2018_raw_data_species.csv")
+raw_df <- read_csv(rd_link)
+
+# metadata
+md_link <- here("data/original", "Blesh_2018_metadata.csv")
+
+md_df <- read_csv(md_link)
+```
+
+```{r check packging}
+# check col data types 
+tibble::glimpse(raw_df)
+
+# look for unnecessary rows
+head(raw_df, n = 5) 
+tail(raw_df, n = 5)
+```
+
+```{r check missing data}
+vis_dat(raw_df)
+vis_miss(raw_df)
+```
+
+# Species Info
+
+Sampled species pool:
+- CC: Crimson clover (Trifolium incarnatum)
+- RC: Medium red clover (Trifolium pratense)
+- SW: Spring Wheat (Triticum aestivum)
+- WP: Austrian winter pea (Pisum sativum)
+- OA: Oat (Avena sativa)
+- DR: Daikon radish (Raphanus sativus)
+- LN: Lentil (Lens culinaris)
+- YM: Yellow mustard (Sinapis alba)
+- CV: Chickling vetch (Lathyrus sativus)
+- CR: Cereal rye (Secale cereale)
+
+NOTE: clearly, not a natural assemblage (picked crop species)
+
+```{r clean data}
+clean_df <- raw_df %>%
+  
+  # keep appropriate cols
+  # FSbiokha = biomass from fall + spring
+  select(Farm, Block, Treat, Species, FSbiokha) %>%
+  
+  # remove weeds and zero biomass data - don't need this
+  filter(Species != "WEEDS" &
+         FSbiokha != 0) %>%
+  
+  # assign coarse-het and fine-scale het groups
+  # Treat 1: monocultures (WP, CR, SW) - subset of species pool
+  mutate(Mosaic = ifelse(Treat > 7, 
+                         "coarse-scale", 
+                         "fine-scale")) %>%
+  
+  # manually convert treat ID into species composition
+  # easier to interpret BEF trends this way
+  mutate(SpComp = case_when( 
+                           Treat == 1 ~ "CC + RC + SW", 
+                           Treat == 2 ~ "WP + OA + DR", 
+                           Treat == 3 ~ "LN + YM + OA", 
+                           Treat == 4 ~ "RC + SW", 
+                           Treat == 5 ~ "CC + SW", 
+                           Treat == 7 ~ "CV + CR", 
+                           Treat == 8 ~ "WP", 
+                           Treat == 9 ~ "CR", 
+                           Treat == 10 ~ "SW")) %>%
+  
+  # reorder levels by Treat for plotting purposes
+  mutate(SpComp = factor(SpComp) %>% fct_reorder(desc(Treat)))
+```
+
+```{r summarize data}
+
+# community-level biomass
+summ_df <- clean_df %>%
+  group_by(Farm, Block, Treat, SpComp, Mosaic) %>%
+  summarize(totbio = sum(FSbiokha)) %>%
+  ungroup()
+```
+
+```{r classic BEF trends}
+
+# species richness vs biomass
+summ_df %>%
+  ggplot(aes(x = SpComp, y = totbio)) +
+  geom_violin() +
+  geom_jitter(alpha = 0.1) + 
+  stat_summary(fun.y = mean, geom = "point", col = "red") +
+  labs(x = "Planted species richness",
+       y = "Biomass (kg per ha)") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) 
+
+# species richness vs biomass by BLOCK
+# check for variation in block trt
+summ_df %>%
+  ggplot(aes(x = SpComp, y = totbio)) +
+  geom_jitter(alpha = 0.1) + 
+  stat_summary(fun.y = mean, geom = "point", col = "red") +
+  coord_flip() + 
+  facet_wrap(~ Block) + 
+  labs(x = "Planted species richness",
+       y = "Biomass (kg per ha)") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) 
+
+# conditional plot: species vs richness by FARM
+# check for variation in farm trt
+summ_df %>%
+  ggplot(aes(x = SpComp, y = totbio)) +
+  geom_jitter(alpha = 0.1) + 
+  stat_summary(fun.y = mean, geom = "point", col = "red") +
+  coord_flip() + 
+  facet_wrap(~ Farm) + 
+  labs(x = "Planted species richness",
+       y = "Biomass (kg per ha)") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) 
+```
+
+```{r spat het trends}
+
+# check for any clear diff between biotic het groups 
+summ_df %>%
+  ggplot(aes(x = factor(Mosaic), y = totbio)) + 
+  stat_summary(fun.y = mean, 
+               fun.ymin = function(x) mean(x) - sd(x),
+               fun.ymax = function(x) mean(x) + sd(x),
+               geom = "pointrange") +
+  labs(x = "Heterogeneity groups", 
+       y = "Biomass (kg per ha)")
+
+# check for variation in biotic het groups by BLOCK
+summ_df %>%
+  ggplot(aes(x = factor(Mosaic), y = totbio)) + 
+  stat_summary(fun.y = mean, 
+               fun.ymin = function(x) mean(x) - sd(x),
+               fun.ymax = function(x) mean(x) + sd(x),
+               geom = "pointrange") +
+  geom_point(alpha = 0.1) + 
+  facet_wrap(~ Block) + 
+  labs(x = "Heterogeneity groups", 
+       y = "Biomass (kg per ha)")
+
+# check for variation in biotic het groups by FARM
+summ_df %>%
+  ggplot(aes(x = factor(Mosaic), y = totbio)) + 
+  stat_summary(fun.y = mean, 
+               fun.ymin = function(x) mean(x) - sd(x),
+               fun.ymax = function(x) mean(x) + sd(x),
+               geom = "pointrange") +
+  geom_point(alpha = 0.1) + 
+  facet_wrap(~ Farm) + 
+  labs(x = "Heterogeneity groups", 
+       y = "Biomass (kg per ha)")
+```
+
+```{r coefficient of variation}
+cv_df <- summ_df %>%
+  
+  # het groups
+  group_by(Mosaic) %>%
+  
+  # get data for meta-analysis  
+  summarize(mean  = mean(totbio, na.rm = TRUE) ,
+            sd    =  sd(totbio, na.rm = TRUE),
+            cv    = sd/mean, 
+            n_plots = n(),
+            n_trts = length(unique(SpComp))) %>%
+  
+  mutate(mean = round(mean, 2), 
+         sd   = round(sd, 2), 
+         cv   = round(cv, 2)) %>%
+  
+  mutate(years = 1, 
+         biome = "Agriculture", 
+         study = "Blesh (2018)") %>%
+  
+  select(study, biome, years, 
+         Mosaic, 
+         mean, sd, cv, 
+         n_plots, n_trts)
+
+cv_df
+```
+
+```{r session info}
+sessionInfo()
+```
+

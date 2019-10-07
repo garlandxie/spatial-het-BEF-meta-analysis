@@ -1,0 +1,112 @@
+---
+title: "eda-lundholm"
+author: "Garland Xie"
+date: "04/10/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r libraries}
+# libraries
+library(readxl)  # for importing excel files
+library(here)    # for creating relative file paths
+library(visdat)  # for visualising missing data 
+library(dplyr)   # for manipulating data + piping
+library(ggplot2) # for visualising data 
+```
+
+```{r import}
+link <- here("data/original", "lundholm_2015.xlsx")
+raw_df <- read_excel(link, skip = 2)
+```
+
+```{r check packaging}
+tibble::glimpse(raw_df)
+head(raw_df, n = 5)
+tail(raw_df, n = 5)
+```
+
+```{r clean data}
+
+# create a clean version of the df
+clean_df <- raw_df
+
+# replace "." with missing values across ALL cols
+clean_df[clean_df == "."] <- NA
+
+# change cols into appropriate data types
+clean_df <- clean_df %>%
+  mutate(totbio = as.numeric(totbio))
+
+# remove last two rows using row indexing
+clean_df <- clean_df %>%
+  slice(-143, -144)
+```
+
+```{r visualize missing data}
+vis_dat(clean_df) 
+vis_miss(clean_df)
+```
+
+- some missing data in community-level biomass column
+
+```{r classic BEF trends}
+clean_df %>%
+  filter(no.sp != 0) %>% # remove soil-only treatments
+  ggplot(aes(x = factor(no.sp), y = totbio)) + 
+  geom_violin() + 
+  stat_summary(fun.y = mean, geom = "point", col = "red") + 
+  geom_jitter(alpha = 0.1) + 
+  labs(x = "planted species richness", 
+         y = "community-level biomass (g)") +
+  theme_minimal()
+```
+
+```{r het-BEF trends}
+clean_df %>%
+  
+  # remove soil-only treatments
+  filter(no.sp != 0) %>%
+  
+  # assign coarse-scale and fine-scale heterogeneity groups
+  mutate(mosaic = ifelse(no.sp == 1,
+                         "coarse-scale", 
+                         "fine-scale")) %>%
+  
+  select(no.sp, mosaic, totbio) %>%
+  
+  # plot mean + sd 
+  # goal: check for statistical artifacts in CV metric
+  ggplot(aes(x = mosaic, y = totbio)) + 
+  stat_summary(fun.y = mean, 
+               fun.ymin = function(x) mean(x) - sd(x),
+               fun.ymax = function(x) mean(x) + sd(x),
+               geom = "pointrange") +
+  labs(x = "Heterogeneity groups", 
+       y = "Community-level biomass") +
+  theme_minimal()
+```
+
+```{r summarize data}
+clean_df %>%
+  
+  # remove soil-only treatments
+  filter(no.sp != 0) %>%
+  
+  # assign coarse-scale and fine-scale heterogeneity groups
+  mutate(mosaic = ifelse(no.sp == 1,
+                         "coarse-scale", 
+                         "fine-scale")) %>%
+  
+  # summarize
+  group_by(mosaic) %>%
+  summarize(mean = mean(totbio, na.rm = TRUE) %>% round(2), 
+            sd = sd(totbio, na.rm = TRUE) %>% round(2), 
+            cv = sd/mean %>% round(2),
+            n_plots = n(),
+            n_treatments = length(unique(species)))
+```
+

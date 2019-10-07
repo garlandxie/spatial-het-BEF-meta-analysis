@@ -1,0 +1,291 @@
+---
+title: "eda-biodepth"
+author: "Garland Xie"
+date: "04/10/2019"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r libraries}
+library(here)    # for creating relative filepaths
+library(readr)   # for importing text files
+library(visdat)  # for visualizing missing data
+library(dplyr)   # for manipulating data 
+library(ggplot2) # for visualizing data
+```
+
+```{r import}
+# get relevant file-paths
+design_link <- here("data/original","biodepth-2005-exp_design.txt")
+
+biomass_link <- here("data/original", "biodepth-2005-biomass.txt")
+
+# import tab-delimited text files
+design_raw_df <- read_delim(design_link, delim = "\t")
+biomass_raw_df <- read_delim(biomass_link, delim = "\t")
+```
+
+```{r check packaging}
+
+# check data-types
+tibble::glimpse(design_raw_df)
+tibble::glimpse(biomass_raw_df)
+
+# check first ten rows 
+head(design_raw_df, n = 5)
+tail(design_raw_df, n = 5)
+
+head(biomass_raw_df, n = 5)
+tail(biomass_raw_df, n = 5)
+```
+
+```{r missing values}
+
+# exp design
+vis_dat(design_raw_df)
+vis_miss(design_raw_df)
+
+# biomass 
+vis_dat(biomass_raw_df)
+vis_miss(biomass_raw_df)
+```
+
+```{r clean data}
+clean_df <- design_raw_df %>%
+  
+  # join datasets to get species richness and biomass 
+  inner_join(biomass_raw_df, by = "plot") %>%
+  
+  # grab appropriate cols
+  select("location" = location.x, 
+         "block" = block.x, 
+         "no.sp" = species.richness.x, 
+         "biomass" = mass.g.m2, 
+         "composition" = composition.x) %>%
+  
+  # assign coarse-scale and fine-scale heterogeneity groups 
+  mutate(mosaic = ifelse(no.sp == "1", "coarse-scale", "fine-scale")) %>%
+  
+  # arrange 
+  arrange(location, block, no.sp, composition, mosaic)
+```
+
+```{r check packaging 2}
+tibble::glimpse(clean_df)
+head(clean_df, n = 5)
+tail(clean_df, n = 5)
+```
+
+```{r data viz - classic BEF trends}
+
+# Switzerland 
+clean_df %>%
+  filter(location == "Switzerland") %>%
+  ggplot(aes(x = factor(no.sp), y = biomass)) + 
+  geom_violin() + 
+  geom_jitter(alpha = 0.1) + 
+  stat_summary(fun.y = mean, geom = "point", col = "red") + 
+  labs(x = "Planted Species Richness", 
+       y = "Biomass", 
+       title = "Switzerland 2005")
+
+# Germany
+clean_df %>%
+  filter(location == "Germany") %>%
+  ggplot(aes(x = factor(no.sp), y = biomass)) + 
+  geom_violin() + 
+  geom_jitter(alpha = 0.1) + 
+  stat_summary(fun.y = mean, geom = "point", col = "red") + 
+  labs(x = "Planted Species Richness", 
+       y = "Biomass",
+       title = "Germany 2005")
+
+# Greece
+clean_df %>%
+  filter(location == "Greece") %>%
+  ggplot(aes(x = factor(no.sp), y = biomass)) + 
+  geom_violin() + 
+  geom_jitter(alpha = 0.1) + 
+  stat_summary(fun.y = mean, geom = "point", col = "red") + 
+  labs(x = "Planted Species Richness", 
+       y = "Biomass",
+       title = "Greece 2005")
+
+# Ireland
+clean_df %>%
+  filter(location == "Ireland") %>%
+  ggplot(aes(x = factor(no.sp), y = biomass)) + 
+  geom_violin() + 
+  geom_jitter(alpha = 0.1) + 
+  stat_summary(fun.y = mean, geom = "point", col = "red") + 
+  labs(x = "Planted Species Richness", 
+       y = "Biomass",
+       title = "Ireland 2005")
+
+# Portugal
+clean_df %>%
+  filter(location == "Portugal") %>%
+  ggplot(aes(x = factor(no.sp), y = biomass)) + 
+  geom_violin() + 
+  geom_jitter(alpha = 0.1) + 
+  stat_summary(fun.y = mean, geom = "point", col = "red") + 
+  labs(x = "Planted Species Richness", 
+       y = "Biomass",
+       title = "Portugal 2005")
+
+# Sheffield
+clean_df %>%
+  filter(location == "Sheffield") %>%
+  ggplot(aes(x = factor(no.sp), y = biomass)) + 
+  geom_violin() + 
+  geom_jitter(alpha = 0.1) + 
+  stat_summary(fun.y = mean, geom = "point", col = "red") + 
+  labs(x = "Planted Species Richness", 
+       y = "Biomass",
+       title = "Sheffield 2005")
+
+# Silwood
+clean_df %>%
+  filter(location == "Silwood") %>%
+  ggplot(aes(x = factor(no.sp), y = biomass)) + 
+  geom_violin() + 
+  geom_jitter(alpha = 0.1) + 
+  stat_summary(fun.y = mean, geom = "point", col = "red") + 
+  labs(x = "Planted Species Richness", 
+       y = "Biomass",
+       title = "Silwood 2005")
+
+# Sweden
+clean_df %>%
+  filter(location == "Sweden") %>%
+  ggplot(aes(x = factor(no.sp), y = biomass)) + 
+  geom_violin() + 
+  geom_jitter(alpha = 0.1) + 
+  stat_summary(fun.y = mean, geom = "point", col = "red") + 
+  labs(x = "Planted Species Richness", 
+       y = "Biomass",
+       title = "Sweden 2005")
+```
+
+```{r het BEF trends}
+
+# Switzerland 
+clean_df %>%
+  filter(location == "Switzerland") %>%
+  ggplot(aes(x = factor(mosaic), y = biomass)) + 
+  stat_summary(fun.y = mean, 
+               fun.ymin = function(x) mean(x) - sd(x),
+               fun.ymax = function(x) mean(x) + sd(x),
+               geom = "pointrange") +
+  labs(x = "Heterogeneity groups", 
+       y = "Community-level biomass",
+       title = "Switzerland 2005") +
+  theme_minimal()
+
+# Germany
+clean_df %>%
+  filter(location == "Germany") %>%
+  ggplot(aes(x = factor(mosaic), y = biomass)) + 
+  stat_summary(fun.y = mean, 
+               fun.ymin = function(x) mean(x) - sd(x),
+               fun.ymax = function(x) mean(x) + sd(x),
+               geom = "pointrange") +
+  labs(x = "Heterogeneity groups", 
+       y = "Community-level biomass",
+       title = "Germany 2005") +
+  theme_minimal()
+
+# Greece
+clean_df %>%
+  filter(location == "Greece") %>%
+  ggplot(aes(x = factor(mosaic), y = biomass)) + 
+  stat_summary(fun.y = mean, 
+               fun.ymin = function(x) mean(x) - sd(x),
+               fun.ymax = function(x) mean(x) + sd(x),
+               geom = "pointrange") +
+  labs(x = "Heterogeneity groups", 
+       y = "Community-level biomass",
+       title = "Greece 2005") +
+  theme_minimal()
+
+# Ireland
+clean_df %>%
+  filter(location == "Ireland") %>%
+  ggplot(aes(x = factor(mosaic), y = biomass)) + 
+  stat_summary(fun.y = mean, 
+               fun.ymin = function(x) mean(x) - sd(x),
+               fun.ymax = function(x) mean(x) + sd(x),
+               geom = "pointrange") +
+  labs(x = "Heterogeneity groups", 
+       y = "Community-level biomass",
+       title = "Ireland 2005") +
+  theme_minimal()  
+
+# Portugal 
+clean_df %>%
+  filter(location == "Portugal") %>%
+  ggplot(aes(x = factor(mosaic), y = biomass)) + 
+  stat_summary(fun.y = mean, 
+               fun.ymin = function(x) mean(x) - sd(x),
+               fun.ymax = function(x) mean(x) + sd(x),
+               geom = "pointrange") +
+  labs(x = "Heterogeneity groups", 
+       y = "Community-level biomass",
+       title = "Portugal 2005") +
+  theme_minimal()  
+
+# Sheffield
+clean_df %>%
+  filter(location == "Sheffield") %>%
+  ggplot(aes(x = factor(mosaic), y = biomass)) + 
+  stat_summary(fun.y = mean, 
+               fun.ymin = function(x) mean(x) - sd(x),
+               fun.ymax = function(x) mean(x) + sd(x),
+               geom = "pointrange") +
+  labs(x = "Heterogeneity groups", 
+       y = "Community-level biomass",
+       title = "Sheffield 2005") +
+  theme_minimal()  
+
+# Silwood
+clean_df %>%
+  filter(location == "Silwood") %>%
+  ggplot(aes(x = factor(mosaic), y = biomass)) + 
+  stat_summary(fun.y = mean, 
+               fun.ymin = function(x) mean(x) - sd(x),
+               fun.ymax = function(x) mean(x) + sd(x),
+               geom = "pointrange") +
+  labs(x = "Heterogeneity groups", 
+       y = "Community-level biomass",
+       title = "Silwood 2005") +
+  theme_minimal()  
+
+# Sweden
+clean_df %>%
+  filter(location == "Sweden") %>%
+  ggplot(aes(x = factor(mosaic), y = biomass)) + 
+  stat_summary(fun.y = mean, 
+               fun.ymin = function(x) mean(x) - sd(x),
+               fun.ymax = function(x) mean(x) + sd(x),
+               geom = "pointrange") +
+  labs(x = "Heterogeneity groups", 
+       y = "Community-level biomass",
+       title = "Sweden 2005") +
+  theme_minimal()  
+```
+
+```{r summarize data}
+clean_df %>%
+  group_by(location, mosaic) %>%
+  summarize(mean = mean(biomass, na.rm = TRUE) %>% round(2),
+            sd   = sd(biomass, na.rm = TRUE) %>% round(2),
+            cv   = sd/mean, 
+            n    = n()) %>%
+  arrange(location, mosaic, desc(cv))
+```
+
