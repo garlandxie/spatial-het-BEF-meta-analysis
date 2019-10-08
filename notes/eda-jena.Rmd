@@ -12,35 +12,140 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r libraries}
 library(readr)   # for reading comma-delimited files
 library(here)    # for creating relative file-paths
-library(tibble)  # for checking data str
-library(stringr) # for manipulating string characters
-library(rebus)
+library(tibble)   # for checking data str
+library(stringr)  # for manipulating string characters
+library(rebus)    # for reader-friendly regex
+library(dplyr)    # for manipulating data + piping
+library(tidyr)    # for changing from wide to long format
+library(ggplot2)  # for visualising data 
 ```
 
-```{r import}
+# Import
+
+```{r import exp design}
 
 # experimental design
-design_link <- here("data/original", "jena_design.txt")
-design_raw_df <- read_delim(design_link, delim = "\t")
-
-# biomass data
-biomass_links <- here("data/original", "JenExp_biomass_MAIN_2010.tab")
-
-index <- str_detect(readLines(biomass_links), 
-                    pattern = fixed("*/"))
-
-biomass_raw_df <- read_delim(biomass_links, delim = "\t", 
-                             skip = which(index))
+exp_link <- here("data/original", "jena_design.txt")
+exp_raw_df <- read_delim(exp_link, delim = "\t")
 
 ```
+
+```{r import biomass data}
+
+# biomass data
+bm_link <- here("data/original", "JenExp_biomass_MAIN_2010.tab")
+
+# obtain index of "*/" marker (end of comments) using regex 
+index <- str_detect(readLines(bm_link), pattern = fixed("*/"))
+
+# read biomass data into R-friendly format
+bm_raw_df <- read_delim(bm_link, delim = "\t", skip = which(index))
+```
+
+# Data Cleaning
 
 ```{r check packaging}
 
 # experimental design 
 glimpse(design_raw_df)
-head(design_raw_df, n = 5)
+head(design_raw_df, n = 5) 
 tail(design_raw_df, n = 5)
+
+# biomass data
+glimpse(bm_raw_df, n = 5)
+head(bm_raw_df, n = 5)
+tail(bm_raw_df, n = 5)
 ```
+
+```{r clean data}
+# biomass data - wide to long format
+bm_clean_df <- bm_raw_df %>%
+  clean_names() %>%
+  filter(replicate != "mean") %>%
+  select(experimental_plot, replicate, matches("biom")) %>%
+  gather(key = "spp", 
+         value = "biomass", 
+         -c(experimental_plot, replicate)) %>%
+  mutate(spp = word(spp, start = 1L, end = 2L, sep = fixed("_"))) %>%
+  filter(biomass != -9999, 
+         !(spp %in% c("unid_plant", "dead_plant", "weeds_biom", "sown_plant"))
+         )%>%
+  group_by(experimental_plot) %>%
+  summarize(totbio = sum(biomass, na.rm = TRUE))
+  
+# get species richness and community-level biomass in the same df
+bm_exp_df <- bm_clean_df %>%
+  inner_join(exp_raw_df, by = c("experimental_plot" = "plotcode")) %>%
+  select(block, plot, NumberSownSpecies, totbio) %>%
+  arrange(block, plot, NumberSownSpecies) %>%
+  mutate(mosaic = ifelse(NumberSownSpecies == 1, "coarse-scale", "fine-scale"), 
+         NumberSownSpecies = factor(NumberSownSpecies))
+```
+
+# Exploratory Data Analysis
+
+```{r classic BEF trends}
+
+# SR vs productivity
+bm_exp_df %>%
+  ggplot(aes(x = NumberSownSpecies, y = totbio)) +
+  geom_violin() +
+  geom_point(alpha = 0.1) + 
+  stat_summary(fun.y = mean, geom = "point", col = "red") + 
+  labs(x = "Planted Species Richness", 
+       y = "Biomass per m2", 
+       title = "Jena: 2010")
+
+# SR vs productivity by BLOCK
+bm_exp_df %>%
+  ggplot(aes(x = NumberSownSpecies, y = totbio)) +
+  geom_violin() +
+  geom_point(alpha = 0.1) + 
+  stat_summary(fun.y = mean, geom = "point", col = "red") + 
+  facet_wrap(~ block) +
+  labs(x = "Planted Species Richness", 
+       y = "Biomass per m2", 
+       title = "Jena: 2010")
+```
+
+```{r spatial het trends}
+# Het vs productivity
+bm_exp_df %>%
+  ggplot(aes(x = mosaic, y = totbio)) +
+   stat_summary(fun.y = mean, 
+                fun.ymin = function(x) mean(x) - sd(x),
+                fun.ymax = function(x) mean(x) + sd(x),
+                geom = "pointrange") + 
+  labs(x = "Heterogeneity Groups", 
+       y = "Biomass per m2", 
+       title = "Jena: 2010")
+
+# Het vs productivity by BLOCK
+bm_exp_df %>%
+  ggplot(aes(x = mosaic, y = totbio)) +
+  stat_summary(fun.y = mean, 
+                fun.ymin = function(x) mean(x) - sd(x),
+                fun.ymax = function(x) mean(x) + sd(x),
+                geom = "pointrange") + 
+  facet_wrap(~ block) +
+  labs(x = "Heterogeneity Groups", 
+       y = "Biomass per m2", 
+       title = "Jena: 2010")
+```
+
+```{r summary table}
+summ_df <- bm_exp_df %>%
+  group_by(mosaic) %>%
+  summarize(mean    = mean(totbio, na.rm = TRUE), 
+            sd      = sd(totbio, na.rm = TRUE), 
+            cv      = sd/mean,
+            n_plots = n())
+
+summ_df
+```
+
+
+# Check R version
 
 ```{r sessionInfo}
 sessionInfo()
