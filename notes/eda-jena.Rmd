@@ -58,25 +58,33 @@ tail(bm_raw_df, n = 5)
 ```
 
 ```{r clean data}
+
+
 # biomass data - wide to long format
-bm_clean_df <- bm_raw_df %>%
+bm_wide_df <- bm_raw_df %>%
   clean_names() %>%
-  filter(replicate != "mean") %>%
+  filter(replicate != "mean") %>% # B1A09 and B4A03 have no biomass data 
   select(experimental_plot, replicate, matches("biom")) %>%
   gather(key = "spp", 
          value = "biomass", 
-         -c(experimental_plot, replicate)) %>%
+         -c(experimental_plot, replicate)) 
+
+# get community-level biomass with realized species richness (as strings?)
+bm_clean_df <- bm_wide_df %>%
   mutate(spp = word(spp, start = 1L, end = 2L, sep = fixed("_"))) %>%
-  filter(biomass != -9999, 
+  filter(biomass != -9999,
+         biomass != 0, 
          !(spp %in% c("unid_plant", "dead_plant", "weeds_biom", "sown_plant"))
          )%>%
   group_by(experimental_plot) %>%
-  summarize(totbio = sum(biomass, na.rm = TRUE))
+  summarize(totbio = sum(biomass, na.rm = TRUE), 
+            n_treatments = paste(unique(spp), collapse = ' '),
+            n_reps = length(unique(replicate)))
   
 # get species richness and community-level biomass in the same df
-bm_exp_df <- bm_clean_df %>%
-  inner_join(exp_raw_df, by = c("experimental_plot" = "plotcode")) %>%
-  select(block, plot, NumberSownSpecies, totbio) %>%
+bm_exp_df <- exp_raw_df %>%
+  inner_join(bm_clean_df, by = c("plotcode" = "experimental_plot")) %>%
+  select(block, plot, NumberSownSpecies, totbio, n_treatments, n_reps) %>%
   arrange(block, plot, NumberSownSpecies) %>%
   mutate(mosaic = ifelse(NumberSownSpecies == 1, "coarse-scale", "fine-scale"), 
          NumberSownSpecies = factor(NumberSownSpecies))
@@ -139,7 +147,8 @@ summ_df <- bm_exp_df %>%
   summarize(mean    = mean(totbio, na.rm = TRUE), 
             sd      = sd(totbio, na.rm = TRUE), 
             cv      = sd/mean,
-            n_plots = n())
+            n_plots = n(), 
+            n_trts = length(unique(n_treatments)))
 
 summ_df
 ```
