@@ -14,18 +14,34 @@ library(tibble)
 library(visdat)  # for visualizing missing data 
 library(dplyr)   # for manipulating data + piping
 library(ggplot2) # for visualizing data 
+library(tidyr)
+library(forcats) # for manipulating factor variables 
 ```
 
 ```{r import}
-raw_df <- read_csv(here("data/original", "cadotte-2017.csv"))
+
+# biomass data 
+raw_df <- read_csv(here("data/original", 
+                        "cadotte-2017_biomass.csv"))
+
+# exp design data
+exp_df <- read_csv(here("data/original",
+                        "cadotte-2017_exp_design.csv"))
 ```
 
 # EDA
 
 ```{r data structure}
+
+# biomass data 
 glimpse(raw_df)
 head(raw_df, n = 5)
 tail(raw_df, n = 5)
+
+# exp design data
+glimpse(exp_df)
+head(exp_df, n = 5)
+tail(exp_df, n = 5)
 ```
 
 ```{r check missing values}
@@ -33,21 +49,35 @@ vis_miss(raw_df)
 ```
 
 ```{r clean data}
+
+# biomass 
 clean_df <- raw_df %>%
-  select(real_rich = Real.rich,
+  rename(plot = Plot, 
+         real_rich = Real.rich,
          biomass_g = biomass) %>% 
   
   mutate(mosaic = ifelse(real_rich == 1, # het groups
                          "coarse-scale", 
-                         "fine-scale"), 
-         
-         real_rich = factor(real_rich)) # plotting purposes 
+                         "fine-scale"))
+
+# exp design - wide to long, obtain spp comp per plot 
+long_spp <- exp_df %>%
+  gather(key = "spp", value = "count", -"PLOT") %>%
+  filter(!is.na(count)) %>%
+  group_by(PLOT) %>%
+  summarize(sppcomp = paste(spp, collapse = '+')) %>%
+  mutate(sppcomp = factor(sppcomp)) %>%
+  ungroup()
+
+exp_bm_df <- clean_df %>%
+  select(-PD) %>%
+  inner_join(long_spp, by = c("plot" = "PLOT"))
 ```
 
 ```{r classic BEF trends}
 
 # realized richness vs productivity
-clean_df %>%
+exp_bm_df %>%
   ggplot(aes(x = real_rich, y = biomass_g)) + 
   geom_violin() +
   geom_jitter(alpha = 0.1) + 
@@ -55,6 +85,54 @@ clean_df %>%
   labs(x = "Realized Richness", 
        y = "Community-level Biomass (g)", 
        title = "Cadotte (2017) PNAS")
+
+# variation in monoculture treatments
+exp_bm_df %>%
+  filter(real_rich == 1) %>%
+  ggplot(aes(x = fct_reorder(sppcomp, real_rich), 
+             y = biomass_g)) + 
+  geom_boxplot() + 
+  geom_point(alpha = 0.1) + 
+  labs(x = "Community composition", 
+       y = "Community-level Biomass (g)", 
+       title = "Cadotte (2017) PNAS") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
+# variation in 2-spp treatments
+exp_bm_df %>%
+  filter(real_rich == 2) %>%
+  ggplot(aes(x = fct_reorder(sppcomp, real_rich), 
+             y = biomass_g)) + 
+  geom_boxplot() + 
+  geom_point(alpha = 0.1) + 
+  labs(x = "Community composition", 
+       y = "Community-level Biomass (g)", 
+       title = "Cadotte (2017) PNAS") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
+# variation in 3-spp treatments
+exp_bm_df %>%
+  filter(real_rich == 3) %>%
+  ggplot(aes(x = fct_reorder(sppcomp, real_rich), 
+             y = biomass_g)) + 
+  geom_boxplot() + 
+  geom_point(alpha = 0.1) + 
+  labs(x = "Community composition", 
+       y = "Community-level Biomass (g)", 
+       title = "Cadotte (2017) PNAS") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
+# variation in 4-spp treatments
+exp_bm_df %>%
+  filter(real_rich == 4) %>%
+  ggplot(aes(x = fct_reorder(sppcomp, real_rich), 
+             y = biomass_g)) + 
+  geom_boxplot() + 
+  geom_point(alpha = 0.1) + 
+  labs(x = "Community composition", 
+       y = "Community-level Biomass (g)", 
+       title = "Cadotte (2017) PNAS") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
 ```
 
 ```{r spat het trends}
