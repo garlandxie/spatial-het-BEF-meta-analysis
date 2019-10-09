@@ -1,0 +1,91 @@
+---
+title: "Exploratory Data Analysis (Cadotte 2017)"
+author: "Garland Xie"
+date: "09/10/2019"
+output: html_document
+---
+
+# Set Up
+
+```{r libraries}
+library(here)    # for creating relative file-paths
+library(readr)   # for reading commma-delimited text files 
+library(tibble) 
+library(visdat)  # for visualizing missing data 
+library(dplyr)   # for manipulating data + piping
+library(ggplot2) # for visualizing data 
+```
+
+```{r import}
+raw_df <- read_csv(here("data/original", "cadotte-2017.csv"))
+```
+
+# EDA
+
+```{r data structure}
+glimpse(raw_df)
+head(raw_df, n = 5)
+tail(raw_df, n = 5)
+```
+
+```{r check missing values}
+vis_miss(raw_df)
+```
+
+```{r clean data}
+clean_df <- raw_df %>%
+  select(real_rich = Real.rich,
+         biomass_g = biomass) %>% 
+  
+  mutate(mosaic = ifelse(real_rich == 1, # het groups
+                         "coarse-scale", 
+                         "fine-scale"), 
+         
+         real_rich = factor(real_rich)) # plotting purposes 
+```
+
+```{r classic BEF trends}
+
+# realized richness vs productivity
+clean_df %>%
+  ggplot(aes(x = real_rich, y = biomass_g)) + 
+  geom_violin() +
+  geom_jitter(alpha = 0.1) + 
+  stat_summary(fun.y = mean, geom = "point", col = "red") +
+  labs(x = "Realized Richness", 
+       y = "Community-level Biomass (g)", 
+       title = "Cadotte (2017) PNAS")
+```
+
+```{r spat het trends}
+clean_df %>%
+  ggplot(aes(x = mosaic, y = biomass_g)) +
+  stat_summary(fun.y = mean, 
+               fun.ymin = function(x) mean(x) - sd(x),
+               fun.ymax = function(x) mean(x) + sd(x),
+               geom = "pointrange") +
+  labs(x = "Heterogeneity Groups", 
+       y = "Biomass (g)", 
+       title = "Cadotte (2017) PNAS")
+```
+
+```{r summary table}
+clean_df %>%
+  
+  group_by(mosaic) %>%
+  
+  summarize(mean = mean(biomass_g, na.rm = TRUE), 
+            sd   = sd(biomass_g, na.rm = TRUE), 
+            cv   = sd/mean, 
+            n    = n()) %>%
+  
+  mutate(mean = round(mean, 2), 
+         sd   = round(sd, 2), 
+         cv   = round(cv, 2))
+```
+
+# Check R Version
+```{r Session Info}
+sessionInfo()
+```
+
