@@ -1,0 +1,204 @@
+---
+title: "Exploratory Data Analysis - CEDAR CREEK 120"
+output: html_notebook
+---
+
+```{r libraries}
+library(readr)       # for importing comma-delimited documents
+library(dplyr)       # for manipulating data + piping 
+library(ggplot2)     # for visualizing data 
+library(janitor)     # for cleaning up col names
+library(gghighlight) # for highlighting certain viz features
+library(tidyr)      
+library(here)
+library(ggplot2)
+library(stringr)
+library(rebus)
+```
+
+```{r import}
+
+# relative file path for biomass dataset 
+ple120_biomass_link <- here("data/original",
+                            "tilman-ple120-biomass-raw_data.csv")
+
+# manually set specific cols to avoid parsing problems 
+raw_df <- read_csv(ple120_biomass_link, 
+                   col_types = cols(
+                     .default = col_double(), 
+                     Substrip = col_character(),
+                     Date     = col_character(), # keep for now
+                     Species  = col_character(),
+                     Fgset    = col_character(),
+                     Note     = col_character()
+                     )
+                   )
+```
+
+```{r check packging}
+tibble::glimpse(raw_df)
+head(raw_df, n = 5)
+tail(raw_df, n = 5)
+```
+
+```{r data clean - step 1}
+
+# find the latest year
+max(raw_df$Year)
+
+# subset dataset to the latest year
+# 2015 doesn't have unsorted biomass (heads up)
+clean_df <- raw_df %>%
+  filter(Year == 2015, 
+         !Species %in% c("Miscellaneous litter", 
+                         "Green matter (alive)")
+  )
+```
+
+```{r data clean - step 2, include=FALSE}
+# vector of all identified species in the dataset
+sort(unique(clean_df$Species))
+
+# list of 18 planted species 
+# source: https://www.cedarcreek.umn.edu/research/data/dataset?ple120
+plant_spp <- c("Achillea millefolium(lanulosa)",
+               # Agropyron smithii (missing from 2015)
+               "Amorpha canescens",
+               "Andropogon gerardi",
+               "Asclepias tuberosa",
+               #Elymus canadensis (missing from 2015)
+               "Koeleria cristata",
+               "Lespedeza capitata",
+               "Liatris aspera",
+               "Lupinus perennis",
+               "Monarda fistulosa",
+               "Panicum virgatum",
+               "Petalostemum purpureum",
+               "Poa pratensis",
+               #"Quercus ellipsoidalis (missing from 2015)",
+               "Quercus macrocarpa",
+               "Schizachyrium scoparium",
+               "Sorghastrum nutans"
+               )
+
+
+# subset data according to planted species richness
+# goal: determine species-specific biomass variation in each plot
+clean_df2 <- clean_df %>%
+  clean_names() %>%
+  #filter(species %in% plant_spp) %>%
+  mutate(plot = factor(plot))
+```
+
+```{r biomass}
+clean_df2 %>%
+  filter(num_sp == 1) %>%
+  ggplot(aes(x = plot, y = biomass_g_m2, col = species)) + 
+  geom_point() + 
+  gghighlight(max(biomass_g_m2) >= 10, use_direct_label = FALSE) +
+  geom_hline(yintercept = 10, linetype = "dotted", color = "red") + 
+  coord_flip() +
+  scale_y_continuous(breaks = seq(0, 300, 50)) + 
+  theme_minimal() +
+  labs(x = NULL,
+       y = "Biomass (g/m2)", 
+       title = "Cedar Creek (120) - Monocultures Only") 
+```
+
+```{r}
+spp_code <- c("achmi", "agrsm", "amocan", 
+              "andge", "asctu", "elyca", 
+              "koecr",  "lesca", "liaas", 
+              "luppe", "monfi", "panvi", 
+              "petpu", "poapr", "queel", 
+              "quema", "schsc", "sornu")
+
+clean_df3 <- clean_df2 %>%
+  select(plot, species, num_sp, spp_code, biomass_g_m2) %>%
+  gather(key = "spp", value = "count",
+         -c(plot, species, num_sp, biomass_g_m2)) %>%
+  filter(count != 0) 
+```
+
+```{r}
+
+# data check: % of species-specific biomass per total plot biomass
+f <- clean_df3 %>% 
+  group_by(plot) %>% 
+  mutate(totbio = sum(biomass_g_m2), 
+         prop = ((biomass_g_m2/totbio)*100) %>% 
+           format(scientific = F) %>% as.numeric %>% round(0))
+
+# were the planted species highly dominant in monocultures       
+g <- f %>%
+  filter(num_sp == 1) %>%
+  select(-count) %>%
+  rename(rel_abund = prop) %>%
+  arrange(plot, desc(rel_abund)) 
+```
+
+```{r}
+all_mono <- clean_df3 %>%
+  mutate(mosaic = ifelse(num_sp == 1, 
+                         "coarse_scale", "fine-scale")) %>%
+  group_by(mosaic, plot, num_sp) %>%
+  summarize(totbio = sum(biomass_g_m2, na.rm = TRUE),
+            sp_comp = paste(unique(spp), collapse = "+")) %>%
+  ungroup()
+
+all_mono1 <- all_mono %>%
+  group_by(mosaic) %>%
+  summarize(mean = mean(totbio, na.rm = TRUE),
+            sd   = sd(totbio, na.rm = TRUE),
+            cv   = sd/mean, 
+            n_plots    = n(),
+            n_treats   = length(unique(sp_comp)))
+```
+
+```{r}
+
+plot_11 <- str_detect(clean_df3$plot, pattern = exactly("11"))
+plot_16 <- str_detect(clean_df3$plot, pattern = exactly("16"))
+plot_69 <- str_detect(clean_df3$plot, pattern = exactly("69"))
+plot_87 <- str_detect(clean_df3$plot, pattern = exactly("87"))
+plot_94 <- str_detect(clean_df3$plot, pattern = exactly("94"))
+plot_142 <- str_detect(clean_df3$plot, pattern = exactly("142"))
+plot_185 <- str_detect(clean_df3$plot, pattern = exactly("185"))
+plot_265 <- str_detect(clean_df3$plot, pattern = exactly("265"))
+plot_308 <- str_detect(clean_df3$plot, pattern = exactly("308"))
+plot_338 <- str_detect(clean_df3$plot, pattern = exactly("338"))
+
+remove_plots <- c(which(plot_11),
+                  which(plot_16),
+                  which(plot_69),
+                  which(plot_87),
+                  which(plot_94),
+                  which(plot_142),
+                  which(plot_185),
+                  which(plot_265),
+                  which(plot_308),
+                  which(plot_338))
+            
+subset_mono <- clean_df3 %>%
+  slice(-remove_plots) %>%
+  mutate(mosaic = ifelse(num_sp == 1, 
+                         "coarse_scale", "fine-scale")) %>%
+  group_by(mosaic, plot, num_sp) %>%
+  summarize(totbio = sum(biomass_g_m2, na.rm = TRUE),
+            sp_comp = paste(unique(spp), collapse = "+")) %>%
+  ungroup() %>%
+  group_by(mosaic) %>%
+  summarize(mean = mean(totbio, na.rm = TRUE),
+            sd   = sd(totbio, na.rm = TRUE),
+            cv   = sd/mean, 
+            n_plots    = n(),
+            n_treats   = length(unique(sp_comp)))
+```
+
+```{r}
+all_mono %>% 
+  ggplot(aes(x = factor(num_sp), y = totbio)) +
+  geom_point()
+  
+```
+
