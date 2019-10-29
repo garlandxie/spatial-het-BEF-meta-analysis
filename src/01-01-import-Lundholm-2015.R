@@ -38,9 +38,9 @@ summ_df <- clean_df %>%
   
   # summary statistics: mean, sd, and sample size
   group_by(mosaic) %>%
-  summarize(mean = mean(totbio, na.rm = TRUE) %>% round(2), 
-            sd = sd(totbio, na.rm = TRUE) %>% round(2), 
-            n_plots = n()) %>%
+  summarize(mean = mean(totbio, na.rm = TRUE), 
+            sd = sd(totbio, na.rm = TRUE), 
+            n = n()) %>%
   ungroup(mosaic)
   
 # escalc -----------------------------------------------------------------------  
@@ -50,10 +50,10 @@ escalc_df <- summ_df %>%
   melt() %>%
   dcast(1 ~ mosaic + variable, value.var = "value") %>%
   mutate(source = "Lundholm. 2015. J Appl Ecol") %>%
-  rename(study = 1 ) %>%
-  select(study, source, matches("cs"), matches("fs"))
+  select(source, matches("cs"), matches("fs"))
 
 # save the data! ---------------------------------------------------------------
-saveRDS(escalc_df, file = here("data/working", "lundholm-2015-biomass.rds"))
+final_path <- here("data/working", "escalc-lundholm-2015-biomass.rds")
+saveRDS(escalc_df, file = final_path)
   
   
