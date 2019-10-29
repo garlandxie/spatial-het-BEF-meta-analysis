@@ -54,7 +54,7 @@ summ_df <- bm_exp_df %>%
   group_by(mosaic) %>%
   summarize(mean    = mean(totbio, na.rm = TRUE), 
             sd      = sd(totbio, na.rm = TRUE), 
-            n_plots = n())
+            n = n())
 
 # escalc -----------------------------------------------------------------------
 
