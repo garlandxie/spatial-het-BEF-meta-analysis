@@ -1,6 +1,6 @@
 # libraries --------------------------------------------------------------------
-library(here) # for 
-library(purrr)
+library(here)  # for creating relative file-paths
+library(purrr) # for using iterative functions  
 
 # import -----------------------------------------------------------------------
 rds_list <- list.files(path = here("data/working"), 
@@ -17,5 +17,5 @@ reads_RDS <- function(x) {
 escalc_df <- map_dfr(rds_list, reads_RDS)
 
 # save the data! ---------------------------------------------------------------
-final_path <- here("data/final", "escalc_df.rds")
+final_path <- here("data/final", "escalc_df.csv")
 write.csv(escalc_df, file = final_path)
